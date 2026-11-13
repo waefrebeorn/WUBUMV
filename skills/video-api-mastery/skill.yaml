@@ -1,0 +1,5 @@
+name: "video-api-mastery"
+title: "Video API Mastery"
+description: "Measured behavior of WuBu's own media.generate_video / media.generate_image tools: image-ref conditioning, duration/aspect text steering, audio reality, and the fenced untested list. Use before planning any generation call that uses image refs, a specific duration/aspect, or multi-image journeys."
+category: "Work and knowledge"
+include_in_prompt: true

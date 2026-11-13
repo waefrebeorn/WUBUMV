@@ -1,0 +1,43 @@
+# WUBUMV — the music room. Code and text only. Never audio, never video.
+*.mp4
+*.wav
+*.mov
+*.mkv
+*.webm
+*.mp3
+*.flac
+*.ogg
+*.bin
+*.npz
+*.npy
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.log
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.o
+*.a
+*.so
+# Compiled C11 binaries (build from source with make) — anchored paths only,
+# so the tool source dirs themselves are never ignored.
+tools/c11_mir/c11_mir
+tools/c11_mir/beat_tracker
+tools/c11_mir/c11_hpss
+tools/c11_sep/sep_main
+tools/c11_sep/test_stft
+tools/c11_sep/test_block1
+tools/c11_sep/test_interp
+tools/c11_sep/test_fft
+tools/c11_sep/test_fft2048
+tools/c11_sep/test_fft64
+tools/c11_sep/test_gemm
+tools/c11_tsm/c11_tsm
+tools/c11_tsm/c11_tsm_asan
+tools/c11_flow/c11_flow
+tools/c11_flow/test_expand
+tools/c11_voice/c11_voice
+tools/c11_voice/c11_voice_asan

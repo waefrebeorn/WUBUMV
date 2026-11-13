@@ -1,0 +1,5 @@
+name: "slopcannon"
+title: "Slopcannon"
+description: "Turn a user Suno track into a WuBuTV music video: intake, timed scene plan, fired scene volley, QC, assembly and delivery. Use when the user sends a Suno MP3, asks for a music video, or says fire the cannon."
+category: "Work and knowledge"
+include_in_prompt: true
