@@ -130,3 +130,72 @@ ledger): S11 only. All other MV-9 scenes ship as fired in 2026-11.
   Gravity & Physics, Multiplication (except MV-14's hand relay),
   Crowd events at scale, Weather & Light hits (except MV-11's gold
   storm). These are the fresh shelf for the next builds.
+
+## MV-16 — "Wrong for Years" (built 2026-11-13)
+
+One world held throughout (the karaoke bar + car + street exteriors);
+events change inside it. No glowing carry-object spine (per the
+standing warning above). The karaoke SCREEN is a post-layer PiP
+(12.4 install + state changes), never a generated-text gag.
+
+| Scene | Event | Note |
+|---|---|---|
+| S01 | 10.1 Signature Move | Fist-pump peak at frame 0; the move the finale rhymes |
+| S02 | 5.2 Prop Cascade | Bar props topple in sequence behind the nodding friends |
+| S03 | 2.5 Head-Growth Gag | His head swells with confidence across the rotation (reads subtle in stills) |
+| S04 | 3.6 Impossible Object | A disco ball grows/rides overhead while he belts + Hey shouts |
+| S05 | 6.3 Season Flip (leg 1) | Summer countryside streams past the car windows |
+| S06 | 6.3 Season Flip (leg 2) | Same car ride: summer→autumn→snow completes the flip |
+| S07 | 12.4 Interface Takeover (install) | The SCREEN PiP installs in post; the screen disagrees by reaction, never by shown lyrics |
+| S08 | 2.4 The Room Shrinks | The booth walls creep in across the PC stack |
+| S09 | 1.3 Costume-Peel (1) | Bowling shirt peels to the hawaiian on "decade" (frame-verified) |
+| S10 | 7.4 Personal Weather | One rain cloud follows the HOST only; the singer stays dry |
+| S11 | 2.1 Giant in a Small World | He looms over a miniature booth diorama |
+| S12 | 5.3 Appliance Choreography | Bar appliances pulse/dance on the C2 entry |
+| S13 | 12.6 The Word Chase | Post type assembles the hook words across the stage's blank wall while the room chants |
+| S14 | 11.1 The Named Object Acts | The mic stand leans the mic toward him on its own |
+| S15 | 6.5 Chaos Behind, Calm In Front | Bar chaos erupts behind his dead-calm delivery |
+| S16 | 9.3 The Turn | Every head in the room turns on "Ten years deep" |
+| S17 | 8.5 The Prop Swap | Mic→tambourine→maraca→trophy swaps on the PC stack |
+| S18 | 1.3 Costume-Peel (2) | Hawaiian peels to the gold glitter jacket (frame-verified) |
+| S19 | 5.4 The Runaway Object | A lyric sheet flutters away; SIDEYE dives after it |
+| S20 | 9.2 Scatter & Reform | The room scatters and reforms around the rotation |
+| S21 | 3.4 Room Zero-G | Bar objects float weightless through the chorus |
+| S22 | 1.2 Medium Swap | The room turns paper cut-out; he stays full-colour anime |
+| S23 | 10.2 Impossible Bend | He bends impossibly far back on the held line |
+| S24 | 8.3 Palette Snap | The room snaps to concert gold for the final chorus |
+| S25 | 5.5 They Build It Themselves | The crowd builds the set around him mid-song |
+| S26 | 12.3 Worn Graphics | Post draws the hook words onto his blank tee |
+| S27 | 4.1 Clone Handoff | He hands the mic to his double, who hands it back |
+| S28 | 7.3 Day–Night Flip | The room flips day→night; final frame rhymes S01's fist-pump |
+
+## MV-15 — "Unread DMs" (delivered 2026-11-13)
+
+Source: MV15_PROGRESS.md SHIPPED EVENTS line (24 scenes; graphics-first build, badge-counter/kinetic spine, anchor character KIT).
+
+| Scene | Event (library mapping) | Staging |
+|---|---|---|
+| S01 | The Swarm (opens) | Chat-bubble swarm opens the video |
+| S02 | The Swarm (payoff) | Swarm payoff beat |
+| S03 | Glitch-grammar storm (form event) | Glitch grammar as the scene event |
+| S04 | Stance (mouth event) | Sung stance beat |
+| S05 | "The Freeze" (9.1-inverse) + drifting orb | Freeze pose, glowing orb drifts across frame (orb span eye-checked at delivery) |
+| S06 | Room-lights answering (light event) | Room lights answer the beat |
+| S07 | 12.4 Interface Takeover | UI takes over the frame |
+| S08 | 4.1 Clone Handoff (setup) | Double enters, handoff set up |
+| S09 | 4.1 Clone Handoff | The handoff itself |
+| S10 | 5.2 Prop Cascade | Glowing domino cascade across the desk |
+| S11 | Mirrored pair (form event) | Mirrored-pair composition |
+| S12 | 8.1 Pose-Strike Chain | Chained pose strikes |
+| S13 | 5.4 The Runaway Object | Object escapes across the scene |
+| S14 | Beat light-hits (light event) | Light hits on the beat grid |
+| S15 | 12.4 Interface Takeover (escalated) | Takeover returns, escalated |
+| S16 | 4.2 Swarm return | Swarm mechanic returns as crowd |
+| S17 | 4.5 Dance With Your Double | KIT dances with his double |
+| S18 | Stance (mouth event) | Sung stance close-up |
+| S19 | 8.3 Palette Snap | Palette inversions land on the "200" stutters |
+| S20 | Exit beat (form event) | Exit beat |
+| S21 | Peak stance (mouth event) | Peak sung stance (t1+t2 composite) |
+| S22 | 9.2 Scatter & Reform | Elements scatter and reform |
+| S23 | 2.3 The Wrong-Size Prop | Wrong-size prop gag |
+| S24 | 12.5 The Ident Event | Closing ident event; HUD terminal state "389 MUTED UNREAD" |
