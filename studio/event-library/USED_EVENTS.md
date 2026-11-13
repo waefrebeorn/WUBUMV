@@ -106,6 +106,15 @@ events change inside it.
 | S27 | 9.1 The Freeze | The night crowd freezes mid-chant for one held beat, then releases |
 | S28 | 1.4 Prop Comes Alive | The bicycle bell rings itself as dawn brightens over the outro |
 
+## MV-9 — "Gotta Hold It" Q7 FIX BUILD v2 (built 2026-11-13, awaiting user verdict)
+
+One scene changed vs the approved v1 (whose scenes predate this
+ledger): S11 only. All other MV-9 scenes ship as fired in 2026-11.
+
+| Scene | Event | Note |
+|---|---|---|
+| S11a (bridge wash station) | 3.3 Reverse-Time Rebuild | The basin fountain erupts UP into the man's hands; the spill climbs back. Replaces v1's downward-water take. Thin tap trickles still run down (disclosed nit) |
+
 ## Cross-video repetition warnings (as of seeding)
 
 - **Carry-object graphic event (12.x) is spent three videos running**
