@@ -529,3 +529,49 @@ labour-intensive graphic event. *Repeat-risk:* Medium.
 *Catalog count: 64 events, 12 families. Compiled 2026-11-13 from the
 research report at ~/workspace/research_notes/mv-event-library-2026-11-13/report.md
 (Streams A–C, with sources). Refresh path: see WORKFLOW.md §6.*
+
+## Build-added events — MV-5 v6 (2026-11-13, shipped)
+
+Invented for the MV-5 "Easy Now" rebuild and proven on screen; annexed
+here per WORKFLOW §4 for future builds (family affinity in brackets).
+
+**The Roll-Out** [6/9]. Start: the performers already in motion as the
+song starts — no posed opener. Peak: the first hook lands mid-roll, the
+world already travelling. Payoff: the departure becomes the video's
+motion baseline. *Energy:* Mid. *Slots:* intros. *Repeat-risk:* Low.
+
+**Barefoot Arrival** [10]. Start: the singer enters on foot, shoes off,
+feeling the boards. Peak: the lyric's look line is sung ABOUT the walker
+by the other performer while the walker's mouth stays closed. Payoff:
+the walk becomes a ride. *Energy:* Low–Mid. *Slots:* verse 1. *Repeat-risk:* Low.
+
+**The Pull-Near** [10]. Start: the pair separated across the frame.
+Peak: one circles back and closes the distance on the lyric's approach
+word. Payoff: they continue together. *Energy:* Mid. *Slots:* verses,
+approach lines. *Repeat-risk:* Low.
+
+**Keys & the Nod** [11]. Start: a small held prop is named by the lyric.
+Peak: the prop sounds/moves on its word and a bystander gesture (the nod)
+answers a second line. Payoff: the prop stays in hand as dressing.
+*Energy:* Low. *Slots:* detail lines. *Repeat-risk:* Low.
+
+**Hat-Fan Slowdown** [7/10]. Start: full-speed sunny motion. Peak: a
+hand-fan's slowing strokes bleed speed off the whole scene into a held
+line — a human dimmer switch. Payoff: tempo restored on the next section.
+*Energy:* Low. *Slots:* pre-chorus decelerations. *Repeat-risk:* Low.
+
+**Vendor Call** [9]. Start: a street vendor in frame edge. Peak: the
+vendor's call interrupts the song's flow — the performers react, the
+verse reroutes around the stall. Payoff: the stall becomes a recurring
+landmark. *Energy:* Mid. *Slots:* verses. *Repeat-risk:* Medium (one
+vendor per video).
+
+**Kite Lift** [3]. Start: a kite strains at its line above the singers.
+Peak: a gust hauls the flyer a half-step off the ground on the hook.
+Payoff: touchdown, laughter, the song continues. *Energy:* High.
+*Slots:* hooks, choruses. *Repeat-risk:* Low.
+
+**Mango Toss** [5/10]. Start: a piece of fruit in the singer's hand.
+Peak: it is tossed hand-to-hand / partner-to-partner in rhythm, never
+dropped. Payoff: the catch lands on the section's last beat. *Energy:*
+Mid. *Slots:* hooks, playful verses. *Repeat-risk:* Low.

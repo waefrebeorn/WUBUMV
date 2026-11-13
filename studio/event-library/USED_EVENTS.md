@@ -68,18 +68,43 @@ Source: work/MV_PREPRO_MV-14.md scene table (65 scenes).
 | 4.x/9.x Handoff (hands only) | The crowd (backs/hands only) passes the clip along like a relay into the Editor's hands (S13) |
 | Snap on word | The splicer snaps shut exactly on the "Clip it" hits (chorus device) |
 
-## MV-5 — "Easy Now" REBUILD v6 (IN BUILD at seeding, 2026-11-13)
+## MV-5 — "Easy Now" REBUILD v6 (SHIPPED 2026-11-13)
 
-Source: work/rebuild-v6/plan/V6_PLAN.md "EVENT DOCTRINE" (plan-level, not
-yet shipped — treat as reserved/spent once v6 delivers).
+Source: work/rebuild-v6/assembly_fit_mv5_v6.json (0-error fit, 4954f) +
+masters/mv5_easy_now_easy_now_16x9_v6.mp4. Every scene carries ONE named
+event, distinct across the video, no repeats; the two spent spines
+(12.x glowing-carry, 8.4 world-snap) were NOT used — one boardwalk world,
+events change inside it.
 
-| Event (library mapping) | Staging |
-|---|---|
-| Named-event-per-slot doctrine (first build under the user's event order) | Every slot carries a distinct named event; no event repeats within the video |
-| Verse events | Barefoot arrival + the look (S04) · pier flyby roll (S05) · keys jingle + nod at the waves (S06) · sleeve-spin (verse 2) · mango vendor call (S11) |
-| Montage events | Ice cup sweating on the rail · boombox adults cutting through the crowd (S13) |
-| Bridge event (3.x/7.x texture break) | Rain lean-back spin under a sun→gray colour shift, hand in hand at walking pace |
-| Bookends | Sunrise departure (S01) · ta-da pop (S03) |
+| Scene | Event (library mapping) | Staging |
+|---|---|---|
+| S01 | INVENTED "The Roll-Out" | The ride departs into the song: cat in the basket sings the hook already rolling, sunrise, motion from frame 0 |
+| S02 | 6.5 Gull Swoop | A gull dives through the frame; the cat ducks in the basket as the girl's held line lands |
+| S03 | 8.1 The Ta-Da Reveal | Her spin lands in a bow exactly on the ta-da figure |
+| S04 | INVENTED "Barefoot Arrival" | Verse 1 walks in barefoot on the boardwalk; the look line ("Blue shirt, red bicycle") sung by the CAT while she rolls past, mouth closed |
+| S05 | INVENTED "The Pull-Near" | She circles the bike back toward him — the pull-near staged as a closing orbit |
+| S06 | INVENTED "Keys & the Nod" | Keys jingle in her hand on the word; the nod at the waves lands on its line (L11 itself rides a vendor-stall cover) |
+| S07 | INVENTED "Hat-Fan Slowdown" | PC1 deceleration: her hand-fan slows the world a half-beat into the held line |
+| S08 | 5.6 The Answering World | Storefront awnings ripple in sequence as the chorus answers itself |
+| S09 | INVENTED "Kite Lift" | A kite hauls its flyer a half-step off the boards on the hook (restaged after the umbrella-cascade vehicle was refused) |
+| S10 | 9.5 The Parting | The crowd splits like water around the rolling pair |
+| S11 | INVENTED "Vendor Call" | The mango vendor's call interrupts the verse; the tide taps time at their feet |
+| S12 | 11.2 The Laugh (as drum roll) | His laugh lands as the fill into the pre-chorus; her chore list crumples into the bin on "forgot" (11.1) |
+| S13 | 10.1 Signature Move (sleeve spin) | The sleeve spin is the scene's peak; ice cup sweats on the rail (3.6 impossible-object insert in staging), adults-with-boombox scatter & reform (9.2) |
+| S15 | 1.5 Performer Becomes Graphic | Her posterize/halftone tail is the chorus lead-in — the performer flattens into print for a beat |
+| S16 | 4.2 The Swarm | Gulls arrow overhead in formation across the chorus |
+| S17 | 2.3 Wrong-Size Prop | A giant beach ball rolls through the duet, dwarfing the pair |
+| S18 | 3.2 The Floor Drops | The pair steps off the boardwalk edge and drops onto the sand mid-line |
+| S19 | 7.1 Storm on the Downbeat | THE bridge section change: sun -> full rain/gray sky on the downbeat, hand in paw, walking pace throughout |
+| S20 | 6.4 Water Arrives | Puddle water creeps across the boards and takes the reflections with it |
+| S21 | 10.4 Unstoppable Walk | The bridge-tail walk never stops through all eight traded lines; the lean-back lands inside the sung performance (the separate spin plate was squeezed out in the fit — zero frames — and does not ship) |
+| S22 | 7.2 Blackout Snap (post grade) | A 1.2s blackout dip grades the bridge tail shut |
+| S23 | 9.4 Join-In Wave | The night crowd picks up the chant in a wave |
+| S24 | 4.4 Cast Assembly | The full cast assembles around the pair; the sun is held in open palms on its line (11.4 staged beat) |
+| S25 | INVENTED "Mango Toss" + 10.5 Micro-Event | She tosses the mango hand-to-hand on the hook; the CAT's L104 lead is a tight micro close-up |
+| S26 | 5.1 Chain Reaction | A knocked domino-line of beach props fires in sequence (object-only scene) |
+| S27 | 9.1 The Freeze | The night crowd freezes mid-chant for one held beat, then releases |
+| S28 | 1.4 Prop Comes Alive | The bicycle bell rings itself as dawn brightens over the outro |
 
 ## Cross-video repetition warnings (as of seeding)
 
