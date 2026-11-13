@@ -64,6 +64,46 @@ Binaries removed after the check (`make clean`); `.gitignore` covers them.
   `~/workspace/...` paths — those point at the original locations
   and are historical; the tools themselves are self-contained.
 
+## Phase 2a — DONE 2026-11-13 (research-text move)
+
+Copied (originals untouched) into `research/`, text only, 21 files,
+420,498 B, zero media. Layout mirrors the source trees:
+
+- `research/slopcannon-improvement-loop/loop-01/` — report.md +
+  SKILL_EDITS_PROPOSED.md (loop-01's proposed skill edits; loop-1
+  verification was applying them the same night)
+- `research/slopcannon-improvement-loop/loop-02/` … `loop-06/` —
+  report.md + SPRINT_SCOPE.md each
+- `research/tsm-driedger-2014/` — SPRINT_SCOPE.md + report.md
+  (c11_tsm's spec; the c11_tsm README points at it)
+- `research/media-capabilities-survey-2026-11-12/` — report.md +
+  probes.md (P0–P5 probe results; part of the same survey)
+- `research/lilypads/series-2026-sep-nov/` — report.md (ranked
+  Sep–Nov 2026 AI series survey; clearly survey-class)
+- `research/slopcannon-deep-research-20261101-0452/` — report.md +
+  notes/*.md (clones-generic, contest-reception, slop-cc-live)
+
+Deliberately left out (text-only rule + brief scope):
+- Loop-06 wavs (4 × ~5 MB) and loop-05 .npy curves — audio/binary,
+  never in WUBUMV.
+- Loop-06 `cca_s25t2/` PNG frames — images, never in WUBUMV.
+- Loop-04/05/06 supporting experiment scripts + JSONs
+  (entropy/formant/vibrato/snapper/CCA .py + .json, ~1.9 MB curve
+  JSONs) — outside the brief's report.md + SPRINT_SCOPE.md scope;
+  a later phase can move them if the parent wants.
+- TSM dir's scripts/logs/JSONs/PNG (`tsm_*.py`, grade logs,
+  winners_league.png, stretched/, strips/) — same reason.
+- Deep-research `AGENTS.md` — coordinator working file, not
+  research content.
+- Per-creator lilypad studies (anabology, clawdslop, deadsun_0,
+  nu_vogue_art, soundboostcom — report.md + notes/ each) — individual
+  studies, not clearly survey-class; left out per the brief.
+- five-shows-craft, performance-analysis, self-tools-survey — STAY
+  per MIGRATION.md phase-2 inventory.
+- MV project histories (MV-2..MV-14) — pipeline NOT quiet, Q10
+  running on MV-5; the filtered text-only snapshot waits for Q10
+  to close + parent go-ahead. Media never moves to WUBUMV.
+
 ## Phase 2 — INVENTORY ONLY (parent decides; nothing moved)
 
 ### MV project histories (MV-2..MV-14) — ~24.7 GB on disk, mostly media
