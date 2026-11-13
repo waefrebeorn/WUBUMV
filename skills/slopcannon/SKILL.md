@@ -171,6 +171,17 @@ with shuffled controls at r 0.93 — above the true mouth signal at
 r 0.698 — so it cannot separate mouth motion from any other motion.
 Any AV-sync or mouth-gate measurement built on frame-diff is invalid
 until re-run on openness.
+- SINGER-CUT DISCIPLINE (2026-11-13, taste research — the MV-5
+verdict, "cat talking when she is"): inside a sung phrase, the ONLY
+legal singer change is at a phrase boundary, and it is reached via
+look → cut → reaction: the outgoing shot ends on a look, a breath,
+or the other singer's reaction — never a hard cut from one open
+mouth to another open mouth mid-phrase. A singer change mid-phrase,
+or a cut to a closed or wrong mouth under a sung line, is a
+MOUTH-LIE CUT — a named G6 GATE FAIL, not a disclosed nit. For
+alternating lines (MV-5 bridge, GIRL-first), the plan writes the
+listener's reaction as its own planned slot in the vehicle — the
+listener's face is a planned shot, not assembly salvage.
 
 ## CONTINUITY METHOD (2026-11-10, user law — the MV-11 rejection rebuild)
 
@@ -242,10 +253,26 @@ place that has no bank row.
 Read references/direct.md. Write MV_PREPRO from the timeline: one row
 per scene in song order with number, song in/out, lyric lines covered,
 SINGING or CUTAWAY tag, setting, characters + bank references, one
-beat, one camera move, motif callback, transition. The plan must pass
-the banger test as a gate: hook in the first 0.5–3 s, one repeatable
-motif returning at least 3 times, chorus escalation with the visual
-peak saved for the LAST chorus, bridge contrast, final frame rhyming
+beat, one camera move, motif callback, transition. The plan must pass the banger test as a gate
+(2026-11-13, taste research — this replaces the old "hook in the
+first 0.5–3 s" wording). FRAME 0 IS THE PEAK IMAGE: carry element +
+a motion event + an open mouth if the intro is sung — no leader, no
+establishing still, no cloned pre-word frames. The FIRST CUT lands
+at ≤2.5 s, on the first downbeat or first word onset, whichever is
+first. The intro passes a MUTED 3-SECOND TEST at QC: motion visible,
+carry element visible, mouth open if sung. A plan whose S01 vehicle
+describes a settle, a zoom-in, or "the scene opens" fails this gate.
+The plan carries a PER-SECTION ENERGY ARC in cuts/minute, measured
+at plan time: verse 12–20, pre-chorus ramp 20→40, chorus 40–66,
+bridge 15–25 (a texture break — location, colour, speed, or one
+unbroken take; never just more of the same faster), outro 10–15.
+The FINAL CHORUS is the densest section (≥1.5× verse density) and
+holds the visual peak. Never cut on every beat for a whole section —
+vary on-beat/off-beat; hold a shot across bars to build tension,
+then snap back. The plan NAMES, per section, the tension (what
+tightens) and the release (what lets go); a section with no named
+tension/release is an unplanned section. One repeatable motif
+returning at least 3 times, bridge contrast, final frame rhyming
 with the first. Short lines (~2–3 s) are pickups inside longer
 sections, never stretched to a full scene; long holds get an explicit
 coverage decision. CHORUS-HOOK TEST (cheap proof before full spend):
@@ -287,6 +314,22 @@ at only the worst scenes + first, chorus, and last scenes; the rest
 auto-advance with their best take, logged. When two reads disagree,
 widen the sample instead of picking one. GATE: no take enters the cut
 without a QC row; no master assembles with a failed gate open.
+G6 COUNTED RULES + FEEL TRIAGE (2026-11-13, taste research — the
+"gates passed, master still wrong" class ends here): (a) no single
+vantage held >10 s without a cutaway; (b) every montage span ≥5 s
+contains ≥3 distinct collision types per 10 s (scale change, angle
+change, world/location change, graphic match, action match,
+light/tone flip) — metric-only cutting (uniform shot lengths
+regardless of content) FAILS G6; (c) a MOUTH-LIE CUT (singer change
+mid-phrase, or a cut to a closed/wrong mouth under a sung line —
+see WORD-SYNC singer-cut discipline) FAILS G6; (d) RULE-OF-SIX
+TRIAGE READ, per section, by a named reader: score emotion, story
+(new information per cut), and rhythm (tension→release, not flat)
+1–5 each; ANY section scoring ≤2 on emotion FAILS G6 even if every
+numeric gate passes (named failure mode: "MV-5 class"); (e)
+GRAIN-TOGGLE TEST on the master: toggle the post grain pass off —
+if the frame does not suddenly look plastic, the grain is too light
+or absent (see the vehicle LOOK BLOCK).
 
 ### 6. Assembly (window-first section-timing)
 Read references/assemble.md. QC-passed takes only, trimmed to their
@@ -300,6 +343,29 @@ ONE 16:9 master only (standing rule 2026-11-05 — no 9:16 reframe, no
 chat copy). ffprobe + md5
 verification, CUTLIST.md + MUSIC_VIDEO_LEDGER.md written. GATE: master
 boundaries equal lyric times; spot-check frames at line starts.
+HEAD/TAIL TRIM LAW (2026-11-13, taste research): no take enters the
+cut with >0.5 s of pre-action settle — scene in-point = the latest
+of (first frame with frame-diff above the scene's live baseline,
+first mouth event −0.25 s); scene out-point = the last motion frame
++ ≤0.3 s; a tail settle longer than 12 frames is trimmed, not
+shipped. Where a take's mouth LAGS its own audio (MV-10 class,
+0.5–1.4 s), trim the lag out and place the mouth event on the song
+onset — do not warp the lag into place and do not ship it as a
+disclosed nit; if trimming breaks the warp caps, the slot goes to
+montage (bad-word rule). PICTURE LEADS THE BEAT: at every SECTION
+boundary the incoming shot's first frame lands 2–6 frames BEFORE
+the downbeat (verify on the master: section-boundary cuts sit in
+[−6f, −2f] relative to the downbeat); at every PHRASE end the
+outgoing singer's reaction holds 0.3–0.5 s into the next phrase
+before the cut. MOTION MATCH AT EVERY JOINT (extends the CONTINUITY
+METHOD joint check from static to motion): every cut lands 2–4
+frames BEFORE a motion peak inside the outgoing take, never on a
+settle; the incoming take's first 6 frames contain motion in the
+same screen direction or a matched shape/position (graphic match),
+verified by frame-diff + eye read; a joint where outgoing motion is
+~0 is a QC fail even if the frames match statically. Vehicles
+therefore name their exit motion ("ends mid-reach / mid-turn /
+mid-crest") so assembly has motion to cut on.
 
 ### 7. Delivery + provenance
 Deliver the master in chat as an attachment, never as a bare link.
@@ -577,6 +643,86 @@ where image-first lost it to 0.11% (probe P5).
 {5, 10} on the current tool: "exactly 7 seconds" returned 10.000s
 (probe P4, 2026-11-12). Cut in assembly for anything else. 15s/20s
 untested.
+- LOOK BLOCK (2026-11-13, taste research — name the hardware, not
+the vibe; vague adjectives "cinematic / moody / atmospheric" are
+banned as the ONLY style language). After the action text, every
+vehicle carries, in fixed order (keep the whole block ≤40 words):
+(1) LENS + TEXTURE: "Shot on 35mm film, [28mm|50mm|85mm] lens,
+[shallow depth of field, background dissolving | deep focus, sharp
+foreground to horizon]. Texture: visible fine 35mm grain, slight
+falloff toward the corners." Focal defaults: 35mm journeys/montage,
+50mm performance, 85mm singing close-ups. (2) THREE-LAYER DEPTH:
+"Foreground: [object/texture within ~1m of lens, slightly soft,
+5–15% of frame at an edge/corner] — Midground: [subject + action] —
+Background: [world, with one readable event or light change]." A
+vehicle naming fewer than two layers is rejected at plan review.
+Subject on a thirds intersection, never dead centre except a
+deliberate formal/confrontation beat; horizon on a thirds line,
+never mid-frame; declare any empty area meant for kinetic type.
+Frame-within-a-frame at least once per 10 s beat in montage
+sections. (3) ONE MOTIVATED LIGHT: exactly one named key source +
+its in-frame motivation + direction + contrast, e.g. "Key: low warm
+sun through the window at frame left, 45° to subject, 8:1
+chiaroscuro, no fill." Contrast ~2:1–4:1 for comedy/pop brightness,
+≥8:1 dramatic; EYES RULE — the key must leave both eyes readable;
+singing takes default to Rembrandt/loop lighting, full chiaroscuro
+is for montage/non-singing slots only. (4) PALETTE LINE: "Palette:
+[2 primaries max] + bone + ink; accent [colour] on ≤10% of frame
+area (one prop / one lamp / one garment detail)." One warm accent
+per cool shot and vice versa. The PLAN carries a SECTION COLOUR MAP
+(verse cool/desaturated, chorus warm/saturated, bridge colour-shift
+not set-shift; Kelvin band stated when the section's emotion turns:
+warm 2000–3500K, cool 5000–10000K). Never generate grey/monochrome
+refs or takes — colour lives in the ref, the grade lives in post.
+(5) POSE SILHOUETTE SENTENCE: "Pose: [one verb + one shape]" —
+limbs separated from the torso, head clear of the shoulder line; no
+"standing and singing" (a standing figure's silhouette is a
+rectangle). POSE-AS-CUT: at each 10 s boundary the pose changes
+while the world changes around it — the cut hides in the pose
+change. (6) ONE MOTIVATED MOVE: move + reason + reveal, e.g.
+"Camera: slow push-in over 10s, closing on her face as she realises
+— reveals the [carry] glowing behind her, 50mm." No vehicle names
+two moves; no "slow zoom" (a push-in is the honest version). Move
+vocabulary: singing close-up = locked-off or slow push-in ONLY;
+journey/montage = tracking or pull-out; hook hit = push-in landing
+on the downbeat; transition = whip pan (the blur hides the cut —
+pairs with the two-image morph, which is STAGED as the transition:
+the carry crosses the lens or passes behind the subject across the
+0.5–1.0 s morph; never ask the morph to be invisible, and cut ON the
+morph landing in assembly, never hold on the end-anchor frame). A
+locked-off take must carry INTERNAL motion (subject moves, light
+changes, crowd crosses) — locked camera + still subject is the
+halted-photo failure, not a style. (7) STABILITY BLOCK (positive
+phrasing — the tool has no negative-prompt field; exclusions are
+written as positive stable states): "Same face, same proportions,
+same [canon traits] throughout. Hands relaxed, fingers together, at
+rest or holding [one named object]. Locked camera, lighting and
+background unchanged." STAGING BANS (checkable): no open hand
+mid-gesture toward camera; no fingers spread; no hand gripping +
+turning + face acting in one take; no rapid expression change in a
+singing take; no extreme close-up of a face in motion (medium
+close-up is the safe floor); never two hard problems in one take
+(face acting + hand interaction + camera move — pick one).
+BACKS-TO-CAMERA IS FIRST-CLASS COVERAGE (MV-14 crowd precedent):
+backs, profiles, hands-on-objects, over-the-shoulder for any slot
+where the face is the risk; a mouth that can't be trusted is never
+shown — kinetic type carries the line. Portrait/close-up vehicles
+add: "skin pores and stubble visible, uneven skin tone, fine lines,
+soft natural light from one source." REF QC (before a still enters
+a vehicle): SILHOUETTE TEST — threshold the ref to solid black at
+~120 px wide; if the character/prop isn't identifiable, re-generate
+the ref; COLOUR CHECK — the ref visibly contains the palette
+accent. CASTING: for each character, generate 3 silhouette-distinct
+directions as stills first (turnaround + one action pose + face
+sheet) and pick by thumbnail readability.
+- POST TEXTURE PASS (assembly, 2026-11-13, taste research): after
+grade/match, apply fine monochrome grain weighted to
+midtones/shadows (invisible on a still at normal viewing distance,
+obvious when toggled off), a fraction-of-a-stop vignette centred on
+the optical centre, saturation −10–15%, blacks lifted slightly —
+the SAME grain profile on every clip in the cut. Judge grain on the
+final export at phone size, never on a 480p preview; keep it light
+for the ≤50 MB chat copy.
 
 ### Timing-first review, revision rules, and winning patterns
 

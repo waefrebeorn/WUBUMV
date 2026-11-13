@@ -171,6 +171,21 @@ Difficulty: 1 = scriptable today · 2 = half-day reusable build ·
   fit for list-shaped WuBu lore (THE COUNT, the roster, the channel
   grid). Difficulty 1 (ASS/PNG) – 3 (code cards).
 
+**Two form-adjacent additions (2026-11-13, taste research)** — not
+new families; seam devices that sharpen the families above:
+- **THE POSE-CUT** (nu_vogue_art — pose-as-cut). At each 10 s
+  boundary the subject strikes a new held editorial pose while the
+  world changes around the pose; the cut hides in the pose change,
+  and continuity is carried by the body, not the set. Pairs with
+  F (performance) and C (montage); the pose is written into the
+  vehicle as a silhouette sentence (see the Slopcannon LOOK BLOCK).
+- **LIGHT-SHIFT SECTION CHANGE** (SoundBoost). One set held across
+  sections; the section change is carried by light and colour, not
+  location — e.g. 42 scenes in ONE house, blue present / golden
+  memory. The plan's section colour map names the shift per section
+  (verse cool, chorus warm, bridge colour-shift); pairs with any
+  family where a set change would spend budget the light can carry.
+
 ## Slot → form decision table
 
 | Slot situation | First choice | Fallback |
