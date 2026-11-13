@@ -280,6 +280,29 @@ the first volley leads with the hook scene; if its QC fails the plan's
 look, fix the plan before firing the rest — never fire a whole song on
 an unproven look. GATE: the user approves the plan by scene number
 before any render spend; proposals are diffs to plan rows, not prose.
+EVERY SLOT CARRIES A NAMED EVENT (2026-11-13, user order — "bland
+events and same events makes a bland video"): a scene row that is a
+subject at a place ("at the pier, she sings") is an atmosphere, not
+a scene. Before the banger test, every row of the scene table
+carries an EVENT column naming one happening from the studio Event
+Library (~/workspace/wubumv/studio/event-library/EVENT_LIBRARY.md —
+64 events, 12 families) — start → peak → payoff, the peak on a
+named beat or word. (1) DISTINCT WITHIN THE VIDEO: no library event
+repeats across the plan's rows; a returning motif is staged as a
+different event or an explicit escalation, never a re-run.
+(2) CHECKED AGAINST THE LEDGER: the plan is checked against
+USED_EVENTS.md in the same directory — an event used in either of
+the two most recent MVs needs a materially different staging
+(named in the plan) or a different event; signature-tier events
+(library 1.1, 1.6, 3.1, 6.1, 10.5) never appear in consecutive MVs.
+(3) Montage rows draw EVENTS, not atmospheres — a montage row
+naming a mood instead of a happening fails this gate. (4) The intro
+slot takes a HIGH-energy event, already in motion at frame 0.
+(5) THE VEHICLE LEADS WITH THE EVENT: in every vehicle, the event
+sentence (what happens, peak on its beat/word) is written before
+the LOOK block and all other prompt detail. Full procedure:
+studio/event-library/WORKFLOW.md. A plan with no EVENT column, a
+duplicated event, or an unchecked ledger repeat FAILS Stage 3.
 
 ### 4. Fire (volleys, capped, one variable per reroll)
 Read references/fire.md and references/performance-window.md. Write
@@ -307,7 +330,8 @@ are updated before anything else is fired.
 Read references/qc.md. Every take is scored against named gates
 (G1 character consistency, G2 zero unwanted on-screen text, G3 no
 licensed material, G4 performance-window for SINGING scenes, G5
-audio-sync placement, G6 banger check on the plan) with pass/flag/fail
+audio-sync placement, G6 banger check on the plan, G7 wrong-lyric —
+what the take actually sings) with pass/flag/fail
 per scene and confidence tags. A failed gate is a reroll reason or a
 plan rewrite, never a note. TRIAGE: the reviewer (agent + user) looks
 at only the worst scenes + first, chorus, and last scenes; the rest
@@ -330,6 +354,53 @@ numeric gate passes (named failure mode: "MV-5 class"); (e)
 GRAIN-TOGGLE TEST on the master: toggle the post grain pass off —
 if the frame does not suddenly look plastic, the grain is too light
 or absent (see the vehicle LOOK BLOCK).
+G7 WRONG-LYRIC GATE (2026-11-13, loop 7 — validated, adopted): a
+take is gated on WHAT it sings, not only how it looks or moves. Run
+take ASR (house lyrics config: faster-whisper large-v3-turbo int8,
+cpu_threads=2, NO VAD) and compute the word-set overlap
+|A ∩ P| / |P| between the take's screened ASR words A (word
+probability ≥0.5 in segments with avg_logprob ≥ −1.0; the raw word
+set is always printed alongside, never hidden) and the slot's
+planned words P. P comes from the SCENE PLAN's lyric fragment for
+the slot — the song word grid is the TIMING authority, NOT the text
+authority (grid ASR garbles chant: loop-7 measured grid-sourced P
+false-REJECTing 6/65 own-pairs vs 1/65 for plan-sourced P). overlap
+< 0.5 → REJECT. A wordless slot (P empty) passes iff A is also
+empty; singing words into a wordless slot is the same failure.
+Tool: detection-research/g7_wrong_lyric/g7_check.py. Validation on
+the standing fixture (MV-14's 65 KEEP takes, md5-verified against
+the ledger, + MV-2 known positives): sung own-pairs 43/43 ≥ 0.5
+(median 1.0); BOTH real wrong-segment takes caught (MV-2 S04 t3 at
+0.125 — it sings a different segment; MV-2 S21 t1 at 0.0); the
+cross-pair discriminating stratum (1,692 pairs) medians 0.0. The
+pre-stated bar (zero false REJECTs on own-pairs) was missed by
+exactly one case, an ASR-layer artifact, NOT re-tuned away:
+HAND-CHECK OVERRIDES (log the override + reason in the take
+ledger; the REJECT stands in the gate output) — (a) homophones /
+ASR mishears the ear clears ("told" for "toll", "wanna" for "want
+to"); (b) sibling scenes whose planned sets have Jaccard ≥ 0.5: a
+cross-match against the sibling is expected and is not evidence
+against the take, BUT the take must contain at least one word of
+its own scene's set difference when that difference is non-empty
+(distinctive-word rider — G7 alone cannot catch a swap between
+one-word-apart lines); (c) wordless-slot hallucination: whisper
+invents confident phrases on musical audio (MV-14 S14 precedent:
+"We'll be right back." at avg_logprob −0.959 on a verified-wordless
+empty-desk take) — override only with eye/RMS proof the take is
+wordless. STANDING FIXTURE: cross-pair every volley's takes
+against the project's other scenes' planned words at QC time; a
+take whose overlap vs a DIFFERENT scene exceeds its overlap vs its
+own scene is flagged WRONG-SEGMENT for hand-check even if both
+scores pass 0.5. G7's honest scope: it catches wrong-segment and
+invented-word takes; it cannot catch sibling swaps (rider above),
+hook-slot assignments, word order, or timing.
+EVENT-READ TEST (2026-11-13, event doctrine): for every shipped
+scene the QC record carries one sentence naming what HAPPENS in
+it. A scene whose honest sentence is "the singer sings at [place]"
+fails like a motion-law fail, and the slot restages with a real
+event from the Event Library. The shipped master's event list is
+appended to studio/event-library/USED_EVENTS.md as part of
+delivery bookkeeping.
 
 ### 6. Assembly (window-first section-timing)
 Read references/assemble.md. QC-passed takes only, trimmed to their
