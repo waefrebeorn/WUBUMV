@@ -1,0 +1,6 @@
+S01 vocal-window motion (0-8.4s): {'vocal_mean_diff': 0.486, 'vocal_longest_neardup': 11, 'per_second_mean_diff': [0.428, 0.795, 0.472, 0.636, 0.371, 0.528, 0.44, 0.306]}
+s01: nwords=16 first=0.00 last_end=9.40 span=9.4 slot=8.38 ratio=0.89
+s03: nwords=12 first=0.00 last_end=3.82 span=3.82 slot=3.36 ratio=0.88
+s04: nwords=22 first=0.00 last_end=8.52 span=8.52 slot=9.48 ratio=1.11
+s05: nwords=17 first=0.00 last_end=8.70 span=8.7 slot=8.96 ratio=1.03
+s08: nwords=17 first=0.00 last_end=9.54 span=9.54 slot=9.54 ratio=1.0

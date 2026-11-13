@@ -1,0 +1,82 @@
+retimed final: 8516 frames (target 8516)
+retimed final md5: 24af63b9c2e4b64a6f038efb3bd39e3b  size: 82818399
+S01 mv3_s01_t2.mp4 [usable]: agreement 1.0, median|off| 1.17, max|off| 1.42, drift -0.41, within0.25s 1/4
+S02 mv3_s02_t2.mp4 [usable]: agreement 1.0, median|off| 0.61, max|off| 1.31, drift -0.73, within0.25s 2/7
+S06 mv3_s06_t1.mp4 [usable]: agreement 0.957, median|off| 0.08, max|off| 0.27, drift 0.17, within0.25s 21/22
+S07 mv3_s07_t1.mp4 [grey]: agreement 1.0, median|off| 0.4, max|off| 0.6, drift 0.27, within0.25s 2/20
+S08 mv3_s08_t1.mp4 [usable]: agreement 1.0, median|off| 0.13, max|off| 0.31, drift 0.13, within0.25s 20/21
+S09 mv3_s09_t1.mp4 [grey]: agreement 1.0, median|off| 0.64, max|off| 1.36, drift 0.88, within0.25s 2/12
+S10 mv3_s10_t1.mp4 [usable]: agreement 1.0, median|off| 0.19, max|off| 0.99, drift 0.02, within0.25s 8/14
+S11 mv3_s11_t2.mp4 [grey]: agreement 0.727, median|off| 0.43, max|off| 1.54, drift -1.47, within0.25s 2/8
+S12 mv3_s12_t2.mp4 [grey]: agreement 1.0, median|off| 0.17, max|off| 1.18, drift 0.35, within0.25s 4/7
+S13 mv3_s13_t1.mp4 [usable]: agreement 0.867, median|off| 1.77, max|off| 2.08, drift -1.2, within0.25s 0/13
+S14 mv3_s14_t1.mp4 [usable]: agreement 0.481, median|off| 0.64, max|off| 1.99, drift 0.3, within0.25s 1/12
+S15 mv3_s15_t1.mp4 [usable]: agreement 1.0, median|off| 0.13, max|off| 0.35, drift 0.09, within0.25s 18/22
+S16 mv3_s16_t1.mp4 [usable]: agreement 0.944, median|off| 0.28, max|off| 0.54, drift -0.26, within0.25s 5/15
+S17 mv3_s17_t1.mp4 [usable]: agreement 1.0, median|off| 0.15, max|off| 0.47, drift -0.18, within0.25s 9/12
+S18 mv3_s18_t2.mp4 [usable]: agreement 1.0, median|off| 0.19, max|off| 0.37, drift 0.18, within0.25s 9/14
+S19 mv3_s19_t1.mp4 [usable]: agreement 1.0, median|off| 0.12, max|off| 0.43, drift 0.12, within0.25s 14/16
+S20 mv3_s20_t1.mp4 [grey]: agreement 1.0, median|off| 0.86, max|off| 1.0, drift -0.52, within0.25s 1/5
+S22 mv3_s22_t1.mp4 [usable]: agreement 1.0, median|off| 0.62, max|off| 1.45, drift -0.98, within0.25s 1/6
+S23 mv3_s23_t2.mp4 [grey]: agreement 0.944, median|off| 1.04, max|off| 3.11, drift -3.11, within0.25s 2/17
+S26 mv3_s26_t1.mp4 [usable]: agreement 1.0, median|off| 0.18, max|off| 0.62, drift -0.16, within0.25s 7/10
+S27 mv3_s27_t1.mp4 [phrasing-gap]: agreement 1.0, median|off| 0.95, max|off| 1.4, drift -0.06, within0.25s 4/24
+S28 mv3_s28_t3.mp4 [grey]: agreement 0.917, median|off| 0.41, max|off| 2.79, drift -2.79, within0.25s 15/32
+S29 mv3_s29_t1.mp4 [grey]: agreement 1.0, median|off| 1.02, max|off| 1.67, drift 1.02, within0.25s 4/12
+S31 mv3_s31_t1.mp4 [mantra-slice]: agreement 0.545, median|off| 0.48, max|off| 2.4, drift 0.48, within0.25s 4/11
+S32 mv3_s32_t1.mp4 [mantra-slice]: agreement 1.0, median|off| 2.04, max|off| 2.61, drift -1.05, within0.25s 1/8
+S33 mv3_s33_t1.mp4 [mantra-slice]: agreement 0.083, median|off| 0.82, max|off| 1.08, drift 1.12, within0.25s 1/4
+S34 mv3_s34_t1.mp4 [phrasing-gap]: agreement 1.0, median|off| 0.26, max|off| 2.07, drift -0.19, within0.25s 6/12
+S36 mv3_s36_t2.mp4 [grey]: agreement 1.0, median|off| 1.58, max|off| 2.09, drift -1.17, within0.25s 1/14
+S37 mv3_s37_t1.mp4 [mantra-opening]: agreement 0.348, median|off| 1.57, max|off| 1.72, drift 0.72, within0.25s 0/8
+S38 mv3_s38_t2.mp4 [grey]: agreement 0.929, median|off| 0.17, max|off| 0.52, drift 0.23, within0.25s 8/13
+S39 mv3_s39_t1.mp4 [montage-cover]: agreement 0.267, median|off| 1.6, max|off| 1.8, drift 0.8, within0.25s 0/4
+wrote /home/hatch/workspace/wubutv-network/musicvideo/MV-3_i-am-your-dad/recut_work/sync_proto/placement_crosscheck_retimed.json
+S01 @2.82s 'listen': frame diff 0.85 (moving)
+S02 @9.32s 'you': frame diff 46.32 (moving)
+S06 @40.06s 'you': frame diff 60.17 (moving)
+S07 @48.12s 'i': frame diff 110.71 (moving)
+S08 @55.14s 'you': frame diff 51.43 (moving)
+S09 @62.64s 'i': frame diff 60.45 (moving)
+S10 @68.36s 'i': frame diff 39.1 (moving)
+S11 @76.28s 'i': frame diff 52.35 (moving)
+S12 @82.92s 'i': frame diff 52.35 (moving)
+S13 @90.66s 'dad': frame diff 76.21 (moving)
+S14 @99.68s 'the': frame diff 87.45 (moving)
+S15 @108.92s 'you': frame diff 64.17 (moving)
+S16 @116.14s 'short': frame diff 39.07 (moving)
+S17 @123.74s 'i': frame diff 50.27 (moving)
+S18 @129.46s 'i': frame diff 47.52 (moving)
+S19 @136.52s 'i': frame diff 50.28 (moving)
+S20 @143.76s 'i': frame diff 42.8 (moving)
+S22 @160.7s 'i': frame diff 57.12 (moving)
+S23 @168.76s 'you': frame diff 42.17 (moving)
+S26 @215.4s 'they': frame diff 45.15 (moving)
+S27 @220.64s 'make': frame diff 50.66 (moving)
+S28 @230.52s 'i': frame diff 43.14 (moving)
+S29 @245.1s 'i': frame diff 50.04 (moving)
+S31 @258.32s 'i': frame diff 67.4 (moving)
+S32 @269.3s 'your': frame diff 4.45 (moving)
+S33 @278.54s 'i': frame diff 45.98 (moving)
+S34 @287.8s 'i': frame diff 56.98 (moving)
+S36 @309.88s 'all': frame diff 61.57 (moving)
+S37 @322.08s 'you're': frame diff 48.18 (moving)
+S38 @338.55s 'say': frame diff 47.17 (moving)
+S39 @344.79s 'am': frame diff 49.81 (moving)
+wrote /home/hatch/workspace/wubutv-network/musicvideo/MV-3_i-am-your-dad/recut_work/sync_proto/master_motion_spotcheck_retimed.json
+{
+ "master": "mv3_i_am_your_dad_16x9_recut.mp4",
+ "md5": "24af63b9c2e4b64a6f038efb3bd39e3b",
+ "master_word_count": 618,
+ "song_word_count": 729,
+ "matched_words": 348,
+ "agreement_vs_song_words": 0.477,
+ "median_abs_offset_s": 0.02,
+ "max_abs_offset_s": 144.72,
+ "within_0.25s": 248,
+ "within_0.50s": 263,
+ "usable_pairs": 300,
+ "wrong_repeat_pairs_over_2s": 26,
+ "note": "Same audio on both sides (master audio IS the song), so this measures dictation stability only. Picture sync is scored by the placement cross-check, not by this number."
+}
+wrote /home/hatch/workspace/wubutv-network/musicvideo/MV-3_i-am-your-dad/recut_work/sync_proto/master_dictation_report_retimed.json

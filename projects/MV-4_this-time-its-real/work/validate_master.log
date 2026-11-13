@@ -1,0 +1,41 @@
+== (a) master audio dictation ==
+audio samples: 3820885 (238.8s)
+dictated 379 words (song has 360)
+agreement=0.914 pairs=329 median|off|=0.020s max|off|=13.410s
+AUDIO GATE: FAIL
+== (b) motion audit (160x90, native 24fps) ==
+decoded 5731 frames (expect 5731)
+overall mean diff=4.249  min=0.003 max=80.296
+longest near-dup (<0.5) run=26f  (frame rule: FAIL if >=24f during vocal)
+  S01: mean diff 1.379  min 0.093  frames 0-185
+  S02: mean diff 3.639  min 0.043  frames 185-384
+  S03: mean diff 1.100  min 0.045  frames 384-560
+  S04: mean diff 1.476  min 0.062  frames 560-777
+  S05: mean diff 6.282  min 0.055  frames 777-953
+  S06: mean diff 5.555  min 0.089  frames 953-1125
+  S07: mean diff 2.749  min 0.036  frames 1125-1301
+  S08: mean diff 3.255  min 1.606  frames 1301-1556
+  S09: mean diff 2.793  min 0.018  frames 1556-1747
+  S10: mean diff 2.076  min 0.050  frames 1747-1908
+  S11: mean diff 2.914  min 0.932  frames 1908-2087
+  S12: mean diff 1.992  min 0.003  frames 2087-2290
+  S13: mean diff 4.157  min 0.038  frames 2290-2481
+  S14: mean diff 7.491  min 0.054  frames 2481-2648
+  S15: mean diff 6.015  min 0.112  frames 2648-2831
+  S16: mean diff 6.745  min 0.171  frames 2831-3035
+  S17: mean diff 1.529  min 0.039  frames 3035-3212
+  S18: mean diff 2.082  min 0.019  frames 3212-3373
+  S19: mean diff 1.716  min 0.008  frames 3373-3562
+  S20: mean diff 1.060  min 0.048  frames 3562-3810
+  S21: mean diff 5.024  min 0.068  frames 3810-3997
+  S22: mean diff 10.936  min 0.058  frames 3997-4174
+  S23: mean diff 6.589  min 0.035  frames 4174-4350
+  S24: mean diff 6.655  min 0.023  frames 4350-4518
+  S25: mean diff 3.126  min 0.055  frames 4518-4657
+  S26: mean diff 2.503  min 0.025  frames 4657-4761
+  S27: mean diff 2.298  min 0.005  frames 4761-4922
+  S28: mean diff 14.324  min 0.068  frames 4922-5082
+  S29: mean diff 3.200  min 0.010  frames 5082-5298
+  S30a: mean diff 6.484  min 0.019  frames 5298-5496
+  S30b: mean diff 4.594  min 0.724  frames 5496-5731
+wrote work/master_dictation.json + work/master_motion.json

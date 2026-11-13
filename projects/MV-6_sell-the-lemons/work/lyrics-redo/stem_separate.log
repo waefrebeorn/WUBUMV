@@ -1,0 +1,37 @@
+/home/hatch/workspace/wubuwizard-cpu-sep/mdx_onnx_cpu.py:76: UserWarning: NOLA condition failed, STFT may not be invertible. Possibly due to missing boundary
+  _, x = istft(z, fs=44100, window=WINDOW, nperseg=N_FFT,
+mix: 30.00s, peak 0.6405
+model loaded in 1.3s; input ['batch_size', 4, 3072, 256]
+  chunk 5/8  103.9s
+  chunk 8/8  159.4s
+demix done: 159.8s wall for 30.0s of audio (5.33x realtime)
+wrote stems/head_vocals.wav
+/home/hatch/workspace/wubuwizard-cpu-sep/mdx_onnx_cpu.py:76: UserWarning: NOLA condition failed, STFT may not be invertible. Possibly due to missing boundary
+  _, x = istft(z, fs=44100, window=WINDOW, nperseg=N_FFT,
+mix: 15.00s, peak 0.6391
+model loaded in 1.1s; input ['batch_size', 4, 3072, 256]
+  chunk 4/4  69.4s
+demix done: 69.4s wall for 15.0s of audio (4.63x realtime)
+wrote stems/c1tail_vocals.wav
+/home/hatch/workspace/wubuwizard-cpu-sep/mdx_onnx_cpu.py:76: UserWarning: NOLA condition failed, STFT may not be invertible. Possibly due to missing boundary
+  _, x = istft(z, fs=44100, window=WINDOW, nperseg=N_FFT,
+mix: 16.00s, peak 0.7288
+model loaded in 0.4s; input ['batch_size', 4, 3072, 256]
+  chunk 4/4  63.9s
+demix done: 63.9s wall for 16.0s of audio (3.99x realtime)
+wrote stems/bridge_vocals.wav
+/home/hatch/workspace/wubuwizard-cpu-sep/mdx_onnx_cpu.py:76: UserWarning: NOLA condition failed, STFT may not be invertible. Possibly due to missing boundary
+  _, x = istft(z, fs=44100, window=WINDOW, nperseg=N_FFT,
+mix: 35.00s, peak 0.8527
+model loaded in 1.4s; input ['batch_size', 4, 3072, 256]
+  chunk 5/10  68.5s
+  chunk 10/10  234.1s
+demix done: 234.3s wall for 35.0s of audio (6.69x realtime)
+wrote stems/fc_vocals.wav
+/home/hatch/workspace/wubuwizard-cpu-sep/mdx_onnx_cpu.py:76: UserWarning: NOLA condition failed, STFT may not be invertible. Possibly due to missing boundary
+  _, x = istft(z, fs=44100, window=WINDOW, nperseg=N_FFT,
+mix: 14.80s, peak 0.8571
+model loaded in 2.9s; input ['batch_size', 4, 3072, 256]
+  chunk 4/4  117.5s
+demix done: 117.6s wall for 14.8s of audio (7.95x realtime)
+wrote stems/outro_vocals.wav

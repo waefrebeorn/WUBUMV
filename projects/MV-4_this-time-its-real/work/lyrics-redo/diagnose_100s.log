@@ -1,0 +1,42 @@
+t= 100.00s (center frame 2400):
+  NEW[c] vs BASE[c-2]: top-half= 0.789  full= 7.635
+  NEW[c] vs BASE[c-1]: top-half= 0.589  full= 3.055
+  NEW[c] vs BASE[c+0]: top-half= 0.617  full= 3.052
+  NEW[c] vs BASE[c+1]: top-half= 0.628  full= 7.740
+  NEW[c] vs BASE[c+2]: top-half= 0.661  full= 7.751
+t=  63.59s (center frame 1526):
+  NEW[c] vs BASE[c-2]: top-half= 2.606  full= 4.985
+  NEW[c] vs BASE[c-1]: top-half= 6.006  full= 3.200
+  NEW[c] vs BASE[c+0]: top-half= 0.878  full= 0.886
+  NEW[c] vs BASE[c+1]: top-half= 1.250  full= 3.130
+  NEW[c] vs BASE[c+2]: top-half= 3.028  full= 4.725
+t= 225.91s (center frame 5422):
+  NEW[c] vs BASE[c-2]: top-half=14.694  full=20.690
+  NEW[c] vs BASE[c-1]: top-half=12.906  full=14.677
+  NEW[c] vs BASE[c+0]: top-half= 1.117  full= 3.800
+  NEW[c] vs BASE[c+1]: top-half=11.006  full=13.517
+  NEW[c] vs BASE[c+2]: top-half=13.928  full=19.585
+t=  31.61s (center frame 759):
+  NEW[c] vs BASE[c-2]: top-half= 0.417  full= 0.481
+  NEW[c] vs BASE[c-1]: top-half= 0.472  full= 0.451
+  NEW[c] vs BASE[c+0]: top-half= 0.417  full= 0.358
+  NEW[c] vs BASE[c+1]: top-half= 0.439  full= 0.408
+  NEW[c] vs BASE[c+2]: top-half= 0.439  full= 0.449
+t= 156.89s (center frame 3765):
+  NEW[c] vs BASE[c-2]: top-half= 0.300  full=11.549
+  NEW[c] vs BASE[c-1]: top-half= 0.078  full= 2.151
+  NEW[c] vs BASE[c+0]: top-half= 0.000  full= 0.339
+  NEW[c] vs BASE[c+1]: top-half= 0.017  full= 0.384
+  NEW[c] vs BASE[c+2]: top-half= 0.056  full= 2.226
+t=  20.00s (center frame 480):
+  NEW[c] vs BASE[c-2]: top-half= 0.244  full= 6.489
+  NEW[c] vs BASE[c-1]: top-half= 0.150  full= 6.451
+  NEW[c] vs BASE[c+0]: top-half= 0.000  full= 0.220
+  NEW[c] vs BASE[c+1]: top-half= 0.044  full= 0.310
+  NEW[c] vs BASE[c+2]: top-half= 0.328  full= 6.121
+t= 200.00s (center frame 4800):
+  NEW[c] vs BASE[c-2]: top-half= 2.183  full= 5.560
+  NEW[c] vs BASE[c-1]: top-half= 1.072  full= 2.944
+  NEW[c] vs BASE[c+0]: top-half= 0.000  full= 0.295
+  NEW[c] vs BASE[c+1]: top-half= 0.000  full= 0.310
+  NEW[c] vs BASE[c+2]: top-half= 1.478  full= 3.259

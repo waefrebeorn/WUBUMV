@@ -1,0 +1,100 @@
+audio samples: 3660800 sr 16000, dur 228.8
+model loaded
+seg 3.32-5.26: BACONHEAD ON THE STAND
+seg 6.98-8.50: SELL THE LEMONS
+seg 10.08-11.46: SELL the lemons
+seg 16.30-18.12: SELL The Lemons
+seg 19.90-22.98: I spawn in with the default hair
+seg 22.98-25.56: BAConhead, simple smile, no care
+seg 25.56-28.90: Start with the stand, one lemon at a time
+seg 28.90-31.76: Click the button, watch the cash climb
+seg 31.76-34.78: Upgrade the juicer, double the pay
+seg 34.78-37.94: Automate the stand so I can walk away
+seg 37.94-41.12: Money on the floor, walk over and grab
+seg 41.12-44.18: Then buy the next thing, keep on the tab
+seg 44.18-47.56: Sell the lemons, sell the lemons
+seg 47.56-50.84: Bacon head selling lemons all day
+seg 50.84-53.40: Sell the lemon, sell them
+seg 53.40-55.24: Click, upgrade, sell
+seg 55.24-56.72: Don't stop the play
+seg 56.72-60.08: Sell the lemons, sell the lemons
+seg 60.08-62.46: Bacon heads, sell them lemons
+seg 62.46-64.04: And all the lemons
+seg 64.04-67.60: Never gonna stick
+seg 67.60-69.04: Sell up the lemons
+seg 69.04-70.08: Never gonna stop
+seg 70.08-71.26: Never gonna start
+seg 71.26-72.84: Never gonna Stop
+seg 72.84-74.90: Lemon Dash, Lemon Depot
+seg 74.90-76.26: The numbers get big
+seg 76.26-78.12: Jetpack on fly up high
+seg 78.12-79.60: Do a little jig
+seg 79.60-82.54: Rebirth when the buttons cost too much
+seg 82.54-84.24: Joe the alien shows up
+seg 84.24-85.68: Give the button a touch
+seg 85.68-87.08: Multiply a stack
+seg 87.08-89.06: The cash comes in waves
+seg 89.06-90.32: Void portal opens
+seg 90.32-92.14: Evolution saves
+seg 92.14-93.54: From stand to space
+seg 93.54-95.28: The empire keeps growing
+seg 95.28-96.82: Bacon head on the screen
+seg 96.82-98.42: The lemons still flowing
+seg 98.42-99.38: Sell the lemons
+seg 99.38-101.08: Sell the Lemons
+seg 101.08-104.06: Bacon head selling lemons all day
+seg 104.64-105.78: Sell the lemons
+seg 105.78-107.22: Sell the elements
+seg 107.22-108.66: Click, upgrade, sell
+seg 108.66-110.16: Don't stop the play
+seg 110.16-111.80: Sell the lemon
+seg 111.80-113.44: Sell the Lemon
+seg 113.44-114.90: Bacon head
+seg 114.90-117.08: Sell the lemons
+seg 118.76-120.92: Never gonna stop
+seg 120.92-123.68: Click, sell, upgrade, sell
+seg 123.68-126.04: Click, sale, upgrade
+seg 127.06-128.50: Automate the line
+seg 128.50-130.06: Watch the cash fly
+seg 130.06-132.96: They can hit dancing while the numbers go high
+seg 132.96-134.24: Sell the Lemons
+seg 134.24-135.68: Sell the LeMons
+seg 135.68-137.00: Sell the Lemon
+seg 137.00-138.74: Sell the Levins
+seg 138.74-140.84: Sell the Limons
+seg 140.84-141.66: Sell the Level
+seg 141.66-143.56: Sell the Lamons
+seg 145.70-148.70: World 2 comes, oxygen next
+seg 148.70-150.36: Same loop, bigger checks
+seg 150.36-152.06: Never perplexed
+seg 152.06-155.08: Offline cash keeps ticking while I sleep
+seg 155.08-157.88: Wake up richer, the empire is deep
+seg 157.88-160.76: Shake the trees, grab the bags, do the deals
+seg 160.76-162.22: Bacon head's still selling
+seg 162.22-163.86: That's how it feels
+seg 163.86-166.66: From one little stand to the top of the sky
+seg 166.66-170.02: Silver lemons keep the machine running high
+seg 173.48-174.72: Silver lemons
+seg 174.72-176.44: SELL THE LEMONS
+seg 176.44-179.60: Breaking heads, selling lemons all day
+seg 179.60-181.12: SELL the lemons
+seg 181.12-182.68: SELL The Lemons
+seg 182.68-184.06: Like a great sell
+seg 184.06-185.78: Don't stop the play
+seg 187.32-188.84: SELLThe LEMons
+seg 188.84-190.42: SELLTHE LEMOMONS
+seg 190.94-191.92: Breaking heads
+seg 191.92-194.62: SELLthe LEMOONS
+seg 194.62-198.06: Never gonna stop
+seg 199.78-201.36: SELLTH THE LOMON
+seg 202.60-204.14: SELL THEN
+seg 204.14-206.28: SELL THE LEMONS
+seg 206.28-209.98: SELL THEN BAKON HEAD
+seg 211.78-213.98: SELL The Lemons
+seg 216.14-216.92: BAKONE HEAD
+seg 218.14-220.30: SELLThe Lemons
+seg 222.14-223.48: SELLTHE LEMMONS
+seg 224.14-226.14: SELLTHEN LEMONGS
+words: 390 segments: 95
+first: [{'word': 'BACONHEAD', 'start': np.float64(3.32), 'end': np.float64(4.08), 'prob': np.float64(0.668)}, {'word': 'ON', 'start': np.float64(4.08), 'end': np.float64(4.24), 'prob': np.float64(0.773)}, {'word': 'THE', 'start': np.float64(4.24), 'end': np.float64(4.36), 'prob': np.float64(0.981)}, {'word': 'STAND', 'start': np.float64(4.36), 'end': np.float64(5.26), 'prob': np.float64(0.957)}, {'word': 'SELL', 'start': np.float64(6.98), 'end': np.float64(7.74), 'prob': np.float64(0.627)}]
+last: [{'word': 'Lemons', 'start': np.float64(219.68), 'end': np.float64(220.3), 'prob': np.float64(0.829)}, {'word': 'SELLTHE', 'start': np.float64(222.1), 'end': np.float64(222.8), 'prob': np.float64(0.657)}, {'word': 'LEMMONS', 'start': np.float64(222.8), 'end': np.float64(223.48), 'prob': np.float64(0.734)}, {'word': 'SELLTHEN', 'start': 224.14, 'end': np.float64(226.0), 'prob': np.float64(0.735)}, {'word': 'LEMONGS', 'start': np.float64(226.0), 'end': np.float64(226.7), 'prob': np.float64(0.666)}]

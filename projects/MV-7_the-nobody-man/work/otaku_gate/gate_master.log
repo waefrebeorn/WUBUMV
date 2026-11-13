@@ -1,0 +1,59 @@
+{
+    "programs": [
+
+    ],
+    "stream_groups": [
+
+    ],
+    "streams": [
+        {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1"
+        },
+        {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "r_frame_rate": "0/0"
+        }
+    ]
+}
+
+frames: 4492 (expect 4493)
+SEI: x264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0
+motion: frames=4492 mean_diff=2.73
+motion gate: longest near-dup run overlapping a word span = 32 frames at ~75.45833333333333s (FAIL if >=24)
+  word 'I'm' @0.00 cadmium onset=1533 pre=-1 POP
+  word 'Nobody' @14.30 cadmium onset=1027 pre=808 POP
+  word 'a' @23.64 cadmium onset=2155 pre=2248 miss
+  word 'I' @28.12 cadmium onset=737 pre=580 POP
+  word 'it' @32.22 cadmium onset=2295 pre=2173 POP
+  word 'little,' @37.18 cadmium onset=889 pre=742 POP
+  word 'quietly' @45.04 cadmium onset=2268 pre=1872 POP
+  word 'post' @53.08 cadmium onset=714 pre=709 POP
+  word 'the' @60.42 cadmium onset=983 pre=1087 miss
+  word 'Nobody' @71.90 cadmium onset=1319 pre=710 POP
+  word 'and' @79.09 cadmium onset=1824 pre=1670 POP
+  word 'and' @83.94 cadmium onset=1109 pre=1028 POP
+  word 'I' @88.68 cadmium onset=1705 pre=1799 miss
+  word 'learned' @94.28 cadmium onset=1823 pre=1657 POP
+  word 'mess' @100.72 cadmium onset=1165 pre=1131 POP
+  word 'I' @108.84 cadmium onset=1038 pre=1458 miss
+  word 'sparks' @114.62 cadmium onset=2802 pre=2956 miss
+  word 'call' @125.66 cadmium onset=3306 pre=3116 POP
+  word 'endless' @129.70 cadmium onset=1283 pre=1162 POP
+  word 'let' @134.72 cadmium onset=4437 pre=3107 POP
+  word 'Still' @145.52 cadmium onset=802 pre=807 miss
+  word 'Man' @151.88 cadmium onset=693 pre=535 POP
+  word 'Man' @159.12 cadmium onset=1951 pre=1689 POP
+  word 'I'm' @173.30 cadmium onset=1598 pre=450 POP
+kinetic audit: 18/24 sampled onsets show cadmium pop
+sheet: /home/hatch/workspace/wubutv-network/musicvideo/MV-7_the-nobody-man/work/otaku_gate/onsets_01.jpg [0.0, 2.28, 4.14, 6.9, 7.28, 9.92, 14.3, 19.58, 22.6, 24.62, 26.82, 29.42]
+sheet: /home/hatch/workspace/wubutv-network/musicvideo/MV-7_the-nobody-man/work/otaku_gate/onsets_02.jpg [31.74, 34.02, 36.5, 38.6, 42.9, 47.02, 49.4, 51.76, 53.82, 56.18, 59.34, 61.46]
+sheet: /home/hatch/workspace/wubutv-network/musicvideo/MV-7_the-nobody-man/work/otaku_gate/onsets_03.jpg [63.72, 66.26, 67.8, 68.16, 71.9, 71.92, 75.84, 78.5, 80.58, 82.94, 85.18, 87.66]
+sheet: /home/hatch/workspace/wubutv-network/musicvideo/MV-7_the-nobody-man/work/otaku_gate/onsets_04.jpg [89.92, 93.08, 95.2, 99.82, 103.36, 105.5, 108.28, 110.36, 112.86, 115.42, 117.86, 120.32]
+sheet: /home/hatch/workspace/wubutv-network/musicvideo/MV-7_the-nobody-man/work/otaku_gate/onsets_05.jpg [123.26, 126.46, 128.1, 130.46, 132.58, 137.02, 143.4, 145.52, 148.24, 150.38, 152.88, 155.4]
+sheet: /home/hatch/workspace/wubutv-network/musicvideo/MV-7_the-nobody-man/work/otaku_gate/onsets_06.jpg [157.84, 160.02, 164.16, 168.16, 173.3, 176.26, 181.44]

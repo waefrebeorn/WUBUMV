@@ -1,0 +1,16 @@
+### mv6_s02_t1 vocal 0-6s
+SEGMENTS: 0.0-2.3 Bacon head on the stand | 3.32-6.46 Sell the lemons, sell the lemons
+frames=240 window 0.0-6.0s: mean_diff=2.266 min=0.058 longest_near_dup_run(<0.5)=16 frames
+whole-clip mean_diff=1.653
+
+### mv6_s03_t1 vocal 0.5-9.5s
+SEGMENTS: 0.0-4.48 I spawn in with the default hair, bacon head, simple smile no care. | 4.88-9.28 Start with the stand, one lemon at a time, click the button, watch the cash climb.
+frames=240 window 0.5-9.5s: mean_diff=4.513 min=0.063 longest_near_dup_run(<0.5)=8 frames
+whole-clip mean_diff=4.907
+
+### mv6_s04_t1 vocal 0-9.5s
+SEGMENTS: 0.0-4.3 Upgrade the juicer, double the pay, automate the stand so I can walk away. | 4.86-9.38 Money on the floor, walk over and grab, then buy the next thing, keep on the tab.
+frames=240 window 0.0-9.5s: mean_diff=4.927 min=0.146 longest_near_dup_run(<0.5)=11 frames
+whole-clip mean_diff=5.039
+
+BATCH DONE

@@ -1,0 +1,43 @@
+retimed warps: [('S16', 0.8643, 0.81), ('S18', 0.8234, 0.965), ('S34', 1.1453, 0.91)]
+S01 seg=156f warped=270f deficit=-114f
+S02 seg=216f warped=270f deficit=-54f
+S03 seg=332f warped=332f deficit=0f
+S04 seg=105f warped=106f deficit=-1f
+S05 seg=84f warped=84f deficit=0f
+S06 seg=194f warped=201f deficit=-7f
+S07 seg=168f warped=192f deficit=-24f
+S08 seg=180f warped=212f deficit=-32f
+S09 seg=138f warped=173f deficit=-35f
+S10 seg=190f warped=200f deficit=-10f
+S11 seg=159f warped=192f deficit=-33f
+S12 seg=186f warped=192f deficit=-6f
+S13 seg=216f warped=251f deficit=-35f
+S14 seg=222f warped=265f deficit=-43f
+S15 seg=173f warped=196f deficit=-23f
+S16 seg=183f warped=175f deficit=8f
+S17 seg=137f warped=193f deficit=-56f
+S18 seg=169f warped=208f deficit=-39f
+S19 seg=174f warped=215f deficit=-41f
+S20 seg=157f warped=173f deficit=-16f
+S21 seg=250f warped=240f deficit=10f
+S22 seg=193f warped=196f deficit=-3f
+S23 seg=343f warped=300f deficit=43f
+S24 seg=293f warped=240f deficit=53f
+S25 seg=484f warped=456f deficit=28f
+S26 seg=125f warped=173f deficit=-48f
+S27 seg=237f warped=248f deficit=-11f
+S28 seg=350f warped=300f deficit=50f
+S29 seg=143f warped=192f deficit=-49f
+S30 seg=175f warped=216f deficit=-41f
+S31 seg=244f warped=270f deficit=-26f
+S32 seg=240f warped=270f deficit=-30f
+S33 seg=223f warped=300f deficit=-77f
+S34 seg=214f warped=197f deficit=17f
+S35 seg=316f warped=316f deficit=0f
+S36 seg=293f warped=270f deficit=23f
+S37 seg=395f warped=395f deficit=0f
+S38 seg=144f warped=192f deficit=-48f
+S39 seg=247f warped=216f deficit=31f
+shortfalls (tail-loop cover): [('S16', 8), ('S21', 10), ('S23', 43), ('S24', 53), ('S25', 28), ('S28', 50), ('S34', 17), ('S36', 23), ('S39', 31)]
+building retimed 16:9 intermediate ...
+  /home/hatch/workspace/wubutv-network/musicvideo/MV-3_i-am-your-dad/masters/mv3_intermediate_16x9_retimed.mp4: 8516 frames (target 8516)

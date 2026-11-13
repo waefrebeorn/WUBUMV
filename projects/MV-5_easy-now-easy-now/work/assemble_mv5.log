@@ -1,0 +1,144 @@
+track.mp3 md5 OK: 0c1bcafa568547e2d4fa36e133ad3626
+pieces: 139  total frames: 4954
+ffmpeg inputs: 139  filter chars: 24144
+  S01   freeze-leader    mv5_s01_t1     sf=  0 ef=  1 w=1.000 out=40f
+  S01   line             mv5_s01_t1     sf=  0 ef= 64 w=0.812 out=52f
+  S01   line             mv5_s01_t1     sf= 73 ef=114 w=1.250 out=51f
+  S01   line             mv5_s01_t1     sf=126 ef=159 w=1.250 out=41f
+  S01   gap              mv5_s01_t1     sf=159 ef=167 w=1.000 out=8f
+  S01   line             mv5_s01_t1     sf=179 ef=223 w=1.103 out=49f
+  S02   cutaway          mv5_s02_t1     sf=  0 ef=206 w=1.000 out=206f
+  S03   span             mv5_s03_t1     sf=  0 ef= 91 w=0.889 out=81f
+  S04   line             mv5_s04_t1     sf=  0 ef= 41 w=0.826 out=34f
+  S04   line             mv5_s04_t1     sf= 51 ef= 77 w=1.073 out=28f
+  S04   line             mv5_s04_t1     sf= 86 ef=110 w=1.250 out=30f
+  S04   gap              mv5_s04_t1     sf=110 ef=117 w=1.000 out=7f
+  S04   donor-tail       mv5_s05_t1     sf=209 ef=216 w=1.000 out=7f
+  S04   donor-tail       mv5_s12_t1     sf=175 ef=207 w=1.000 out=32f
+  S04   line             mv5_s04_t1     sf=117 ef=153 w=1.243 out=44f
+  S04   line             mv5_s04_t1     sf=170 ef=204 w=1.250 out=43f
+  S04   tail             mv5_s04_t1     sf=204 ef=209 w=1.000 out=3f
+  S05   span             mv5_s05_t1     sf=  0 ef=209 w=1.030 out=215f
+  S06   span-grey        mv5_s06_t1     sf=  0 ef=194 w=0.800 out=155f
+  S06   tail-loop        mv5_s06_t1     sf=214 ef=240 w=0.800 out=20f
+  S07   line             mv5_s07_t1     sf=  0 ef= 64 w=0.800 out=52f
+  S07   line             mv5_s07_t1     sf= 76 ef=116 w=1.107 out=44f
+  S07   line             mv5_s07_t1     sf=126 ef=165 w=0.817 out=32f
+  S07   line             mv5_s07_t1     sf=180 ef=239 w=1.250 out=74f
+  S07   donor-tail       mv5_s08_t2     sf=205 ef=237 w=1.000 out=32f
+  S08   refrain-R1       mv5_s08_t2     sf=  0 ef= 32 w=1.197 out=38f
+  S08   gap              mv5_s08_t2     sf= 32 ef= 49 w=1.000 out=18f
+  S08   donor-tail       mv5_s20_t1     sf= 68 ef= 77 w=1.000 out=9f
+  S08   refrain-R2       mv5_s08_t2     sf= 49 ef= 77 w=0.966 out=27f
+  S08   gap              mv5_s08_t2     sf= 77 ef=104 w=1.000 out=27f
+  S08   donor-tail       mv5_s20_t1     sf= 77 ef= 79 w=1.000 out=1f
+  S08   donor-tail       mv5_s20_t1     sf= 79 ef=107 w=1.000 out=28f
+  S08   gap              mv5_s08_t2     sf=150 ef=156 w=1.000 out=7f
+  S08   donor-tail       mv5_s20_t1     sf=107 ef=120 w=1.000 out=13f
+  S08   donor-tail       mv5_s01_t1     sf=223 ef=233 w=1.000 out=10f
+  S08   refrain-R4       mv5_s08_t2     sf=156 ef=179 w=1.106 out=25f
+  S08   tail             mv5_s08_t2     sf=179 ef=205 w=1.000 out=26f
+  S09   refrain-R1       mv5_s09_t1     sf=  0 ef= 25 w=1.096 out=28f
+  S09   gap              mv5_s09_t1     sf= 25 ef= 38 w=1.000 out=13f
+  S09   donor-tail       mv5_s12_t1     sf=207 ef=216 w=1.000 out=9f
+  S09   donor-tail       mv5_s01_t1     sf=233 ef=240 w=1.000 out=7f
+  S09   refrain-R2       mv5_s09_t1     sf= 38 ef= 67 w=0.869 out=25f
+  S09   gap              mv5_s09_t1     sf= 67 ef= 79 w=1.000 out=12f
+  S09   donor-tail       mv5_s10_t1     sf=202 ef=219 w=1.000 out=17f
+  S09   refrain-R3       mv5_s09_t1     sf= 79 ef=108 w=0.915 out=26f
+  S09   gap              mv5_s09_t1     sf=108 ef=120 w=1.000 out=13f
+  S09   donor-tail       mv5_s10_t1     sf=219 ef=236 w=1.000 out=17f
+  S09   refrain-R4       mv5_s09_t1     sf=120 ef=142 w=1.133 out=25f
+  S09   donor-tail       mv5_s10_t1     sf=236 ef=240 w=1.000 out=4f
+  S09   donor-tail       mv5_s09_t1     sf=142 ef=180 w=1.000 out=38f
+  S10   cutaway          mv5_s10_t1     sf=  0 ef=201 w=1.000 out=201f
+  S11   arrival          mv5_s11_t4     sf=  0 ef= 28 w=1.000 out=28f
+  S11   arrival-gap      mv5_s11_t4     sf= 91 ef=107 w=1.000 out=16f
+  S11   cover-L38        mv5_s11_t4     sf=107 ef=121 w=1.000 out=14f
+  S11   L39-grey         mv5_s11_t4     sf=125 ef=165 w=0.800 out=32f
+  S11   donor-tail       mv5_s11_t4     sf=219 ef=240 w=1.000 out=21f
+  S11   donor-tail       mv5_s02_t1     sf=206 ef=216 w=1.000 out=10f
+  S11   donor-tail       mv5_s18_t1     sf=196 ef=216 w=1.000 out=20f
+  S11   donor-tail       mv5_s09_t1     sf=180 ef=189 w=1.000 out=9f
+  S11   L40-tail         mv5_s11_t4     sf=172 ef=217 w=0.880 out=38f
+  S11   donor-tail       mv5_s09_t1     sf=189 ef=208 w=1.000 out=19f
+  S12   line             mv5_s12_t1     sf=  0 ef= 48 w=0.800 out=38f
+  S12   donor-tail       mv5_s09_t1     sf=208 ef=240 w=1.000 out=32f
+  S12   donor-tail       mv5_s26_t1     sf=151 ef=154 w=1.000 out=3f
+  S12   line             mv5_s12_t1     sf= 84 ef=175 w=0.800 out=72f
+  S12   donor-tail       mv5_s26_t1     sf=154 ef=192 w=1.000 out=38f
+  S12   donor-tail       mv5_s03_t1     sf= 91 ef=115 w=1.000 out=24f
+  S13   cover-rej-tail   mv5_s13_t5     sf=228 ef=240 w=1.000 out=12f
+  S13   cover-rej-tail   mv5_s13_t3     sf=220 ef=240 w=1.000 out=20f
+  S13   cover-rej-tail   mv5_s13_t4     sf=220 ef=240 w=1.000 out=20f
+  S13   cover-rej-tail   mv5_s13_t2     sf=219 ef=240 w=1.000 out=21f
+  S13   cover-rej-tail   mv5_s13_t1     sf=219 ef=240 w=1.000 out=21f
+  S13   cover-rej-tail   mv5_s13_t7     sf=227 ef=240 w=1.000 out=13f
+  S13   cover-rej-tail   mv5_s13_t6     sf=228 ef=240 w=1.000 out=12f
+  S13   cover-tail       mv5_s28_t1     sf= 85 ef=120 w=1.000 out=35f
+  S13   cover-tail       mv5_s03_t1     sf=115 ef=120 w=1.000 out=5f
+  S13   cover-tail       mv5_s04_t1     sf=204 ef=240 w=1.000 out=36f
+  S13   cover-tail       mv5_s06_t1     sf=194 ef=212 w=1.000 out=18f
+  S13   cover-tail       mv5_s08_t2     sf=237 ef=240 w=1.000 out=3f
+  S13   cover-tail       mv5_s17_t1     sf=233 ef=240 w=1.000 out=7f
+  S13   cover-tail       mv5_s19b_t1    sf=100 ef=105 w=1.000 out=5f
+  S14   cover-tail       mv5_s19b_t1    sf=105 ef=121 w=1.000 out=16f
+  S14   cover-rej-tail   mv5_s14_t3     sf=233 ef=240 w=1.000 out=7f
+  S14   cover-tail       mv5_s27_t1     sf=114 ef=144 w=1.000 out=30f
+  S14   cover-rej-tail   mv5_s16_t1     sf=151 ef=196 w=1.000 out=45f
+  S15   span-grey        mv5_s15_t1     sf=  0 ef=106 w=0.914 out=96f
+  S15   donor-tail       mv5_s21_t3     sf=198 ef=229 w=1.000 out=31f
+  S16   cover-rej-tail   mv5_s16_t2     sf= 85 ef=240 w=1.000 out=155f
+  S16   cover-rej-tail   mv5_s16_t3     sf=108 ef=181 w=1.000 out=73f
+  S17   refrain-R1       mv5_s17_t1     sf=  0 ef= 28 w=0.932 out=26f
+  S17   gap              mv5_s17_t1     sf= 28 ef= 41 w=1.000 out=13f
+  S17   donor-tail       mv5_s21_t3     sf=229 ef=240 w=1.000 out=11f
+  S17   donor-rej-tail   mv5_s16_t1     sf=196 ef=201 w=1.000 out=5f
+  S17   refrain-R2-grey  mv5_s17_t1     sf= 41 ef= 78 w=0.714 out=26f
+  S17   gap              mv5_s17_t1     sf=106 ef=124 w=1.000 out=19f
+  S17   donor-rej-tail   mv5_s16_t1     sf=201 ef=212 w=1.000 out=10f
+  S17   refrain-R3-grey  mv5_s17_t1     sf=124 ef=164 w=0.651 out=26f
+  S17   gap              mv5_s17_t1     sf=164 ef=166 w=1.000 out=1f
+  S17   donor-rej-tail   mv5_s16_t1     sf=212 ef=238 w=1.000 out=27f
+  S17   refrain-R4-env   mv5_s17_t1     sf=166 ef=192 w=1.091 out=29f
+  S17   tail             mv5_s17_t1     sf=192 ef=233 w=1.000 out=40f
+  S18   cutaway          mv5_s18_t1     sf=  0 ef=196 w=1.000 out=197f
+  S19a  cover-rej-tail   mv5_s19a_t2    sf= 57 ef=120 w=1.000 out=63f
+  S19a  cover-rej-tail   mv5_s19a_t1    sf= 89 ef=114 w=1.000 out=25f
+  S19b  span-grey        mv5_s19b_t1    sf=  0 ef=100 w=0.808 out=80f
+  S20   span-grey        mv5_s20_t1     sf=  0 ef= 61 w=0.800 out=49f
+  S20   donor-rej-tail   mv5_s16_t1     sf=238 ef=240 w=1.000 out=2f
+  S20   donor-rej-tail   mv5_s16_t3     sf=181 ef=186 w=1.000 out=5f
+  S21   span-grey        mv5_s21_t3     sf=  0 ef=198 w=0.800 out=159f
+  S21   donor-rej-tail   mv5_s21_t1     sf=194 ef=240 w=1.000 out=46f
+  S21   donor-rej-tail   mv5_s16_t3     sf=186 ef=208 w=1.000 out=22f
+  S22   cover-rej-tail   mv5_s22_t3     sf= 84 ef=120 w=1.000 out=36f
+  S22   cover-rej-tail   mv5_s22_t2     sf= 80 ef= 84 w=1.000 out=4f
+  S23   refrain-R1       mv5_s23_t1     sf=  0 ef= 25 w=0.962 out=24f
+  S23   gap              mv5_s23_t1     sf= 25 ef= 35 w=1.000 out=10f
+  S23   donor-rej-tail   mv5_s16_t3     sf=208 ef=229 w=1.000 out=21f
+  S23   refrain-R2       mv5_s23_t1     sf= 35 ef= 65 w=0.919 out=27f
+  S23   gap              mv5_s23_t1     sf= 65 ef= 77 w=1.000 out=12f
+  S23   donor-rej-tail   mv5_s16_t3     sf=229 ef=240 w=1.000 out=11f
+  S23   donor-rej-tail   mv5_s16_t4     sf=172 ef=174 w=1.000 out=2f
+  S23   refrain-R3       mv5_s23_t1     sf= 77 ef=105 w=1.121 out=31f
+  S23   no-need-to       mv5_s23_t1     sf=135 ef=168 w=0.812 out=27f
+  S24   cover-rej-tail   mv5_s24_t1     sf= 72 ef=168 w=1.000 out=96f
+  S24   cover-rej-tail   mv5_s24_t3     sf=120 ef=168 w=1.000 out=48f
+  S24   cover-rej-tail   mv5_s24_t2     sf= 83 ef=101 w=1.000 out=18f
+  S25   refrain-R1-grey  mv5_s25_t1     sf=  0 ef= 33 w=0.800 out=26f
+  S25   gap              mv5_s25_t1     sf= 33 ef= 46 w=1.000 out=13f
+  S25   donor-rej-tail   mv5_s16_t4     sf=174 ef=189 w=1.000 out=14f
+  S25   refrain-R2       mv5_s25_t1     sf= 46 ef= 77 w=1.091 out=35f
+  S25   tail-L106        mv5_s25_t1     sf= 77 ef=115 w=1.000 out=38f
+  S25   tail-gap         mv5_s25_t1     sf=115 ef=144 w=1.000 out=29f
+  S25   donor-rej-tail   mv5_s16_t4     sf=189 ef=217 w=1.000 out=28f
+  S26   donor-rej-tail   mv5_s16_t4     sf=217 ef=240 w=1.000 out=23f
+  S26   donor-rej-tail   mv5_s16_t5     sf=175 ef=191 w=1.000 out=16f
+  S26   span-grey        mv5_s26_t1     sf=  0 ef= 92 w=0.800 out=74f
+  S26   tail-L108        mv5_s26_t1     sf= 92 ef=151 w=1.000 out=59f
+  S27   span             mv5_s27_t1     sf=  0 ef=114 w=1.232 out=140f
+  S28   span-grey        mv5_s28_t1     sf=  0 ef= 65 w=0.800 out=52f
+  S28   tail-outro       mv5_s28_t1     sf= 65 ef= 85 w=1.000 out=20f
+
+BUILD OK -> masters/mv5_easy_now_easy_now_16x9.mp4

@@ -1,0 +1,46 @@
+== (a) audio identity vs track.mp3 ==
+master audio: 3302400 samples (206.40s); track: 3302400 samples (206.40s)
+best lag: 0 samples (0.0000s), correlation 0.9986
+AUDIO IDENTITY GATE: PASS
+== (b) master audio dictation ==
+dictated 500 words (song has 546)
+pairs=246/546 median|off|=0.180s max|off|=0.500s
+dictated words with no song match (<=0.50s): 254
+song words with no dictated match: 300
+worst pairs: [(0.5, 'the', 177.7, 'the', 177.2), (0.5, 'just', 143.34, 'Just', 142.84), (0.5, 'it', 111.34, 'it', 110.84), (0.48, 'time', 90.94, 'time', 91.42), (0.48, 'they', 45.06, 'they', 44.58), (0.48, 'run', 175.6, 'run', 175.12)]
+missing song words (first 12): [('Easy', 'I01', 1.66), ('now', 'I01', 2.22), ('easy', 'I01', 2.78), ('now', 'I01', 2.96), ('We', 'I02', 3.58), ('ride', 'I02', 4.0), ('we', 'I02', 4.72), ('ride', 'I02', 4.9), ('Easy', 'I03', 5.98), ('now', 'I03', 6.66), ('easy', 'I03', 7.32), ('now', 'I03', 7.54)]
+AUDIO GATE: FAIL
+== (c) motion audit (160x90, native 24fps) ==
+decoded 4954 frames (expect 4954)
+overall mean diff=5.149
+longest near-dup (<0.5) run=39f at frames 0-39 (0.00-1.62s) (frame rule: FAIL if >=24f during vocal)
+  S01: mean 0.441  vocal_mean 0.470  vocal_longest_neardup 9  frames 0-241
+  S02: mean 14.469  vocal_mean 14.469  vocal_longest_neardup 0  frames 241-447
+  S03: mean 0.925  vocal_mean 0.925  vocal_longest_neardup 3  frames 447-528
+  S04: mean 7.682  vocal_mean 7.165  vocal_longest_neardup 1  frames 528-756
+  S05: mean 1.259  vocal_mean 1.259  vocal_longest_neardup 2  frames 756-971
+  S06: mean 0.866  vocal_mean 0.861  vocal_longest_neardup 1  frames 971-1146
+  S07: mean 1.014  vocal_mean 0.531  vocal_longest_neardup 13  frames 1146-1380
+  S08: mean 4.092  vocal_mean 2.138  vocal_longest_neardup 1  frames 1380-1609
+  S09: mean 7.811  vocal_mean 2.770  vocal_longest_neardup 3  frames 1609-1843
+  S10: mean 18.650  vocal_mean 18.650  vocal_longest_neardup 0  frames 1843-2044
+  S11: mean 6.921  vocal_mean 4.260  vocal_longest_neardup 2  frames 2044-2251
+  S12: mean 5.208  vocal_mean 4.803  vocal_longest_neardup 0  frames 2251-2458
+  S13: mean 6.474  vocal_mean nan  vocal_longest_neardup None  frames 2458-2686
+  S14: mean 3.423  vocal_mean nan  vocal_longest_neardup None  frames 2686-2784
+  S15: mean 1.901  vocal_mean 0.981  vocal_longest_neardup 2  frames 2784-2911
+  S16: mean 2.927  vocal_mean nan  vocal_longest_neardup None  frames 2911-3139
+  S17: mean 4.411  vocal_mean 3.193  vocal_longest_neardup 2  frames 3139-3372
+  S18: mean 12.392  vocal_mean 12.392  vocal_longest_neardup 1  frames 3372-3569
+  S19a: mean 1.604  vocal_mean nan  vocal_longest_neardup None  frames 3569-3657
+  S19b: mean 0.796  vocal_mean 0.796  vocal_longest_neardup 4  frames 3657-3737
+  S20: mean 5.529  vocal_mean 3.129  vocal_longest_neardup 1  frames 3737-3793
+  S21: mean 2.367  vocal_mean 1.573  vocal_longest_neardup 7  frames 3793-4020
+  S22: mean 2.340  vocal_mean nan  vocal_longest_neardup None  frames 4020-4060
+  S23: mean 2.333  vocal_mean 0.642  vocal_longest_neardup 3  frames 4060-4225
+  S24: mean 1.579  vocal_mean nan  vocal_longest_neardup None  frames 4225-4387
+  S25: mean 2.401  vocal_mean 1.318  vocal_longest_neardup 3  frames 4387-4570
+  S26: mean 3.088  vocal_mean 2.607  vocal_longest_neardup 1  frames 4570-4742
+  S27: mean 2.837  vocal_mean 2.837  vocal_longest_neardup 1  frames 4742-4882
+  S28: mean 0.595  vocal_mean 0.674  vocal_longest_neardup 8  frames 4882-4954
+wrote work/master_dictation.json + work/master_motion.json

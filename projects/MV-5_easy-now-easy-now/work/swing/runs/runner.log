@@ -1,0 +1,353 @@
+=== RUN s04_t1 (mv5_s04_t1.mp4 window 22.0-31.48) 09:37:32
+wrote work/swing/runs/s04_t1.json
+summary: {'BAD-wrong': 1, 'GOOD': 1, 'WARPABLE': 17, 'BAD-out-of-caps': 3} | line ratio: 1.105
+  Bare     song    22.0 take 0.0 swing 0.0 speed 1.182 -> BAD-wrong
+  feet     song   22.22 take 0.26 swing 0.04 speed 0.889 -> GOOD
+  on       song   22.58 take 0.58 swing 0.0 speed 1.273 -> WARPABLE
+  the      song    22.8 take 0.86 swing 0.06 speed 1.286 -> WARPABLE
+  boardwalk song   22.94 take 1.04 swing 0.1 speed 2.292 -> WARPABLE
+  Salt     song   23.42 take 2.14 swing 0.72 speed 0.542 -> WARPABLE
+  on       song  23.715 take 2.3 swing 0.585 speed 0.949 -> WARPABLE
+  my       song   24.01 take 2.58 swing 0.57 speed 0.814 -> WARPABLE
+  skin     song  24.305 take 2.82 swing 0.515 speed 4.457 -> WARPABLE
+  You      song   24.48 take 3.6 swing 1.12 speed 0.235 -> BAD-out-of-caps
+  came     song   24.82 take 3.68 swing 0.86 speed 0.382 -> BAD-out-of-caps
+  in       song    25.5 take 3.94 swing 0.44 speed 1.556 -> WARPABLE
+  laughing song   25.68 take 4.22 swing 0.54 speed 0.219 -> BAD-out-of-caps
+  Said     song    27.6 take 4.64 swing -0.96 speed 1.038 -> WARPABLE
+  come     song   28.12 take 5.18 swing -0.94 speed 1.167 -> WARPABLE
+  on       song   28.24 take 5.32 swing -0.92 speed 0.87 -> WARPABLE
+  let's    song    28.7 take 5.72 swing -0.98 speed 0.706 -> WARPABLE
+  begin    song   29.04 take 5.96 swing -1.08 speed 1.075 -> WARPABLE
+  Blue     song    30.1 take 7.1 swing -1.0 speed 1.125 -> WARPABLE
+  shirt    song   30.26 take 7.28 swing -0.98 speed 1.308 -> WARPABLE
+  red      song   30.52 take 7.62 swing -0.9 speed 1.2 -> WARPABLE
+  bicycle  song   30.82 take 7.98 swing -0.84 speed 0.909 -> WARPABLE
+OK s04_t1
+=== RUN s05_t1 (mv5_s05_t1.mp4 window 31.48-40.44) 09:37:52
+wrote work/swing/runs/s05_t1.json
+summary: {'GOOD': 3, 'WARPABLE': 11, 'BAD-out-of-caps': 1, 'BAD-wrong': 1} | line ratio: 0.956
+  Rolling  song   31.84 take 0.0 swing 0.0 speed 1.038 -> GOOD
+  past     song   32.36 take 0.54 swing 0.02 speed 1.222 -> GOOD
+  the      song   32.72 take 0.98 swing 0.1 speed 0.895 -> GOOD
+  pier     song    33.1 take 1.32 swing 0.06 speed 2.5 -> WARPABLE
+  I        song   33.62 take 2.62 swing 0.84 speed 0.786 -> WARPABLE
+  was      song   34.18 take 3.06 swing 0.72 speed 1.429 -> WARPABLE
+  posted   song   34.32 take 3.26 swing 0.78 speed 1.158 -> WARPABLE
+  up       song    34.7 take 3.7 swing 0.84 speed 0.933 -> WARPABLE
+  right    song    35.0 take 3.98 swing 0.82 speed 1.0 -> WARPABLE
+  here     song   35.28 take 4.26 swing 0.82 speed 0.643 -> WARPABLE
+  Now      song   36.12 take 4.8 swing 0.52 speed 0.833 -> WARPABLE
+  you're   song   36.84 take 5.4 swing 0.4 speed 0.824 -> WARPABLE
+  pulling  song   37.18 take 5.68 swing 0.34 speed 1.062 -> WARPABLE
+  near     song    37.5 take 6.02 swing 0.36 speed 0.482 -> BAD-out-of-caps
+  Backpack song   38.62 take 6.56 swing -0.22 speed 1.629 -> WARPABLE
+  half-zipped song   39.32 take 7.7 swing 0.22 speed 1.412 -> BAD-wrong
+OK s05_t1
+=== RUN s06_t1 (mv5_s06_t1.mp4 window 40.44-44.61) 09:38:07
+wrote work/swing/runs/s06_t1.json
+summary: {'BAD-wrong': 1, 'WARPABLE': 11} | line ratio: 0.685
+  Keys     song   40.52 take 0.0 swing 0.0 speed 2.909 -> BAD-wrong
+  in       song   40.74 take 0.64 swing 0.42 speed 1.75 -> WARPABLE
+  your     song   40.82 take 0.78 swing 0.48 speed 0.625 -> WARPABLE
+  hand     song    41.3 take 1.08 swing 0.3 speed 0.717 -> WARPABLE
+  You      song   43.28 take 2.5 swing -0.26 speed 13.5 -> WARPABLE
+  nodded   song   43.36 take 3.58 swing 0.74 speed 1.722 -> WARPABLE
+  at       song   43.72 take 4.2 swing 1.0 speed 1.0 -> WARPABLE
+  the      song   43.92 take 4.4 swing 1.0 speed 1.75 -> WARPABLE
+  waves    song   44.08 take 4.68 swing 1.12 speed 2.556 -> WARPABLE
+  like     song   44.26 take 5.14 swing 1.4 speed None -> WARPABLE
+  Yeah     song   44.26 take 5.56 swing 1.82 speed 1.313 -> WARPABLE
+  they     song   44.58 take 5.98 swing 1.92 speed 1.25 -> WARPABLE
+OK s06_t1
+=== RUN s06_t2 (mv5_s06_t2.mp4 window 44.58-47.76) 09:38:26
+wrote work/swing/runs/s06_t2.json
+summary: {'WARPABLE': 3, 'BAD-missing': 1} | line ratio: 1.798
+  they     song   44.58 take 0.76 swing 0.0 speed 0.55 -> WARPABLE
+  already  song   44.98 take 0.98 swing -0.18 speed 4.6 -> WARPABLE
+  understand song   45.08 take 1.44 swing 0.18 speed 2.222 -> WARPABLE
+  Slow     song   47.62 take None swing None speed None -> BAD-missing
+OK s06_t2
+=== RUN s07_t1_a (mv5_s07_t1.mp4 window 47.76-51.46) 09:38:40
+wrote work/swing/runs/s07_t1_a.json
+summary: {'WARPABLE': 9} | line ratio: 0.793
+  down     song   47.96 take 0.4 swing 0.0 speed 1.447 -> WARPABLE
+  take     song   48.72 take 1.5 swing 0.34 speed 2.0 -> WARPABLE
+  your     song    48.8 take 1.66 swing 0.42 speed 0.824 -> WARPABLE
+  time     song   49.14 take 1.94 swing 0.36 speed 1.71 -> WARPABLE
+  Let      song   49.76 take 3.0 swing 0.8 speed 1.667 -> WARPABLE
+  the      song   49.94 take 3.3 swing 0.92 speed 1.167 -> WARPABLE
+  hard     song   50.18 take 3.58 swing 0.96 speed 1.176 -> WARPABLE
+  week     song   50.52 take 3.98 swing 1.02 speed 1.071 -> WARPABLE
+  fade     song    50.8 take 4.28 swing 1.04 speed 0.824 -> WARPABLE
+OK s07_t1_a
+=== RUN s07_t1_b (mv5_s07_t1.mp4 window 52.8-56.5) 09:38:57
+wrote work/swing/runs/s07_t1_b.json
+summary: {'WARPABLE': 3, 'GOOD': 1} | line ratio: 0.907
+  my       song   52.98 take 7.64 swing 0.0 speed 0.579 -> WARPABLE
+  whole    song   53.36 take 7.86 swing -0.16 speed 1.176 -> GOOD
+  head     song    53.7 take 8.26 swing -0.1 speed 0.788 -> WARPABLE
+  replays  song   54.36 take 8.78 swing -0.24 speed 1.605 -> WARPABLE
+OK s07_t1_b
+=== RUN s08_t2 (mv5_s08_t2.mp4 window 57.52-67.06) 09:39:13
+wrote work/swing/runs/s08_t2.json
+summary: {'WARPABLE': 11, 'BAD-wrong': 3, 'BAD-missing': 19, 'BAD-out-of-caps': 1} | line ratio: 1.255
+  Easy     song   57.52 take 0.0 swing 0.0 speed 1.692 -> WARPABLE
+  now      song   58.04 take 0.88 swing 0.36 speed 2.32 -> WARPABLE
+  easy     song   58.54 take 2.04 swing 1.02 speed 1.467 -> WARPABLE
+  now      song   58.84 take 2.48 swing 1.16 speed 0.717 -> BAD-wrong
+  We       song   58.84 take None swing None speed None -> BAD-missing
+  ride     song    59.1 take None swing None speed None -> BAD-missing
+  we       song   59.36 take None swing None speed None -> BAD-missing
+  ride     song   59.82 take None swing None speed None -> BAD-missing
+  Easy     song    59.9 take 3.24 swing 0.86 speed None -> WARPABLE
+  now      song   60.22 take 2.7 swing 0.0 speed 3.647 -> WARPABLE
+  easy     song   60.56 take 3.94 swing 0.9 speed 3.074 -> WARPABLE
+  now      song    61.1 take 5.6 swing 2.02 speed 1.042 -> BAD-wrong
+  With     song    61.1 take None swing None speed None -> BAD-missing
+  you      song   61.34 take None swing None speed None -> BAD-missing
+  by       song    61.5 take None swing None speed None -> BAD-missing
+  my       song   61.64 take None swing None speed None -> BAD-missing
+  side     song   61.88 take None swing None speed None -> BAD-missing
+  Easy     song   62.52 take 7.08 swing 2.08 speed None -> WARPABLE
+  now      song  62.805 take 5.96 swing 0.675 speed 1.965 -> WARPABLE
+  easy     song   63.09 take 6.52 swing 0.95 speed 0.912 -> WARPABLE
+  now      song  63.375 take 6.78 swing 0.925 speed 0.091 -> BAD-wrong
+  No       song    63.4 take None swing None speed None -> BAD-missing
+  need     song   63.66 take None swing None speed None -> BAD-missing
+  to       song   64.02 take None swing None speed None -> BAD-missing
+  run      song    64.2 take None swing None speed None -> BAD-missing
+  Easy     song   64.92 take None swing None speed None -> BAD-missing
+  now      song   65.14 take 6.94 swing -0.68 speed 0.28 -> BAD-out-of-caps
+  easy     song   65.64 take 7.08 swing -1.04 speed None -> WARPABLE
+  now      song   65.96 take 7.08 swing -1.36 speed 2.364 -> WARPABLE
+  We       song   65.64 take None swing None speed None -> BAD-missing
+  hold     song   65.96 take None swing None speed None -> BAD-missing
+  the      song   66.18 take None swing None speed None -> BAD-missing
+  sun      song   66.52 take None swing None speed None -> BAD-missing
+  Easy     song   66.82 take None swing None speed None -> BAD-missing
+OK s08_t2
+=== RUN s09_t1 (mv5_s09_t1.mp4 window 67.06-76.8) 09:39:28
+wrote work/swing/runs/s09_t1.json
+summary: {'BAD-missing': 27, 'WARPABLE': 8, 'BAD-out-of-caps': 1} | line ratio: 1.46
+  now      song   67.06 take None swing None speed None -> BAD-missing
+  easy     song   67.38 take None swing None speed None -> BAD-missing
+  now      song   67.88 take None swing None speed None -> BAD-missing
+  Keep     song   67.88 take None swing None speed None -> BAD-missing
+  it       song    68.2 take None swing None speed None -> BAD-missing
+  loose    song   68.62 take None swing None speed None -> BAD-missing
+  keep     song    68.9 take None swing None speed None -> BAD-missing
+  it       song    69.2 take None swing None speed None -> BAD-missing
+  low      song    69.4 take None swing None speed None -> BAD-missing
+  Easy     song    69.2 take 0.0 swing 0.0 speed 2.7 -> WARPABLE
+  now      song    69.4 take 0.54 swing 0.34 speed 4.333 -> WARPABLE
+  easy     song   69.64 take 1.58 swing 1.14 speed 0.923 -> WARPABLE
+  now      song   70.16 take 2.06 swing 1.1 speed 1.051 -> WARPABLE
+  Let      song   70.16 take None swing None speed None -> BAD-missing
+  it       song   70.46 take None swing None speed None -> BAD-missing
+  drift    song   70.72 take None swing None speed None -> BAD-missing
+  let      song   70.86 take None swing None speed None -> BAD-missing
+  it       song   71.22 take None swing None speed None -> BAD-missing
+  go       song   71.34 take None swing None speed None -> BAD-missing
+  Easy     song   71.34 take 3.3 swing 1.16 speed 4.6 -> WARPABLE
+  now      song   71.44 take 3.76 swing 1.52 speed 4.727 -> WARPABLE
+  easy     song   71.66 take 4.8 swing 2.34 speed 1.733 -> WARPABLE
+  now      song   71.96 take 5.32 swing 2.56 speed 0.071 -> BAD-out-of-caps
+  We're    song   72.48 take None swing None speed None -> BAD-missing
+  good     song   72.74 take None swing None speed None -> BAD-missing
+  where    song   72.92 take None swing None speed None -> BAD-missing
+  we       song   73.04 take None swing None speed None -> BAD-missing
+  are      song   73.36 take None swing None speed None -> BAD-missing
+  Easy     song   74.02 take None swing None speed None -> BAD-missing
+  now      song   74.22 take 5.48 swing 0.46 speed 2.05 -> WARPABLE
+  easy     song   74.72 take None swing None speed None -> BAD-missing
+  now      song   75.04 take None swing None speed None -> BAD-missing
+  Just     song   74.72 take None swing None speed None -> BAD-missing
+  two      song   75.04 take None swing None speed None -> BAD-missing
+  small    song   75.36 take None swing None speed None -> BAD-missing
+  sparks   song   75.68 take None swing None speed None -> BAD-missing
+OK s09_t1
+=== RUN s11_t4 (mv5_s11_t4.mp4 window 85.16-93.8) 09:39:39
+wrote work/swing/runs/s11_t4.json
+summary: {'BAD-missing': 8, 'WARPABLE': 10, 'BAD-out-of-caps': 1} | line ratio: 1.003
+  Vendor   song   85.16 take None swing None speed None -> BAD-missing
+  at       song    86.0 take None swing None speed None -> BAD-missing
+  the      song   86.16 take None swing None speed None -> BAD-missing
+  corner   song   86.26 take None swing None speed None -> BAD-missing
+  Calling  song   86.68 take 1.14 swing 0.0 speed 26.0 -> WARPABLE
+  mango    song   86.72 take 2.18 swing 1.0 speed 5.4 -> WARPABLE
+  sweet    song   86.82 take 2.72 swing 1.44 speed 3.075 -> WARPABLE
+  Socks    song   87.62 take 5.18 swing 3.1 speed 2.6 -> WARPABLE
+  in       song   88.02 take 6.22 swing 3.74 speed 0.647 -> WARPABLE
+  the      song   88.36 take 6.44 swing 3.62 speed 1.25 -> WARPABLE
+  sand     song   88.52 take 6.64 swing 3.66 speed 0.179 -> BAD-out-of-caps
+  And      song   88.94 take None swing None speed None -> BAD-missing
+  the      song   89.56 take None swing None speed None -> BAD-missing
+  tide     song   89.68 take None swing None speed None -> BAD-missing
+  tapping  song   90.42 take None swing None speed None -> BAD-missing
+  time     song   91.42 take 7.16 swing 1.28 speed 3.889 -> WARPABLE
+  with     song    91.6 take 7.86 swing 1.8 speed 1.133 -> WARPABLE
+  our      song    91.9 take 8.2 swing 1.84 speed 0.857 -> WARPABLE
+  feet     song   92.32 take 8.56 swing 1.78 speed 0.632 -> WARPABLE
+OK s11_t4
+=== RUN s12_t1 (mv5_s12_t1.mp4 window 93.8-102.4) 09:39:53
+wrote work/swing/runs/s12_t1.json
+summary: {'BAD-out-of-caps': 1, 'WARPABLE': 11, 'BAD-missing': 11} | line ratio: 1.258
+  Your     song    93.8 take 0.0 swing 0.0 speed 0.458 -> BAD-out-of-caps
+  laugh    song   94.28 take 0.22 swing -0.26 speed 2.0 -> WARPABLE
+  hit      song   94.46 take 0.58 swing -0.08 speed 2.1 -> WARPABLE
+  the      song   94.66 take 1.0 swing 0.14 speed 2.0 -> WARPABLE
+  air      song   94.84 take 1.36 swing 0.32 speed 1.089 -> WARPABLE
+  Like     song   95.82 take None swing None speed None -> BAD-missing
+  a        song   95.96 take None swing None speed None -> BAD-missing
+  hand     song    96.2 take None swing None speed None -> BAD-missing
+  drum     song    96.4 take None swing None speed None -> BAD-missing
+  roll     song   96.86 take None swing None speed None -> BAD-missing
+  I        song   96.86 take 3.56 swing 0.5 speed 2.533 -> WARPABLE
+  forgot   song   97.16 take 4.32 swing 0.96 speed 1.643 -> WARPABLE
+  the      song   97.44 take 4.78 swing 1.14 speed 1.9 -> WARPABLE
+  list     song   97.64 take 5.16 swing 1.32 speed 4.0 -> WARPABLE
+  forgot   song   97.82 take 5.88 swing 1.86 speed 3.167 -> WARPABLE
+  the      song   97.94 take 6.26 swing 2.12 speed 2.571 -> WARPABLE
+  bills    song   98.08 take 6.62 swing 2.34 speed 5.5 -> WARPABLE
+  Forgot   song    98.2 take None swing None speed None -> BAD-missing
+  what     song   98.44 take None swing None speed None -> BAD-missing
+  I        song   98.84 take None swing None speed None -> BAD-missing
+  was      song   99.18 take None swing None speed None -> BAD-missing
+  told     song    99.7 take None swing None speed None -> BAD-missing
+  Ice      song  102.38 take None swing None speed None -> BAD-missing
+OK s12_t1
+=== RUN s15_t1 (mv5_s15_t1.mp4 window 116.0-120.21) 09:40:06
+wrote work/swing/runs/s15_t1.json
+summary: {'WARPABLE': 2, 'BAD-missing': 1} | line ratio: 1.245
+  head     song   116.1 take 1.54 swing 0.0 speed 4.091 -> WARPABLE
+  replays  song  116.32 take 2.44 swing 0.68 speed 2.97 -> WARPABLE
+  (held)   song   119.3 take None swing None speed None -> BAD-missing
+OK s15_t1
+=== RUN s17_t1 (mv5_s17_t1.mp4 window 130.78-140.52) 09:40:22
+wrote work/swing/runs/s17_t1.json
+summary: {'BAD-missing': 28, 'WARPABLE': 8} | line ratio: 1.385
+  easy     song  131.06 take None swing None speed None -> BAD-missing
+  now      song  131.64 take None swing None speed None -> BAD-missing
+  Keep     song  131.64 take None swing None speed None -> BAD-missing
+  it       song  131.88 take None swing None speed None -> BAD-missing
+  loose    song  132.34 take None swing None speed None -> BAD-missing
+  keep     song  132.62 take None swing None speed None -> BAD-missing
+  it       song  132.94 take None swing None speed None -> BAD-missing
+  low      song  133.14 take None swing None speed None -> BAD-missing
+  Easy     song  132.94 take 0.0 swing 0.0 speed 3.0 -> WARPABLE
+  now      song  133.14 take 0.6 swing 0.4 speed 4.308 -> WARPABLE
+  easy     song   133.4 take 1.72 swing 1.26 speed 0.964 -> WARPABLE
+  now      song  133.96 take 2.26 swing 1.24 speed 2.075 -> WARPABLE
+  Let      song  133.96 take None swing None speed None -> BAD-missing
+  it       song  134.16 take None swing None speed None -> BAD-missing
+  drift    song  134.38 take None swing None speed None -> BAD-missing
+  let      song  134.58 take None swing None speed None -> BAD-missing
+  it       song  134.88 take None swing None speed None -> BAD-missing
+  go       song  135.02 take None swing None speed None -> BAD-missing
+  Easy     song  135.02 take 4.46 swing 2.38 speed 13.8 -> WARPABLE
+  now      song  135.12 take 5.84 swing 3.66 speed 2.818 -> WARPABLE
+  easy     song  135.34 take 6.46 swing 4.06 speed None -> WARPABLE
+  now      song  135.68 take 6.46 swing 3.72 speed 1.579 -> WARPABLE
+  We're    song  136.14 take None swing None speed None -> BAD-missing
+  good     song  136.54 take None swing None speed None -> BAD-missing
+  where    song  136.54 take None swing None speed None -> BAD-missing
+  we       song  136.68 take None swing None speed None -> BAD-missing
+  are      song  136.98 take None swing None speed None -> BAD-missing
+  Easy     song   137.3 take None swing None speed None -> BAD-missing
+  now      song  137.64 take None swing None speed None -> BAD-missing
+  easy     song   138.1 take None swing None speed None -> BAD-missing
+  now      song  138.84 take None swing None speed None -> BAD-missing
+  Just     song  138.84 take None swing None speed None -> BAD-missing
+  two      song  139.08 take None swing None speed None -> BAD-missing
+  small    song  139.08 take None swing None speed None -> BAD-missing
+  sparks   song  139.08 take None swing None speed None -> BAD-missing
+  I'm      song  140.48 take None swing None speed None -> BAD-missing
+OK s17_t1
+=== RUN s19b_t1 (mv5_s19b_t1.mp4 window 152.36-155.72) 09:40:34
+wrote work/swing/runs/s19b_t1.json
+summary: {'WARPABLE': 10, 'GOOD': 2, 'BAD-missing': 1} | line ratio: 0.808
+  still    song  152.36 take 0.0 swing 0.0 speed None -> WARPABLE
+  move     song  152.56 take 0.0 swing -0.2 speed 1.2 -> GOOD
+  with     song  152.76 take 0.24 swing -0.16 speed 1.643 -> WARPABLE
+  it       song  153.04 take 0.7 swing 0.02 speed 1.211 -> GOOD
+  Hand     song  153.42 take 1.16 swing 0.1 speed 3.625 -> WARPABLE
+  in       song  153.58 take 1.74 swing 0.52 speed 1.182 -> WARPABLE
+  my       song   153.8 take 2.0 swing 0.56 speed 1.3 -> WARPABLE
+  hand     song   154.0 take 2.26 swing 0.62 speed 3.222 -> WARPABLE
+  No       song  154.18 take 2.84 swing 1.02 speed 0.917 -> WARPABLE
+  speech   song  154.42 take 3.06 swing 1.0 speed 0.95 -> WARPABLE
+  no       song  154.82 take 3.44 swing 0.98 speed 1.385 -> WARPABLE
+  show     song  155.08 take 3.8 swing 1.08 speed 1.059 -> WARPABLE
+  Heart    song  155.42 take None swing None speed None -> BAD-missing
+OK s19b_t1
+=== RUN s20_t1 (mv5_s20_t1.mp4 window 155.72-158.06) 09:40:45
+wrote work/swing/runs/s20_t1.json
+summary: {'WARPABLE': 3, 'BAD-missing': 5} | line ratio: 1.169
+  in       song  155.72 take 0.88 swing 0.0 speed 1.444 -> WARPABLE
+  the      song  156.08 take 1.4 swing 0.16 speed 1.444 -> WARPABLE
+  breeze   song  156.26 take 1.66 swing 0.24 speed 6.286 -> WARPABLE
+  And      song   156.4 take None swing None speed None -> BAD-missing
+  the      song   156.7 take None swing None speed None -> BAD-missing
+  bass     song   157.0 take None swing None speed None -> BAD-missing
+  move     song  157.18 take None swing None speed None -> BAD-missing
+  slow     song  157.38 take None swing None speed None -> BAD-missing
+OK s20_t1
+=== RUN s23_t1 (mv5_s23_t1.mp4 window 169.16-176.04) 09:40:57
+wrote work/swing/runs/s23_t1.json
+summary: {'WARPABLE': 8, 'BAD-out-of-caps': 1, 'BAD-missing': 16} | line ratio: 0.883
+  Easy     song  169.16 take 0.0 swing 0.0 speed 2.545 -> WARPABLE
+  now      song  169.38 take 0.56 swing 0.34 speed 0.24 -> BAD-out-of-caps
+  easy     song   169.4 take None swing None speed None -> BAD-missing
+  now      song  169.76 take None swing None speed None -> BAD-missing
+  We       song  169.94 take None swing None speed None -> BAD-missing
+  ride     song   170.0 take None swing None speed None -> BAD-missing
+  we       song  170.18 take None swing None speed None -> BAD-missing
+  ride     song  170.58 take None swing None speed None -> BAD-missing
+  Easy     song  171.16 take None swing None speed None -> BAD-missing
+  now      song  171.44 take None swing None speed None -> BAD-missing
+  easy     song  171.78 take None swing None speed None -> BAD-missing
+  now      song  171.98 take None swing None speed None -> BAD-missing
+  With     song   172.4 take None swing None speed None -> BAD-missing
+  you      song  172.56 take None swing None speed None -> BAD-missing
+  by       song  172.58 take None swing None speed None -> BAD-missing
+  my       song  172.72 take None swing None speed None -> BAD-missing
+  side     song  172.98 take None swing None speed None -> BAD-missing
+  Easy     song   173.3 take 1.5 swing -2.64 speed 1.5 -> WARPABLE
+  now      song  173.62 take 1.98 swing -2.48 speed 2.905 -> WARPABLE
+  easy     song  174.04 take 3.2 swing -1.68 speed 2.778 -> WARPABLE
+  now      song  174.22 take 3.7 swing -1.36 speed 4.85 -> WARPABLE
+  No       song  174.62 take 5.64 swing 0.18 speed 3.125 -> WARPABLE
+  need     song  174.78 take 6.14 swing 0.52 speed 3.143 -> WARPABLE
+  to       song  174.92 take 6.58 swing 0.82 speed 2.2 -> WARPABLE
+  run      song  175.12 take None swing None speed None -> BAD-missing
+OK s23_t1
+=== RUN s25_t1 (mv5_s25_t1.mp4 window 182.78-190.42) 09:41:08
+wrote work/swing/runs/s25_t1.json
+summary: {'WARPABLE': 7, 'BAD-missing': 9} | line ratio: 1.637
+  now      song  182.78 take 0.94 swing 0.0 speed 4.071 -> WARPABLE
+  easy     song  183.06 take 2.08 swing 0.86 speed 3.778 -> WARPABLE
+  now      song  183.24 take 2.76 swing 1.36 speed None -> WARPABLE
+  We're    song   183.6 take None swing None speed None -> BAD-missing
+  good     song  183.74 take None swing None speed None -> BAD-missing
+  where    song   183.8 take None swing None speed None -> BAD-missing
+  we       song  183.96 take None swing None speed None -> BAD-missing
+  are      song   184.1 take None swing None speed None -> BAD-missing
+  Easy     song  184.68 take 0.0 swing -2.84 speed 2.294 -> WARPABLE
+  now      song  185.02 take 0.78 swing -2.4 speed 2.074 -> WARPABLE
+  easy     song  185.56 take 1.9 swing -1.82 speed 1.563 -> WARPABLE
+  now      song  185.88 take 2.4 swing -1.64 speed 4.0 -> WARPABLE
+  Just     song  186.34 take None swing None speed None -> BAD-missing
+  two      song  186.34 take None swing None speed None -> BAD-missing
+  small    song  186.46 take None swing None speed None -> BAD-missing
+  sparks   song  186.46 take None swing None speed None -> BAD-missing
+OK s25_t1
+=== RUN s27_t1 (mv5_s27_t1.mp4 window 197.58-203.42) 09:41:48
+wrote work/swing/runs/s27_t1.json
+summary: {'WARPABLE': 3, 'BAD-out-of-caps': 1} | line ratio: 1.237
+  Easy     song  197.58 take 0.0 swing 0.0 speed 1.5 -> WARPABLE
+  now      song   198.1 take 0.78 swing 0.26 speed 1.796 -> WARPABLE
+  easy     song  199.18 take 2.72 swing 1.12 speed 0.408 -> BAD-out-of-caps
+  now      song  202.66 take 4.14 swing -0.94 speed 0.763 -> WARPABLE
+OK s27_t1
+ALL DONE 09:42:01

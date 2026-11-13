@@ -1,0 +1,30 @@
+/home/hatch/workspace/wubuwizard-cpu-sep/mdx_onnx_cpu.py:76: UserWarning: NOLA condition failed, STFT may not be invertible. Possibly due to missing boundary
+  _, x = istft(z, fs=44100, window=WINDOW, nperseg=N_FFT,
+mix: 9.00s, peak 0.6976
+model loaded in 3.5s; input ['batch_size', 4, 3072, 256]
+  chunk 3/3  131.4s
+demix done: 131.4s wall for 9.0s of audio (14.60x realtime)
+wrote stems/l26_vocals.wav
+/home/hatch/workspace/wubuwizard-cpu-sep/mdx_onnx_cpu.py:76: UserWarning: NOLA condition failed, STFT may not be invertible. Possibly due to missing boundary
+  _, x = istft(z, fs=44100, window=WINDOW, nperseg=N_FFT,
+mix: 21.00s, peak 0.8683
+model loaded in 2.2s; input ['batch_size', 4, 3072, 256]
+  chunk 5/6  220.8s
+  chunk 6/6  269.7s
+demix done: 270.1s wall for 21.0s of audio (12.86x realtime)
+wrote stems/l27_vocals.wav
+/home/hatch/workspace/wubuwizard-cpu-sep/mdx_onnx_cpu.py:76: UserWarning: NOLA condition failed, STFT may not be invertible. Possibly due to missing boundary
+  _, x = istft(z, fs=44100, window=WINDOW, nperseg=N_FFT,
+mix: 30.00s, peak 0.8998
+model loaded in 3.7s; input ['batch_size', 4, 3072, 256]
+  chunk 5/8  235.3s
+  chunk 8/8  400.9s
+demix done: 401.1s wall for 30.0s of audio (13.37x realtime)
+wrote stems/l34_vocals.wav
+/home/hatch/workspace/wubuwizard-cpu-sep/mdx_onnx_cpu.py:76: UserWarning: NOLA condition failed, STFT may not be invertible. Possibly due to missing boundary
+  _, x = istft(z, fs=44100, window=WINDOW, nperseg=N_FFT,
+mix: 16.00s, peak 0.9196
+model loaded in 3.1s; input ['batch_size', 4, 3072, 256]
+  chunk 4/4  186.6s
+demix done: 186.7s wall for 16.0s of audio (11.67x realtime)
+wrote stems/l38_vocals.wav

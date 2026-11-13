@@ -1,0 +1,74 @@
+grid 0 ['I1a', 'I1b', 'I1c', 'I1d', 'I2a', 'I2b', 'I2c', 'V1.1']
+grid 1 ['V1.4', 'V1.5', 'V1.6', 'PC1.1', 'PC1.2', 'PC1.3', 'PC1.4', 'C1.1']
+grid 2 ['C1.2', 'C1.3', 'C1.4', 'C1.5', 'C1.6', 'C1.7', 'C1.8', 'C1.Ta']
+grid 3 ['C1.Tc', 'C1.Td', 'V2.1', 'V2.2', 'V2.3', 'V2.4', 'V2.5', 'V2.6']
+grid 4 ['PC2.1', 'PC2.3', 'PC2.4', 'C2.1', 'C2.2', 'C2.3', 'C2.4', 'C2.5']
+grid 5 ['C2.6', 'C2.7', 'C2.8', 'B.6', 'FC.3', 'FC.4', 'FC.5', 'FC.6']
+grid 6 ['FC.7', 'FC.8', 'FC.9', 'FC.10', 'FC.Ta', 'FC.Tb', 'FC.Tc', 'FC.Td']
+I1a KEEP U01t2 lag= 0.0 ev= 0.0 err= 
+I1b KEEP U01t2 lag= -0.042 ev= 3.4583333333333335 err= 
+I1c RESCUE U02 lag= 0.0 ev= 0.0 err= 
+I1d RESCUE U02 lag= -0.048 ev= 2.2916666666666665 err= 
+I2a KEEP U03 lag= 0.0 ev= 0.0 err= 
+I2b KEEP U03 lag= -0.037 ev= 2.5833333333333335 err= 
+I2c KEEP U04 lag= 0.0 ev= 0.0 err= 
+V1.1 COND R05A lag= 0.0 ev= 0.0 err= 
+V1.2 STRUCT R05B lag= None ev= None err= 
+V1.3 STRUCT R06A lag= None ev= None err= 
+V1.4 RESCUE R06B lag= 0.0 ev= 0.0 err= 
+V1.5 KEEP U07 lag= 0.0 ev= 0.0 err= 
+V1.6 KEEP U07 lag= -0.07 ev= 2.75 err= 
+PC1.1 RESCUE R08A lag= 0.0 ev= 0.0 err= 
+PC1.2 RESCUE R08B lag= 0.0 ev= 0.0 err= 
+PC1.3 KEEP U09 lag= 0.0 ev= 0.0 err= 
+PC1.4 KEEP U10 lag= 0.0 ev= 0.0 err= 
+C1.1 KEEP U11 lag= 0.292 ev= 0.2916666666666667 err= 
+C1.2 KEEP U11 lag= None ev= None err= 
+C1.3 KEEP U12 lag= 0.0 ev= 0.0 err= 
+C1.4 KEEP U12 lag= -0.068 ev= 3.2916666666666665 err= 
+C1.5 KEEP R13A lag= 0.0 ev= 0.0 err= 
+C1.6 KEEP R13B lag= 0.0 ev= 0.0 err= 
+C1.7 RESCUE R14 lag= 0.792 ev= 0.7916666666666666 err= 
+C1.8 KEEP R15 lag= 0.0 ev= 0.0 err= 
+C1.Ta COND R16A lag= 0.875 ev= 0.875 err= 
+C1.Tb STRUCT R16B lag= None ev= None err= 
+C1.Tc KEEP R17A lag= 0.0 ev= 0.0 err= 
+C1.Td KEEP R17B lag= -0.07 ev= 2.25 err= 
+V2.1 KEEP R18A lag= 0.167 ev= 0.16666666666666666 err= 
+V2.2 RESCUE R18B lag= 0.25 ev= 0.25 err= 
+V2.3 KEEP U19t2 lag= 0.0 ev= 0.0 err= 
+V2.4 KEEP U19t2 lag= -0.052 ev= 2.7083333333333335 err= 
+V2.5 RESCUE R20A lag= 0.375 ev= 0.375 err= 
+V2.6 RESCUE R20B lag= 0.0 ev= 0.0 err= 
+PC2.1 RESCUE R21A lag= 0.917 ev= 0.9166666666666666 err= 
+PC2.2 STRUCT R21B lag= None ev= None err= 
+PC2.3 KEEP R22 lag= 0.375 ev= 0.375 err= 
+PC2.4 KEEP U23 lag= 0.292 ev= 0.2916666666666667 err= 
+C2.1 KEEP U24t2 lag= 0.292 ev= 0.2916666666666667 err= 
+C2.2 KEEP U24t2 lag= -0.05 ev= 2.75 err= 
+C2.3 KEEP U25 lag= 0.292 ev= 0.2916666666666667 err= 
+C2.4 KEEP U25 lag= -0.033 ev= 3.6666666666666665 err= 
+C2.5 KEEP U26 lag= 0.125 ev= 0.125 err= 
+C2.6 KEEP U26 lag= 0.458 ev= 2.9583333333333335 err= 
+C2.7 KEEP U27 lag= 0.708 ev= 0.7083333333333334 err= 
+C2.8 KEEP U27 lag= None ev= None err= 
+B.1 MONTAGE U28 lag= None ev= None err= 
+B.2 MONTAGE U28 lag= None ev= None err= 
+B.3 MONTAGE U29 lag= None ev= None err= 
+B.4 MONTAGE U29 lag= None ev= None err= 
+B.5 MONTAGE U30 lag= None ev= None err= 
+B.6 KEEP U31 lag= 0.583 ev= 0.5833333333333334 err= 
+FC.1 STRUCT R32A lag= None ev= None err= 
+FC.2 STRUCT R32B lag= None ev= None err= 
+FC.3 KEEP U33 lag= 0.0 ev= 0.0 err= 
+FC.4 KEEP U33 lag= -0.063 ev= 3.9166666666666665 err= 
+FC.5 RESCUE R34A lag= -0.058 ev= 0.7916666666666666 err= 
+FC.6 COND R34B lag= -0.033 ev= 0.9166666666666666 err= 
+FC.7 COND R35 lag= 0.0 ev= 0.0 err= 
+FC.8 RESCUE U36 lag= 0.0 ev= 0.0 err= 
+FC.9 RESCUE U37 lag= 0.0 ev= 0.0 err= 
+FC.10 KEEP U38 lag= 0.0 ev= 0.0 err= 
+FC.Ta KEEP U39t2 lag= 0.0 ev= 0.0 err= 
+FC.Tb KEEP U39t2 lag= -0.062 ev= 2.9583333333333335 err= 
+FC.Tc KEEP U40 lag= 0.0 ev= 0.0 err= 
+FC.Td KEEP U40 lag= -0.038 ev= 3.0416666666666665 err= 

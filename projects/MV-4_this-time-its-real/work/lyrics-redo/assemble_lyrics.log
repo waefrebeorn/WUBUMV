@@ -1,0 +1,54 @@
+pieces: 49  (takes probed: 29)
+  S01          mv4_s01_t1     sf=  0 ef=240 w=0.925 out=185f
+  S02          mv4_s02_t1     sf=  0 ef=240 w=0.836 out=199f
+  S03          mv4_s03_t1     sf= 17 ef=216 w=0.930 out=176f
+  S04          mv4_s04_t1     sf=  0 ef=240 w=0.940 out=217f
+  S05          mv4_s05_t1     sf= 17 ef=240 w=0.910 out=176f
+  S06          mv4_s06_t3     sf= 42 ef=240 w=0.990 out=172f
+  S07          mv4_s07_t1     sf=  5 ef=216 w=0.900 out=176f
+  S08          mv4_s08_t1     sf= 11 ef=240 w=0.940 out=215f
+  S08-loop     mv4_s08_t1     sf=195 ef=240 w=0.940 out=42f
+  S09          mv4_s09_t1     sf=  0 ef=216 w=0.810 out=175f
+  S09-loop     mv4_s09_t1     sf=193 ef=216 w=0.810 out=18f
+  S10          mv4_s10_t1     sf=  0 ef=216 w=0.810 out=161f
+  S11          mv4_s11_t1     sf=  2 ef=173 w=1.000 out=171f
+  S11-loop     mv4_s11_t1     sf=229 ef=240 w=1.000 out=10f
+  S12          mv4_s12_t1     sf=  4 ef=240 w=1.100 out=203f
+  S13          mv4_s13_t1     sf=  0 ef=240 w=0.890 out=191f
+  S14          mv4_s14_t1     sf=  6 ef=240 w=0.820 out=167f
+  S15          mv4_s15_t1     sf=  5 ef=240 w=0.820 out=183f
+  S16          mv4_s16_t1     sf=  0 ef=240 w=0.930 out=204f
+  S17          mv4_s17_t1     sf=  0 ef=216 w=0.850 out=177f
+  S18          mv4_s18_t2     sf=  3 ef=240 w=1.070 out=161f
+  S19          mv4_s19_t1     sf=  2 ef=216 w=0.880 out=188f
+  S19-loop     mv4_s19_t1     sf=212 ef=216 w=0.880 out=3f
+  S20          mv4_s20_t1     sf=  0 ef=216 w=0.900 out=194f
+  S20-loop     mv4_s20_t1     sf=153 ef=216 w=0.900 out=56f
+  S21          mv4_s21_t1     sf=  1 ef=240 w=0.930 out=187f
+  S22          mv4_s22_t1     sf=  6 ef=216 w=0.860 out=177f
+  montage-S23  mv4_s13_t1     sf=215 ef=240 w=1.000 out=25f
+  montage-S23  mv4_s06_t3     sf=216 ef=240 w=1.000 out=24f
+  montage-S23  mv4_s14_t1     sf=210 ef=239 w=1.000 out=29f
+  montage-S23  mv4_s16_t1     sf=220 ef=238 w=1.000 out=18f
+  montage-S23  mv4_s24_t1     sf=190 ef=216 w=1.000 out=26f
+  montage-S23  mv4_s10_t1     sf=199 ef=216 w=1.000 out=17f
+  montage-S23  mv4_s07_t1     sf=201 ef=216 w=1.000 out=15f
+  montage-S23  mv4_s15_t1     sf=229 ef=240 w=1.000 out=11f
+  montage-S23  mv4_s17_t1     sf=209 ef=216 w=1.000 out=7f
+  montage-S23  mv4_s22_t1     sf=212 ef=216 w=1.000 out=4f
+  S24          mv4_s24_t1     sf=  3 ef=216 w=0.900 out=168f
+  montage-S25  mv4_s12_t1     sf=189 ef=240 w=1.000 out=51f
+  montage-S25  mv4_s26_t1     sf= 87 ef=175 w=1.000 out=88f
+  S26          mv4_s26_t1     sf=  0 ef=216 w=1.200 out=104f
+  S27          mv4_s27_t1     sf=  0 ef=240 w=1.178 out=161f
+  S28          mv4_s28_t1     sf=  0 ef=144 w=1.000 out=144f
+  S28-loop     mv4_s28_t1     sf=126 ef=144 w=1.000 out=18f
+  S29          mv4_s29_t1     sf=  1 ef=240 w=1.160 out=216f
+  S30a         mv4_s30a_t1    sf=  0 ef=192 w=1.000 out=192f
+  S30a-loop    mv4_s30a_t1    sf=184 ef=192 w=1.000 out=8f
+  S30b         mv4_s30b_t1    sf=  0 ef=216 w=1.000 out=216f
+  S30b-loop    mv4_s30b_t1    sf=195 ef=216 w=1.000 out=21f
+
+ffmpeg inputs: 49  filter chars: 6784
+
+BUILD OK -> masters/mv4_this_time_its_real_16x9_lyrics.mp4

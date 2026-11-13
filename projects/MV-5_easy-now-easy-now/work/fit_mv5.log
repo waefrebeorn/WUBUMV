@@ -1,0 +1,23 @@
+  DONOR SKIP mv5_s14_t1[73:120] mean=0.22 run=29 dup=0 (S14 structural cover)
+  DONOR SKIP mv5_s21_t3[198:240] mean=2.23 run=25 dup=0 (S14 structural cover)
+ALL SCENE TOTALS OK, total frames: 4954
+S01: pairs 16/16 median|off|=0.238 max=0.443 within0.50=16 missing=[]
+S04: pairs 22/22 median|off|=0.1 max=0.479 within0.50=22 missing=[]
+S05: pairs 16/16 median|off|=0.342 max=0.888 within0.50=10 missing=[]
+S06: pairs 14/14 median|off|=0.174 max=0.88 within0.50=10 missing=[]
+S07: pairs 20/20 median|off|=0.202 max=0.665 within0.50=19 missing=[]
+S08: pairs 7/12 median|off|=0.322 max=0.423 within0.50=7 missing=[('easy', 'L17', 58.54), ('now', 'L17', 58.84), ('Easy', 'L19', 59.9), ('now', 'L19', 61.1), ('easy', 'L23', 65.64)]
+S09: pairs 9/16 median|off|=0.197 max=0.346 within0.50=9 missing=[('now', 'L25', 67.06), ('easy', 'L25', 67.38), ('now', 'L27', 69.4), ('easy', 'L27', 69.64), ('Easy', 'L29', 71.34), ('now', 'L29', 71.44), ('easy', 'L31', 74.72)]
+S11: pairs 8/12 median|off|=0.336 max=0.43 within0.50=8 missing=[('And', 'L40', 88.94), ('the', 'L40', 89.56), ('tide', 'L40', 89.68), ('tapping', 'L40', 90.42)]
+S12: pairs 12/12 median|off|=0.268 max=1.272 within0.50=8 missing=[]
+S15: pairs 5/5 median|off|=0.897 max=1.891 within0.50=1 missing=[]
+S17: pairs 8/16 median|off|=0.29 max=0.562 within0.50=7 missing=[('Easy', 'L65', 130.44), ('now', 'L65', 130.76), ('easy', 'L67', 133.4), ('now', 'L67', 133.96), ('Easy', 'L69', 135.02), ('now', 'L69', 135.12), ('easy', 'L71', 138.1), ('now', 'L71', 138.84)]
+S19b: pairs 13/13 median|off|=0.2 max=0.571 within0.50=12 missing=[]
+S20: pairs 4/4 median|off|=0.732 max=0.788 within0.50=1 missing=[]
+S21: pairs 23/23 median|off|=0.724 max=1.368 within0.50=7 missing=[]
+S23: pairs 9/16 median|off|=0.282 max=0.775 within0.50=7 missing=[('now', 'L91', 169.38), ('easy', 'L91', 169.4), ('now', 'L93', 171.44), ('easy', 'L93', 171.78), ('now', 'L95', 173.62), ('easy', 'L95', 174.04), ('run', 'L96', 175.12)]
+S25: pairs 4/8 median|off|=0.291 max=0.333 within0.50=4 missing=[('now', 'L103', 182.78), ('easy', 'L103', 183.06), ('now', 'L105', 185.02), ('easy', 'L105', 185.56)]
+S26: pairs 4/4 median|off|=0.176 max=0.384 within0.50=4 missing=[]
+S27: pairs 4/4 median|off|=0.231 max=1.751 within0.50=3 missing=[]
+S28: pairs 4/4 median|off|=0.16 max=0.516 within0.50=3 missing=[]
+wrote work/assembly_fit_mv5.json

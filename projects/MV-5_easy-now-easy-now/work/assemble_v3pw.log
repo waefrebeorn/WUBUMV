@@ -1,0 +1,36 @@
+track.mp3 md5 OK: 0c1bcafa568547e2d4fa36e133ad3626
+banned takes absent from plan: s28_t5 / s07_t3 / s21_t7
+pieces: 249  total frames: 4954
+ffmpeg inputs: 249  filter chars: 43939
+  S07   line-pw            mv5_s07_t1     sf=  2 ef= 14 w=0.5000 out=6f
+  S07   line-pw            mv5_s07_t1     sf= 14 ef= 34 w=0.7000 out=14f
+  S07   line-pw            mv5_s07_t1     sf= 34 ef= 43 w=0.7778 out=7f
+  S07   line-pw            mv5_s07_t1     sf= 43 ef= 48 w=1.6000 out=8f
+  S07   line-pw            mv5_s07_t1     sf= 48 ef= 74 w=0.5385 out=14f
+  S07   line-pw            mv5_s07_t1     sf= 74 ef= 82 w=0.6250 out=5f
+  S07   line-pw            mv5_s07_t1     sf= 82 ef= 86 w=1.2500 out=5f
+  S07   line-pw            mv5_s07_t1     sf= 86 ef= 98 w=0.7500 out=9f
+  S07   line-pw            mv5_s07_t1     sf= 98 ef=106 w=0.8750 out=7f
+  S07   line-pw            mv5_s07_t1     sf=106 ef=122 w=0.8750 out=14f
+  S07   line-pw            mv5_s07_t2     sf=  0 ef= 12 w=0.5000 out=6f
+  S07   line-pw            mv5_s07_t2     sf= 12 ef= 30 w=0.3889 out=7f
+  S07   line-pw            mv5_s07_t2     sf= 30 ef= 42 w=0.5000 out=6f
+  S07   line-pw            mv5_s07_t2     sf= 42 ef= 50 w=0.8750 out=7f
+  S07   line-pw            mv5_s07_t2     sf= 50 ef= 61 w=0.5455 out=6f
+  S07   donor-tail         mv5_s09_t1     sf=196 ef=200 w=1.0000 out=4f
+  S07   line-pw            mv5_s07_t1     sf=180 ef=185 w=1.2000 out=6f
+  S07   line-pw            mv5_s07_t1     sf=185 ef=190 w=0.8000 out=4f
+  S07   line-pw            mv5_s07_t1     sf=190 ef=204 w=0.5714 out=8f
+  S07   line-pw            mv5_s07_t1     sf=204 ef=240 w=1.6111 out=58f
+  S07   donor-tail         mv5_s09_t1     sf=200 ef=233 w=1.0000 out=33f
+  S21   montage-L82-GIRL   mv5_s21_t12    sf= 12 ef= 37 w=1.0000 out=25f
+  S21   montage-L83-CAT    mv5_s21_t13    sf= 12 ef= 39 w=1.0000 out=27f
+  S21   montage-L84-GIRL   mv5_s21_t16    sf= 12 ef= 39 w=1.0000 out=27f
+  S21   montage-L85-CAT    mv5_s21_t13    sf= 82 ef=108 w=1.0000 out=26f
+  S21   montage-L86-GIRL   mv5_s21_t11    sf= 12 ef= 38 w=1.0000 out=26f
+  S21   montage-L87-CAT    mv5_s21_t13    sf= 36 ef= 60 w=1.0000 out=24f
+  S21   montage-L88-GIRL   mv5_s21_t15    sf=132 ef=164 w=1.0000 out=32f
+  S21   montage-L89-CAT    mv5_s21_t13    sf= 60 ef= 82 w=1.0000 out=22f
+  S21   tail               mv5_s21_t14    sf= 12 ef= 30 w=1.0000 out=18f
+
+BUILD OK -> masters/mv5_easy_now_easy_now_16x9_v3_build3_staging.mp4

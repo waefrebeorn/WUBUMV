@@ -1,0 +1,16 @@
+### mv6_s07_t1 vocal 0-9s
+SEGMENTS: 0.0-6.48 Lemon Dash, Lemon Depot, the numbers get big, jetpack on, fly up high, do a little jig, | 6.98-8.92 rebirth when the buttons cost too much.
+frames=240 window 0.0-9.0s: mean_diff=3.089 min=0.115 longest_near_dup_run(<0.5)=4 frames
+whole-clip mean_diff=3.379
+
+### mv6_s08_t1 vocal 1-9.8s
+SEGMENTS: 0.0-2.98 Joe the alien shows up, give the button a touch. | 3.34-8.88 Multiars stack, the cash comes in waves, void portal opens, evolution saves.
+frames=240 window 1.0-9.8s: mean_diff=6.411 min=0.107 longest_near_dup_run(<0.5)=12 frames
+whole-clip mean_diff=5.869
+
+### mv6_s09_t1 vocal 0.5-7s
+SEGMENTS: 0.9-8.92 From stand to space, the empire keeps growing, bacon head on the screen, the lemon still flowing.
+frames=240 window 0.5-7.0s: mean_diff=3.641 min=1.962 longest_near_dup_run(<0.5)=0 frames
+whole-clip mean_diff=3.457
+
+BATCH DONE

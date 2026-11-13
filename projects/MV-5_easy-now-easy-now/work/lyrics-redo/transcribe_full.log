@@ -1,0 +1,6 @@
+17:52:08 decoding track.mp3 -> mono 16k numpy
+17:52:10 audio: 206.40s, 3302400 samples
+17:52:11 loading large-v3-turbo int8 (cpu_threads=2)
+17:52:56 transcribing full clip (no VAD, word timestamps)
+18:04:46 done: 101 segments, 454 words in 758s
+18:04:46 wrote /home/hatch/workspace/wubutv-network/musicvideo/MV-5_easy-now-easy-now/work/lyrics-redo/words_full_v3turbo.json

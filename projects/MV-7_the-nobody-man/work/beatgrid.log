@@ -1,0 +1,21 @@
+{
+ "duration_s": 187.2,
+ "tempo_witnesses_bpm": {
+  "median_interbeat_interval": 103.36,
+  "beat_track_global": 103.36,
+  "onset_autocorrelation": 68.0
+ },
+ "tempo_bpm_primary": 103.36,
+ "beat_interval_s_median": 0.5805,
+ "beat_interval_s_iqr": [
+  0.5805,
+  0.6037
+ ],
+ "n_beats": 292,
+ "downbeat_phase_index": 3,
+ "downbeat_confidence_margin": 0.126,
+ "n_accents": 1134,
+ "n_strong_accents": 313
+}
+first beats: [0.836, 1.416, 2.02, 2.601, 3.204, 3.785]
+first downbeats: [2.601, 4.969, 7.314, 9.66, 12.028, 14.396]

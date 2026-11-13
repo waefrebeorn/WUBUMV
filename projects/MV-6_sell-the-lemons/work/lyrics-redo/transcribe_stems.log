@@ -1,0 +1,48 @@
+model loaded
+[head] seg 2.74-4.86: Bacon head on the stand.
+[head] seg 7.52-8.34: Sell the lemons.
+[head] seg 10.00-11.46: Sell the lemon.
+[head] seg 16.10-17.30: Sell the
+[head] seg 17.30-17.88: lemons.
+[head] seg 19.84-21.56: I spawn in
+[head] seg 21.56-22.98: with the default hair.
+[head] seg 23.24-25.52: Bacon head, simple smile, no care.
+[head] seg 25.96-27.36: Start with the stand one
+[head] seg 27.36-28.90: lemon at a time.
+[head] seg 28.90-29.98: Click the button!
+[head] words: 39 segments: 11 -> /home/hatch/workspace/wubutv-network/musicvideo/MV-6_sell-the-lemons/work/lyrics-redo/song_words_head_stem.json
+[c1tail] seg 59.00-63.60: Settle the lemons, bacon head, settle the lemons
+[c1tail] seg 65.42-69.12: NERGA GONNA SELL THE LEMONS
+[c1tail] seg 69.12-70.14: Never gonna stop.
+[c1tail] seg 70.34-71.16: Stop.
+[c1tail] seg 72.16-72.50: Stop.
+[c1tail] seg 73.10-73.56: Lemon.
+[c1tail] words: 19 segments: 6 -> /home/hatch/workspace/wubutv-network/musicvideo/MV-6_sell-the-lemons/work/lyrics-redo/song_words_c1tail_stem.json
+[bridge] seg 130.00-133.02: My bacon head dancing while the numbers go hot.
+[bridge] seg 133.24-134.00: Sell the lemons.
+[bridge] seg 134.44-135.66: Sell the Lemons.
+[bridge] seg 135.92-137.58: Sell the Levens.
+[bridge] seg 137.72-138.76: Sell the Levins.
+[bridge] seg 138.90-140.98: Sell the Levels.
+[bridge] seg 140.98-142.44: Sell the Lewins.
+[bridge] seg 142.50-143.22: Sell the Lebens.
+[bridge] words: 30 segments: 8 -> /home/hatch/workspace/wubutv-network/musicvideo/MV-6_sell-the-lemons/work/lyrics-redo/song_words_bridge_stem.json
+[fc] seg 179.76-182.64: Sell the lemons, sell the lemons.
+[fc] seg 182.78-184.04: Click, upgrade, sell.
+[fc] seg 184.22-185.48: Don't stop the play.
+[fc] seg 187.96-188.82: Sell the lemon.
+[fc] seg 189.48-190.42: Sell the lemons.
+[fc] seg 191.14-191.74: Make your name.
+[fc] seg 192.70-194.54: Sell the Lemons.
+[fc] seg 194.90-198.02: Never gonna stop.
+[fc] seg 199.96-201.44: Sell the limits.
+[fc] seg 203.10-204.54: Sell the elements.
+[fc] seg 212.44-213.84: Sell the lemons.
+[fc] words: 37 segments: 11 -> /home/hatch/workspace/wubutv-network/musicvideo/MV-6_sell-the-lemons/work/lyrics-redo/song_words_fc_stem.json
+[outro] seg 215.38-216.84: Make a head.
+[outro] seg 218.56-220.18: Sell the lemons.
+[outro] seg 222.06-223.14: Sell the lemon.
+[outro] seg 224.60-225.98: Sell the
+[outro] seg 225.98-226.46: lemons.
+[outro] words: 12 segments: 5 -> /home/hatch/workspace/wubutv-network/musicvideo/MV-6_sell-the-lemons/work/lyrics-redo/song_words_outro_stem.json
+ALL STEMS DONE

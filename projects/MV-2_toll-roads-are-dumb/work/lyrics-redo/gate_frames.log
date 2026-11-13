@@ -1,0 +1,14 @@
+lyrics L01_intro @4.44s -> lyrics_L01_intro.png 417069B md5 05a3caaf
+lyrics L03_widest @20.04s -> lyrics_L03_widest.png 502389B md5 c1dc0b3b
+lyrics L14_weaving_fix @72.12s -> lyrics_L14_weaving_fix.png 494243B md5 52d02f8b
+lyrics L17_mergers @92.7s -> lyrics_L17_mergers.png 424169B md5 90b065a9
+lyrics L34_gonna @175.34s -> lyrics_L34_gonna.png 526879B md5 4fa6aeb5
+lyrics L35_interp_toll @184.38s -> lyrics_L35_interp_toll.png 496898B md5 fca5a451
+lyrics L41_parenthetical @222.58s -> lyrics_L41_parenthetical.png 517625B md5 e9470c14
+lyrics L42_block @226.5s -> lyrics_L42_block.png 476126B md5 1f02c985
+lyrics L48_outro @258.14s -> lyrics_L48_outro.png 458271B md5 ccef2216
+regression reg_2s @2.0s: full-frame mean|diff| 0.000, top-half 0.000 (expect <1.0, encoder noise only)
+regression reg_265s @265.0s: full-frame mean|diff| 0.687, top-half 0.589 (expect <1.0, encoder noise only)
+regression captioned-time 72.12s top-half mean|diff| 0.781
+regression captioned-time 72.12s bottom-band mean|diff| 8.511 (captions live here)
+frames in /home/hatch/workspace/wubutv-network/musicvideo/MV-2_toll-roads-are-dumb/work/lyrics-redo/gate

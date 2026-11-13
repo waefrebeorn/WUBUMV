@@ -1,0 +1,38 @@
+== (a) audio identity vs track.mp3 ==
+master audio: 3302400 samples (206.40s); track: 3302400 samples (206.40s)
+best lag: 0 samples (0.0000s), correlation 0.9986
+AUDIO IDENTITY GATE: PASS
+== (b) motion audit (160x90, native 24fps) ==
+decoded 4954 frames (expect 4954)
+overall mean diff=6.003
+longest near-dup (<0.5) run=39f at frames 0-39 (0.00-1.62s)
+  S01: mean 0.459  vocal_mean 0.518  vocal_longest_neardup 9  frames 0-241
+  S02: mean 14.465  vocal_mean nan  vocal_longest_neardup None  frames 241-447
+  S03: mean 0.925  vocal_mean nan  vocal_longest_neardup None  frames 447-528
+  S04: mean 8.326  vocal_mean 8.173  vocal_longest_neardup 1  frames 528-756
+  S05: mean 2.568  vocal_mean 1.415  vocal_longest_neardup 5  frames 756-971
+  S06: mean 1.371  vocal_mean 1.013  vocal_longest_neardup 7  frames 971-1146
+  S07: mean 2.266  vocal_mean 0.863  vocal_longest_neardup 18  frames 1146-1380
+  S08: mean 4.099  vocal_mean nan  vocal_longest_neardup None  frames 1380-1609
+  S09: mean 7.851  vocal_mean nan  vocal_longest_neardup None  frames 1609-1843
+  S10: mean 18.652  vocal_mean nan  vocal_longest_neardup None  frames 1843-2044
+  S11: mean 9.511  vocal_mean nan  vocal_longest_neardup None  frames 2044-2251
+  S12: mean 6.302  vocal_mean 5.026  vocal_longest_neardup 1  frames 2251-2458
+  S13: mean 6.505  vocal_mean nan  vocal_longest_neardup None  frames 2458-2686
+  S14: mean 3.444  vocal_mean nan  vocal_longest_neardup None  frames 2686-2784
+  S15: mean 1.816  vocal_mean nan  vocal_longest_neardup None  frames 2784-2911
+  S16: mean 2.946  vocal_mean nan  vocal_longest_neardup None  frames 2911-3139
+  S17: mean 4.445  vocal_mean nan  vocal_longest_neardup None  frames 3139-3372
+  S18: mean 12.399  vocal_mean nan  vocal_longest_neardup None  frames 3372-3569
+  S19a: mean 1.600  vocal_mean nan  vocal_longest_neardup None  frames 3569-3657
+  S19b: mean 0.812  vocal_mean nan  vocal_longest_neardup None  frames 3657-3737
+  S20: mean 5.087  vocal_mean nan  vocal_longest_neardup None  frames 3737-3793
+  S21: mean 11.995  vocal_mean 10.522  vocal_longest_neardup 2  frames 3793-4020
+  S22: mean 2.341  vocal_mean nan  vocal_longest_neardup None  frames 4020-4060
+  S23: mean 2.395  vocal_mean nan  vocal_longest_neardup None  frames 4060-4225
+  S24: mean 1.600  vocal_mean nan  vocal_longest_neardup None  frames 4225-4387
+  S25: mean 2.413  vocal_mean nan  vocal_longest_neardup None  frames 4387-4570
+  S26: mean 4.969  vocal_mean nan  vocal_longest_neardup None  frames 4570-4742
+  S27: mean 3.062  vocal_mean 1.981  vocal_longest_neardup 9  frames 4742-4882
+  S28: mean 2.021  vocal_mean nan  vocal_longest_neardup None  frames 4882-4954
+== (c) placement spot-checks (160x90 gray mean|diff|) ==

@@ -1,0 +1,121 @@
+old 53 lines -> new 48 lines; matched 46, dropped old 7, added new 2
+words changed 29, added 21, dropped 8; shifts measured 345, median |shift| 0.14s, max 1.47s, >0.5s: 11
+
+old# 1 -> L01 [CHANGED] med-shift 0.12 max 0.12
+    OLD: Yeah.
+    NEW: Yeah… listen here, baby.
+    added: ['listen', 'here,', 'baby.']
+old# 3 -> L02 [same-words] med-shift 0.14 max 1.46
+old# 4 -> L03 [CHANGED] med-shift 0.12 max 0.16
+    OLD: They build the toll roads, baby, make your pay. the roll
+    NEW: They build the toll roads, baby, make you pay to roll,
+    changed: [('your', 'you'), ('the', 'to')]
+old# 5 -> L04 [same-words] med-shift 0.11 max 0.2
+old# 6 -> L05 [CHANGED] med-shift 0.14 max 0.2
+    OLD: Cars slam the brakes, the back -ends crash and smash.
+    NEW: Cars slam the brakes, the back ends crash and smash,
+    changed: [('-ends', 'ends')]
+old# 7 -> L06 [same-words] med-shift 0.13 max 0.21
+old# 8 -> L07 [CHANGED] med-shift 0.12 max 0.21
+    OLD: Now they got the fast lanes, the rich ones fly on by
+    NEW: Now they got the fast lanes, the rich ones fly on by,
+    changed: [('fast lanes,', None), (None, 'fast'), (None, 'lanes,')]
+old# 9 -> L08 [same-words] med-shift 0.13 max 0.24
+old#10 -> L09 [CHANGED] med-shift 0.14 max 0.26
+    OLD: weaving weave out the speeds, don't match it all.
+    NEW: Weave in, weave out, the speeds don't match at all,
+    changed: [('weaving', None), (None, 'Weave'), (None, 'in,'), ('it', 'at')]
+old#11 -> L10 [same-words] med-shift 0.14 max 0.28
+old#12 -> L11 [same-words] med-shift 0.14 max 0.47
+old#13 -> L12 [CHANGED] med-shift 0.17 max 0.44
+    OLD: Fast lanes make crashes,
+    NEW: Fast lanes make crashes, the wrecks just come.
+    added: ['the', 'wrecks', 'just', 'come.']
+old#15 -> L13 [CHANGED] med-shift 0.12 max 0.24
+    OLD: Pay to go faster to the rest of us slow.
+    NEW: Pay to go faster, the rest of us slow,
+    dropped: ['to']
+old#16 -> L14 [CHANGED] med-shift 0.16 max 0.39
+    OLD: We've been slamming the danger roads.
+    NEW: Weaving and slamming, the danger grows.
+    changed: [("We've", 'Weaving'), ("We've", 'and'), ('been', 'Weaving'), ('been', 'and'), ('roads.', 'grows.')]
+old#17 -> L15 [same-words] med-shift 0.12 max 0.34
+old#18 -> L16 [same-words] med-shift 0.18 max 0.3
+old#19 -> L17 [CHANGED] med-shift 0.14 max 1.47
+    OLD: Express lanes look clean, but the merges get hot.
+    NEW: Express lanes look clean, but the mergers get hot,
+    changed: [('merges', 'mergers')]
+old#20 -> L18 [same-words] med-shift 0.14 max 0.51
+old#21 -> L19 [same-words] med-shift 0.14 max 0.25
+old#22 -> L20 [same-words] med-shift 0.17 max 0.33
+old#23 -> L21 [same-words] med-shift 0.17 max 0.35
+old#24 -> L22 [same-words] med-shift 0.14 max 0.24
+old#25 -> L23 [CHANGED] med-shift 0.13 max 0.42
+    OLD: Stop and go plazas used to kill and electronic helps a bit.
+    NEW: Stop and go plazas used to kill, electronic helps a bit,
+    dropped: ['and']
+old#26 -> L24 [same-words] med-shift 0.12 max 0.37
+old#27 -> L25 [same-words] med-shift 0.21 max 0.98
+old#28 -> L26 [same-words] med-shift 0.12 max 0.78
+old#29 -> L27 [CHANGED] med-shift 0.1 max 0.83
+    OLD: Pay to go faster to the rest of us slow.
+    NEW: Pay to go faster, the rest of us slow,
+    dropped: ['to']
+old#30 -> L28 [CHANGED] med-shift 0.33 max 0.33
+    OLD: We've been slamming the danger roads.
+    NEW: Weaving and slamming, the danger grows.
+    changed: [("We've", 'Weaving'), ("We've", 'and'), ('been', 'Weaving'), ('been', 'and'), ('roads.', 'grows.')]
+old#31 -> L29 [same-words] med-shift 0.12 max 0.3
+old#32 -> L30 [same-words] med-shift 0.16 max 0.41
+old#33 -> L31 [CHANGED] med-shift 0.11 max 0.24
+    OLD: They sell your speed for $1 and a dime,
+    NEW: They sell you speed for a dollar and a dime,
+    changed: [('$1', None), (None, 'a'), (None, 'dollar')]
+old#34 -> L32 [same-words] med-shift 0.15 max 0.22
+old#35 -> L33 [same-words] med-shift 0.07 max 0.15
+old#36 -> L34 [same-words] med-shift 0.17 max 0.25
+old#37 -> L35 [CHANGED] med-shift 0.12 max 1.47
+    OLD: Toll roads are dumb, toll roads are dumb,
+    NEW: Oh, toll roads are dumb… yeah, toll roads are dumb…
+    added: ['Oh,', 'yeah,']
+old#38 -> L36 [CHANGED] med-shift 0.12 max 0.13
+    OLD: fast lanes make crashes,
+    NEW: Fast lanes make crashes… the wrecks just come…
+    added: ['the', 'wrecks', 'just', 'come…']
+old#40 -> L37 [same-words] med-shift 0.13 max 0.13
+old#41 -> L38 [CHANGED] med-shift 0.13 max 0.13
+    OLD: fast lanes make crashes,
+    NEW: Fast lanes make crashes, the wrecks just come.
+    added: ['the', 'wrecks', 'just', 'come.']
+old#43 -> L39 [CHANGED] med-shift 0.13 max 0.75
+    OLD: Pay to go faster to the rest of us slow.
+    NEW: Pay to go faster, the rest of us slow,
+    dropped: ['to']
+old#44 -> L40 [CHANGED] med-shift 0.27 max 0.41
+    OLD: We've been slamming the danger roads.
+    NEW: Weaving and slamming, the danger grows.
+    changed: [("We've", 'Weaving'), ("We've", 'and'), ('been', 'Weaving'), ('been', 'and'), ('roads.', 'grows.')]
+old#45 -> L41 [CHANGED] med-shift 0.27 max 0.39
+    OLD: Toll roads are dumb,
+    NEW: Toll roads are dumb (toll roads are dumb),
+    added: ['(toll', 'roads', 'are', 'dumb),']
+old#49 -> L43 [same-words] med-shift 0.05 max 0.39
+old#50 -> L44 [same-words] med-shift 0.2 max 0.51
+old#51 -> L45 [same-words] med-shift 0.13 max 0.3
+old#52 -> L46 [same-words] med-shift 0.17 max 0.2
+old#53 -> L47 [CHANGED] med-shift 0.18 max 0.38
+    OLD: Toll roads are dumb.
+    NEW: Toll roads are dumb…
+    dropped: ['Toll', 'roads', 'are', 'dumb.']
+
+DROPPED old lines (no new match):
+  old#2 [7.24, 10.44]: Listen here, baby.
+  old#14 [61.59, 64.89]: the wrecks just come.
+  old#39 [190.5, 194.68]: the wrecks just come.
+  old#42 [205.07, 208.24]: The wrecks just come.
+  old#46 [224.79, 228.47]: toll roads, the fast lanes make crashes, wrecks just come.
+  old#47 [228.47, 228.97]: toll roads, the fast lanes make crashes, the wrecks just come.
+  old#48 [228.97, 230.09]: toll roads, the fast lanes make crashes, wrecks just come.
+ADDED new lines (no old match):
+  L42 [226.5, 229.9]: Fast lanes may crash it (fast lanes may crash it),
+  L48 [258.14, 260.52]: Toll roads are dumb…

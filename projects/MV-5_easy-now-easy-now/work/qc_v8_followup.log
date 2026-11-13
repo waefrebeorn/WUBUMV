@@ -1,0 +1,5 @@
+s19b window 0-1.2 unprompted: ("We'll move with it.", [("We'll", np.float64(0.0), np.float64(0.08)), ('move', np.float64(0.08), np.float64(0.3)), ('with', np.float64(0.3), np.float64(0.68)), ('it.', np.float64(0.68), np.float64(0.92))])
+s19b window 0-1.2 prompted 'we still move with it': ('We still move with it', [('We', np.float64(0.0), np.float64(0.0)), ('still', np.float64(0.0), np.float64(0.08)), ('move', np.float64(0.08), np.float64(0.24)), ('with', np.float64(0.24), np.float64(0.66)), ('it', np.float64(0.66), np.float64(0.9))])
+s21 160x90 vocal-window longest near-dup run: 24f at 0.79-1.79s, vocal mean 1.583
+s21 320x180 vocal-window longest near-dup run: 15f at 8.96-9.58s, vocal mean 1.933
+s22 frame at 3.1s extracted

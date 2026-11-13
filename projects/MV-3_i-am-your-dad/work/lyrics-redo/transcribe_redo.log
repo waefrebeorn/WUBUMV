@@ -1,0 +1,8 @@
+audio: 5677056 samples (354.8s)
+chunk 0 [0-60] done (96 words)
+chunk 1 [60-120] done (113 words)
+chunk 2 [120-180] done (108 words)
+chunk 3 [180-240] done (107 words)
+chunk 4 [240-300] done (93 words)
+chunk 5 [300-355] done (58 words)
+WROTE SONG_WORDS_v3turbo.json: 102 segments, 535 words, 8 boundary-review words

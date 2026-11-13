@@ -1,0 +1,24 @@
+mv12_kinetic_part1.ass: 221 events
+mv12_kinetic_part2.ass: 201 events
+straddling events (clamped/split): 3
+   ('0:00:56.76', '0:01:03.40', '{\\an7\\1c&H334D1E\\bord0\\shad0\\move(-476,6')
+   ('0:00:58.18', '0:00:59.18', '{\\fnNoto Sans\\i1an5\\pos(640,576)\\fscx300')
+   ('0:00:00.00', '0:01:54.22', '{\\an3\\pos(1252,692)\\fs22\\alpha&H80&}~ Wu')
+final_concat_part1.txt: 29 files (S01, S02, S03...S29)
+final_concat_part2.txt: 28 files (S30, S31, S32...S57)
+half1 frames: 1408 (expect 1408); half2 frames: 1333 (expect 1333); total 2741 (expect 2741)
+encoding half 1 ...
+mv12_kinetic_part1.ass: 221 events
+mv12_kinetic_part2.ass: 201 events
+straddling events (clamped/split): 3
+   ('0:00:56.76', '0:01:03.40', '{\\an7\\1c&H334D1E\\bord0\\shad0\\move(-476,6')
+   ('0:00:58.18', '0:00:59.18', '{\\fnNoto Sans\\i1an5\\pos(640,576)\\fscx300')
+   ('0:00:00.00', '0:01:54.22', '{\\an3\\pos(1252,692)\\fs22\\alpha&H80&}~ Wu')
+final_concat_part1.txt: 29 files (S01, S02, S03...S29)
+final_concat_part2.txt: 28 files (S30, S31, S32...S57)
+half1 frames: 1408 (expect 1408); half2 frames: 1333 (expect 1333); total 2741 (expect 2741)
+encoding half 1 ...
+half 1: 1408f (expect 1408), 46675389 B
+encoding half 2 ...
+half 2: 1333f (expect 1333), 43372073 B
+SPLIT ENCODE OK

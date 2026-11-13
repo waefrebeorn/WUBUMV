@@ -1,0 +1,5 @@
+frames: 6432, diff samples: 6431
+overall mean diff: 3.37, min 0.00, max 133.99
+near-still runs >= 12f: 1
+  run 18f 184.96-185.67s DURING-WORDS
+MOTION PASS (no >=24f run during words)

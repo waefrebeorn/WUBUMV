@@ -1,0 +1,45 @@
+=== span intro-tail: start-chunk 2 chunks 3 ===
+mix: 206.40s (9102240 samples), sr 44100
+peak 0.8274
+mixture 9185280 samples, step 195840, chunks 47
+input slot 0, output slot 0, 173 instructions
+  chunk 5/47  892.8s (model 890.0s, stft 1.9s)
+dump done: 3 chunks written, 0 skipped (already on disk), 892.8s wall; chunks 2-4 of 47
+exit=0 span intro-tail done 18:43:37
+=== span chorus1: start-chunk 12 chunks 7 ===
+mix: 206.40s (9102240 samples), sr 44100
+peak 0.8274
+mixture 9185280 samples, step 195840, chunks 47
+input slot 0, output slot 0, 173 instructions
+  chunk 15/47  1456.5s (model 1452.3s, stft 2.4s)
+  chunk 19/47  3655.8s (model 3647.5s, stft 6.3s)
+dump done: 7 chunks written, 0 skipped (already on disk), 3655.9s wall; chunks 12-18 of 47
+exit=0 span chorus1 done 19:44:34
+=== span chorus2: start-chunk 26 chunks 7 ===
+=== span chorus2: start-chunk 26 chunks 7 (resume 20:15:19) ===
+mix: 206.40s (9102240 samples), sr 44100
+peak 0.8274
+mixture 9185280 samples, step 195840, chunks 47
+input slot 0, output slot 0, 173 instructions
+  chunk 30/47  1879.6s (model 1874.7s, stft 3.4s)
+  chunk 33/47  3290.8s (model 3283.1s, stft 5.9s)
+dump done: 6 chunks written, 1 skipped (already on disk), 3290.9s wall; chunks 26-32 of 47
+exit=0 span chorus2 done 21:10:10
+=== span final: start-chunk 37 chunks 10 (resume 21:10:10) ===
+mix: 206.40s (9102240 samples), sr 44100
+peak 0.8274
+mixture 9185280 samples, step 195840, chunks 47
+input slot 0, output slot 0, 173 instructions
+  chunk 40/47  1929.7s (model 1922.5s, stft 4.6s)
+  chunk 45/47  4552.8s (model 4542.5s, stft 7.6s)
+  chunk 47/47  5346.7s (model 5334.5s, stft 9.3s)
+dump done: 10 chunks written, 0 skipped (already on disk), 5346.7s wall; chunks 37-46 of 47
+exit=0 span final done 22:39:17
+ALL SPANS DONE 2026-11-12T22:39:17Z
+mix: 206.40s (9102240 samples), sr 44100
+peak 0.8274
+mixture 9185280 samples, step 195840, chunks 47
+input slot 0, output slot 0, 173 instructions
+  chunk 40/47  343.8s (model 342.3s, stft 0.7s)
+  chunk 41/47  486.2s (model 484.3s, stft 1.1s)
+dump done: 3 chunks written, 0 skipped (already on disk), 486.2s wall; chunks 38-40 of 47

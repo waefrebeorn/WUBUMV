@@ -102,11 +102,66 @@ Deliberately left out (text-only rule + brief scope):
   per MIGRATION.md phase-2 inventory.
 - MV project histories (MV-2..MV-14) — pipeline NOT quiet, Q10
   running on MV-5; the filtered text-only snapshot waits for Q10
-  to close + parent go-ahead. Media never moves to WUBUMV.
+  to close + parent go-ahead. (Done later the same day — Phase 2b.)
+
+## Phase 2b — DONE 2026-11-13 (this commit; MV project histories)
+
+Gate cleared: MV-5 Q10 closed 2026-11-13 ~04:45 EST (v5 delivered,
+wubutv-network commit e3c855a2). Filtered TEXT-ONLY snapshot of every
+MV project history, COPIED (originals untouched in wubutv-network)
+into `projects/<project-dir-name>/`, mirroring the source layout,
+plus the musicvideo-level shared files (`KICKSTAND.md`,
+`MONDO_INDEX.md`, `README.md`) at `projects/` root.
+**3,322 files, 20.51 MB, zero media.**
+
+| Project | Files | Size |
+|---|---|---|
+| MV-1_ON_FILE | 3 | 8 KB |
+| MV-2 toll-roads-are-dumb | 398 | 2.70 MB |
+| MV-3 i-am-your-dad | 252 | 1.49 MB |
+| MV-4 this-time-its-real | 174 | 0.99 MB |
+| MV-5 easy-now-easy-now | 437 | 4.61 MB |
+| MV-6 sell-the-lemons | 143 | 2.05 MB |
+| MV-7 the-nobody-man | 438 | 2.62 MB |
+| MV-8 wipe-and-its-still-there | 284 | 1.94 MB |
+| MV-9 gotta-hold-it | 113 | 0.36 MB |
+| MV-10 aging-tropes | 93 | 0.38 MB |
+| MV-11 water-hit-my-balls | 315 | 1.17 MB |
+| MV-12 micro-soft-lost-the-bet | 200 | 0.67 MB |
+| MV-13 movin-on-newton | 335 | 0.83 MB |
+| MV-14 clip-it | 134 | 0.67 MB |
+| shared (musicvideo level) | 3 | 19 KB |
+
+Composition: 1,322 .json (word grids, cutlists, gate results),
+965 .txt (vehicles, plans, notes), 406 .py (build/gate scripts),
+314 .md (ledgers, TAKE_HISTORY, LYRICS_REDO_NOTES, Q-notes),
+210 .log (gate logs), 52 .ass (kinetic captions), 32 *_DELIVERED.flag,
+15 .sh, 4 .csv, 2 .srt. MV-1_ON_FILE is an on-file reference project —
+its history is almost entirely media in the source, so its text
+snapshot is genuinely just 3 files; nothing was padded.
+
+Deliberately left out (hard media rule + brief scope):
+- ALL media (~24.7 GB across the projects): *.mp4/*.mov/*.wav/*.mp3,
+  *.png/*.jpg/*.webp stills and frames, masters/, takes/, stems/.
+- Image-evidence dirs: frames*/, *_frames (incl. MV-8's per-scene
+  *_motion_frames), frame_reads/, audit_frames/, verify_frames/.
+- Binaries and caches: *.pyc/__pycache__, *.so, *.bin, *.npy, *.npz.
+- Other musicvideo-level shared trees (intake/, notes/,
+  pose-library/, slopcannon-learning/, tools/, video-api-lab/,
+  visual-forms/) — outside this phase's scope;
+  detection-research/ already moved in Phase 1.
+
+Note: gate .log files are force-added past this repo's `*.log`
+gitignore — the phase brief names gate logs as history evidence, so
+they are tracked from this commit on.
 
 ## Phase 2 — INVENTORY ONLY (parent decides; nothing moved)
 
 ### MV project histories (MV-2..MV-14) — ~24.7 GB on disk, mostly media
+
+**Status: the filtered text-only snapshot below was taken in
+Phase 2b (see above) once Q10 closed. Media stayed behind, as
+recommended.**
 
 | Project | Size |
 |---|---|

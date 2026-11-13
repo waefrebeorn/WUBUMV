@@ -1,0 +1,71 @@
+clips: 55, tiled duration: 268.010s (song 268.01s, drift -0.000s)
+filler segments: 19
+  hole LEADER: [('mv2_s22_t3.mp4', 4.18, 8.62, 0.0, 4.44)]
+  hole S01->S02: [('mv2_s22_t3.mp4', 8.62, 10.0, 14.073, 15.453), ('mv2_s23_t9.mp4', 4.32, 7.817, 15.453, 18.95)]
+  hole S02->GAP-A: [('mv2_s23_t9.mp4', 7.817, 9.125, 27.952, 29.26), ('mv2_r3_t7.mp4', 3.9, 8.708, 29.26, 34.068), ('mv2_r6_t7.mp4', 5.02, 5.912, 34.068, 34.96)]
+  hole S04->S05: [('mv2_r6_t7.mp4', 5.912, 6.398, 50.354, 50.84)]
+  hole S05->S06a: [('mv2_s26_t2.mp4', 2.7, 7.429, 53.191, 57.92)]
+  hole S07->S08: [('mv2_s26_t2.mp4', 7.429, 10.0, 81.767, 84.338), ('mv2_s09_t2_warped.mp4', 4.18, 8.322, 84.338, 88.48)]
+  hole S12->S13: [('mv2_s09_t2_warped.mp4', 8.322, 9.292, 120.996, 121.966), ('mv2_s10_t6.mp4', 3.54, 4.494, 121.966, 122.92)]
+  hole S13->S14: [('mv2_s10_t6.mp4', 4.494, 8.125, 125.13, 128.76)]
+  hole S18->S19: [('mv2_s10_t6.mp4', 8.125, 8.708, 184.769, 185.353), ('mv2_r5_t3.mp4', 3.24, 4.447, 185.353, 186.56)]
+  hole R6->S21: [('mv2_r5_t3.mp4', 4.447, 6.365, 203.282, 205.2)]
+  hole S21->R8: [('mv2_r5_t3.mp4', 6.365, 7.985, 214.44, 216.06)]
+  hole S23->R11: [('mv2_r5_t3.mp4', 7.985, 10.0, 236.818, 238.833), ('mv2_r4_t2_warped.mp4', 2.52, 5.987, 238.833, 242.3)]
+wrote cutlist_working.json
+clip 000 FILLER     mv2_s22_t3.mp4               tau 4.18-8.62 f=1.0 out 0.0-4.44 N=107
+clip 001 S01        mv2_s01_t4.mp4               tau 0.0-9.999 f=1.038 out 4.44-14.0729 N=231
+clip 002 FILLER     mv2_s22_t3.mp4               tau 8.62-10.0 f=1.0 out 14.0729-15.4529 N=33
+clip 003 FILLER     mv2_s23_t9.mp4               tau 4.32-7.817 f=1.0 out 15.4529-18.9499 N=84
+clip 004 S02        mv2_s02_t4.mp4               tau 0.0-10.0014 f=1.111 out 18.9499-27.9521 N=216
+clip 005 FILLER     mv2_s23_t9.mp4               tau 7.817-9.125 f=1.0 out 27.9521-29.2601 N=31
+clip 006 FILLER     mv2_r3_t7.mp4                tau 3.9-8.708 f=1.0 out 29.2601-34.0681 N=116
+clip 007 FILLER     mv2_r6_t7.mp4                tau 5.02-5.9119 f=1.0 out 34.0681-34.96 N=21
+clip 008 GAP-A      mv2_s04_t1.mp4               tau 0.0-9.6598 f=1.47 out 34.96-41.5313 N=158
+clip 009 S04        mv2_s04_t5.mp4               tau 0.9413-10.002 f=1.027 out 41.5313-50.3537 N=211
+clip 010 FILLER     mv2_r6_t7.mp4                tau 5.9119-6.398 f=1.0 out 50.3537-50.8398 N=12
+clip 011 S05        mv2_s05_t6.mp4               tau 0.0-4.458 f=1.896 out 50.84-53.1914 N=57
+clip 012 FILLER     mv2_s26_t2.mp4               tau 2.7002-7.4288 f=1.0 out 53.1914-57.92 N=113
+clip 013 S06a       mv2_s06a_t2.mp4              tau 0.0-7.952 f=1.12 out 57.92-65.02 N=170
+clip 014 S06b       mv2_s06b_t1.mp4              tau 0.0-6.6165 f=1.029 out 65.02-71.45 N=155
+clip 015 S07        mv2_s07_t2.mp4               tau 0.7027-9.121 f=0.816 out 71.45-81.7665 N=247
+clip 016 FILLER     mv2_s26_t2.mp4               tau 7.4288-10.0 f=1.0 out 81.7665-84.3378 N=62
+clip 017 FILLER     mv2_s09_t2_warped.mp4        tau 4.18-8.3222 f=1.0 out 84.3378-88.48 N=100
+clip 018 S08        mv2_s08_t9.mp4               tau 0.0-4.8787 f=1.056 out 88.48-93.1 N=110
+clip 019 S09        mv2_s09_t2_warped.mp4        tau 0.0-4.6583 f=1.259 out 93.1-96.8 N=89
+clip 020 S10        mv2_s10_t6.mp4               tau 0.0-7.702 f=1.113 out 96.8-103.72 N=166
+clip 021 S11        mv2_s11_t2.mp4               tau 0.0-7.1252 f=0.94 out 103.72-111.3 N=182
+clip 022 S12        mv2_s12_t3.mp4               tau 0.0-9.9965 f=1.031 out 111.3-120.9959 N=233
+clip 023 FILLER     mv2_s09_t2_warped.mp4        tau 8.3222-9.292 f=1.0 out 120.9959-121.9657 N=23
+clip 024 FILLER     mv2_s10_t6.mp4               tau 3.54-4.4943 f=1.0 out 121.9657-122.92 N=23
+clip 025 S13        mv2_s13_t3.mp4               tau 0.0-5.292 f=2.395 out 122.92-125.1298 N=53
+clip 026 FILLER     mv2_s10_t6.mp4               tau 4.4943-8.1245 f=1.0 out 125.1298-128.76 N=87
+clip 027 S14        mv2_s14_t1.mp4               tau 0.0-8.5875 f=1.145 out 128.76-136.26 N=180
+clip 028 R1         mv2_r1_t3.mp4                tau 0.0-7.1788 f=0.918 out 136.26-144.08 N=188
+clip 029 R2         mv2_r2_t1.mp4                tau 0.0-5.3056 f=0.829 out 144.08-150.48 N=154
+clip 030 R3         mv2_r3_t4_warped.mp4         tau 0.0-4.075 f=1.25 out 150.48-153.74 N=78
+clip 031 R4         mv2_r4_t2_warped.mp4         tau 0.0-3.7476 f=1.041 out 153.74-157.34 N=86
+clip 032 R5         mv2_r5_t3.mp4                tau 0.0-3.2404 f=1.133 out 157.34-160.2 N=69
+clip 033 S15        mv2_s15_t2_warped.mp4        tau 0.0-4.576 f=0.8 out 160.2-165.92 N=137
+clip 034 S16        mv2_s16_t7_warped.mp4        tau 0.0-4.6065 f=1.245 out 165.92-169.62 N=89
+clip 035 S17        mv2_s17_t2_warped.mp4        tau 0.0-7.0 f=1.25 out 169.62-175.22 N=134
+clip 036 S18        mv2_s18_t1_warped.mp4        tau 3.84-11.4985 f=0.802 out 175.22-184.7693 N=229
+clip 037 FILLER     mv2_s10_t6.mp4               tau 8.1245-8.708 f=1.0 out 184.7693-185.3527 N=14
+clip 038 FILLER     mv2_r5_t3.mp4                tau 3.24-4.4473 f=1.0 out 185.3527-186.56 N=29
+clip 039 S19        mv2_s19_t2_warped.mp4        tau 0.0-6.0629 f=0.816 out 186.56-193.99 N=179
+clip 040 S20        mv2_s20_t2_warped.mp4        tau 3.4015-7.7365 f=1.25 out 193.99-197.458 N=83
+clip 041 R6         mv2_r6_t4_warped.mp4         tau 0.6775-7.958 f=1.25 out 197.458-203.2824 N=140
+clip 042 FILLER     mv2_r5_t3.mp4                tau 4.4473-6.3649 f=1.0 out 203.2824-205.2 N=46
+clip 043 S21        mv2_s21_t2.mp4               tau 0.0-9.18 f=0.994 out 205.2-214.44 N=222
+clip 044 FILLER     mv2_r5_t3.mp4                tau 6.3649-7.9849 f=1.0 out 214.44-216.06 N=38
+clip 045 R8         mv2_r8_t1.mp4                tau 0.0-6.3249 f=1.042 out 216.06-222.13 N=146
+clip 046 S22        mv2_s22_t4_warped.mp4        tau 3.022-9.494 f=0.8 out 222.13-230.22 N=194
+clip 047 S23        mv2_s23_t4_warped.mp4        tau 0.0-8.0 f=1.2125 out 230.22-236.8179 N=159
+clip 048 FILLER     mv2_r5_t3.mp4                tau 7.9849-10.0 f=1.0 out 236.8179-238.8331 N=48
+clip 049 FILLER     mv2_r4_t2_warped.mp4         tau 2.52-5.9869 f=1.0 out 238.8331-242.3 N=83
+clip 050 R11        mv2_r11_t4.mp4               tau 0.0-0.8676 f=0.923 out 242.3-243.24 N=23
+clip 051 S24        mv2_s24_t1.mp4               tau 0.0-8.3182 f=1.061 out 243.24-251.08 N=188
+clip 052 S25        mv2_s25_t2.mp4               tau 0.0-7.4881 f=1.111 out 251.08-257.82 N=162
+clip 053 S26        mv2_s26_t2.mp4               tau 0.0-2.7 f=0.906 out 257.82-260.8 N=71
+clip 054 S27-tail   mv2_s27_t2.mp4               tau 2.96-10.0 f=0.977 out 260.8-268.01 N=173
+wrote concat_viewingcut.txt with 55 clips

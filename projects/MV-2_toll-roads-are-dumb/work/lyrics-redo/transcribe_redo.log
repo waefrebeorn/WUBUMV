@@ -1,0 +1,17 @@
+audio: 4288171 samples (268.0s)
+chunk 0 [0-60] done (106 words)
+chunk 1 [60-120] done (119 words)
+chunk 2 [120-180] done (97 words)
+chunk 3 [180-240] done (33 words)
+Traceback (most recent call last):
+  File "/home/hatch/workspace/wubutv-network/musicvideo/MV-2_toll-roads-are-dumb/work/lyrics-redo/transcribe_redo.py", line 74, in <module>
+    for seg in segments:
+  File "/home/hatch/workspace/tools/lyrics-venv/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 1279, in generate_segments
+    self.add_word_timestamps(
+  File "/home/hatch/workspace/tools/lyrics-venv/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 1590, in add_word_timestamps
+    alignments = self.find_alignment(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/tools/lyrics-venv/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 1744, in find_alignment
+    jump_times = time_indices[jumps] / self.tokens_per_second
+                 ~~~~~~~~~~~~^^^^^^^
+IndexError: boolean index did not match indexed array along axis 0; size of axis is 0 but size of corresponding boolean axis is 1
