@@ -300,3 +300,66 @@ FAILED / restaged during this build:
 - S26i t1 REJECTED at QC: the floor papers carried dense printed text (G2) in a build whose printouts are blank; t2 regenerated with blank pages.
 - S30 t1 SPARE: MOTION LAW fail (51f near-dup halted head at the open) + the dance never stood up; t2 fixed both axes.
 - S19 t1 / S28 t1 SPARE: incomplete performances (phrase 2 / second ask never sung); t2s completed both.
+
+## MV-19 — "Confused NPC" (built 2026-11-14)
+
+Family: LOOP/RESET WORLD — one small apartment held all video; the
+room resets per section (hard cuts by design); tape-X spawn marks;
+the "?" is a post-layer motif only, never an in-clip event. One
+library event spent (4.1); everything else invented for the family.
+
+| Sc | Event | Note |
+|---|---|---|
+| S01 | Inv. The Turn | Mid-spin at frame 0, full turn scanning the room |
+| S02 | Inv. The Retrace | Heel-to-toe backward walk over his own entry steps |
+| S03 | Inv. The Hallway Confession | Line sung into the empty hall, hand on the frame |
+| S04 | 4.1 The Count-Off | Three giant counted steps; empty palm on "dead" |
+| S05 | Inv. The Museum Orbit | He freezes on the X; the camera orbits 180° |
+| S06 | Inv. The Stare Contest | Staring contest with his TV reflection; it blinks first |
+| S07 | Inv. The Reboot | Chin-drop power-off / snap-up reboot per "blank" |
+| S08 | Inv. The Pocket Pat-Down | Every pocket patted hunting the thought |
+| S09 | Inv. The Respawn | Hard cut: back at the doorway in the entry pose |
+| S10 | Inv. The Drift Bump | Furniture a foot off its marks; table bumps his shin |
+| S11 | Inv. The Idle Cycle | Locked 2s NPC idle loop, sung through |
+| S12 | Inv. The Replay Ghost | Translucent after-images trail a stutter-walk |
+| S13 | Inv. The Blind Snap | Blind cord snaps up, daylight floods |
+| S13B | Inv. The Self-Remote | Points the TV remote at himself; nothing happens |
+| S14 | Inv. The Held Pour + Inv. The Character Rotate | Frozen mid-pour (one wide); head-rotate at the mirror |
+| S15 | Inv. The Fridge Interview | Camera inside the fridge; face interrogates shelves |
+| S16 | Inv. The Floor Listen | Ear pressed to the floorboards for the thought |
+| S17 | Inv. The Skin Closet | Closet holds one outfit: his exact clothes |
+| S18 | Inv. The Loop Door | Door opens on the same entry view again |
+| S19 | Inv. The Shrug Statue | One big metronome shrug like an emote |
+| S19B | Inv. The Second Shrug | The same emote again, bigger, head-shake chaser |
+| S20 | Inv. The Exit Rehearsal | One foot out the door; the foot comes back in |
+| S21 | Inv. The Witness Wave | JUN waves before his face mid-reboot; no response |
+| S22 | Inv. The Sticky Note | Note written (unreadable), stuck on the fridge, sung at |
+| S23 | Inv. The Spawn Pop | Pops into existence at the doorway, mid-stride |
+| S24 | Inv. The World Corrects | Furniture slides back onto its tape marks around him |
+| S25 | Inv. The Twin Idle | He and his TV reflection idle-sway in sync |
+| S25B | Inv. The Desync | The reflection lags and stops a half-beat after him |
+| S26 | Inv. The Scan Pattern | ECU metronome eye-scan; the video's one lens-address shot |
+| S27 | Inv. The Skip Cut | Lag-jump stutters across the room, one landing per fragment |
+| S28 | Inv. The Dusk Seat | Cross-legged on the floor at dusk, sung up at the room |
+| S28B | Inv. The Empty Hands | Turns the invisible thing over in cupped hands |
+| S29 | Inv. The Wake Wave | JUN's wave ignored; she folds his cupped hands closed |
+| S30 | Inv. The Reverse Path | The entry path walked backward, landing at the doorway |
+| S31 | Inv. The Populated Room | Cut lands: three identical copies already on their marks |
+| S32 | Inv. The Idle Trio | Three copies idle in sync, then desync one by one |
+| S33 | Inv. The Chorus of Selves | Centre copy sings; blurred copies turn to him in sync |
+| S34 | Inv. The Despawn | Extra selves walk backward into their doors and vanish |
+| S35 | Inv. The Settling + Inv. The Two NPCs | Mug handover; both stand on tape X's, sync idle-sway |
+| S36 | Inv. The Acceptance | Mug clink, sync shrug; camera retreats, door closes on the pair |
+
+FAILED / restaged during this build:
+- S31's entrance staging ("The Spawn Door") failed three times —
+  cast overshoot ×2 (a fourth copy; a long-haired male figure in
+  the roommate's teal sweatshirt, a ref_flat attractor) and one
+  internal cut — restaged as The Populated Room (copies present
+  on the cut, marching in unison, t5).
+- S23 restaged twice (JUN leak; stride-then-plant) before the
+  Spawn Pop staging landed on t3. S34 t1's despawn exits were too
+  slow (motion); t2's continuous exits landed.
+- Four scenes split at QC (S13/S19/S25/S28 + B-halves) because the
+  generator compresses repeated identical lines into one sung
+  performance.
