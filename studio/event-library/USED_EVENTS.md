@@ -363,3 +363,52 @@ FAILED / restaged during this build:
 - Four scenes split at QC (S13/S19/S25/S28 + B-halves) because the
   generator compresses repeated identical lines into one sung
   performance.
+
+## MV-20 — "Laundry Life" (built 2026-11-14)
+
+Family: ROOM TRANSFORMATION OVER A WEEK — one laundry room that
+accumulates across the song; the pile grows scene to scene until it
+is the set. Everything invented for the family.
+
+| Sc | Event | Note |
+|---|---|---|
+| S01 | Inv. The Dump | Frame-0 peak: full basket dump opens the video |
+| S02 | Inv. The Snow Angel | Laundry angel swept into the pile on the floor |
+| S03 | Inv. The Raccoon Dig | Frantic dig through the pile hunting the raccoon |
+| S04 | Inv. The Victory Lap | Basket carried high around the room |
+| S05 | Inv. The Slam Load | Armfuls slammed into the machine |
+| S06 | Inv. The Endless Shirt | One shirt pulled from the pile, never ends |
+| S07 | Inv. The Mirror Shrug | Shrug sung to her own reflection |
+| S07B | Inv. The Double Take | Split half: second look at the same mirror |
+| S08 | Inv. The Accusation | Pointed line at the pile, gap covered at natural speed |
+| S09 | Inv. The Crown | Laundry crowned on her head for the hook |
+| S10 | Inv. The Runway | Strut down the cleared strip of floor |
+| S11 | Inv. The Plush Raccoon | Plush raccoon presented to camera |
+| S12 | Inv. The Spin Cycle | She spins with the machine's cycle |
+| S13 | Inv. The Statue Pile | Frozen statue pose buried in the pile |
+| S13B | Inv. The Eruption | Split half: the pile erupts upward |
+| S14 | Inv. The Raccoon Mask | Mask line at the slowest shipped warp (0.505x) |
+| S15 | Inv. The Dresser Dive | Dive across the dresser top |
+| S16 | Inv. The Wrinkle Read | A wrinkle inspected like a headline |
+| S17 | Inv. The Fold Tease | Fold started, abandoned, restarted |
+| S17B | Inv. The Toss-Back | Split half: fold + over-shoulder toss |
+| S18 | Inv. The Door Taunt | Line thrown at the closed door |
+| S18B | Inv. The Threshold Sit | Seated in the doorway, basket in lap |
+| S19 | Inv. The Pile Jump | Descent lands the mouth on the onset |
+| S20 | Inv. The Fort | A fort built from the pile, sung from inside |
+| S21 | Inv. The Basket Boat | Basket rowed across the floor |
+| S22 | Inv. The Parade | March circuit of the room with the basket |
+| S23 | Inv. The Confession Wash | Night/lamp confession; near-static take carried by conform push-in |
+| S24 | Inv. The Basket Bed | Curls onto the pile, basket as pillow |
+| S25 | Inv. The Re-Dump | Double armful hurl + basket tip |
+| S26 | Inv. The Quick-Change | Outfit swapped mid-line; repeat tail borrowed for the head gap |
+| S27 | Inv. The Raccoon Return | Basket dragged in a circle, plush on the rim; two performances at their own song positions |
+| S28 | Inv. The Final Fold Fail | The perfect fold fails on the head, hook sung seated |
+| S29 | Inv. The Truce Sit | Sits beside the pile and pats it like a pet; outro lines soft |
+| S30 | Inv. The Door Close | Camera retreats through the doorway; door closes on the room |
+
+FAILED / restaged during this build:
+- S29 t1 REJECTED at QC: 62f near-dup run inside the vocal span; t2 shipped.
+- S23 t2 SPARE: the motion-axis refire measured worse than t1 (204f vs 83f thumbnail run); t1 shipped with a conform push-in, master enumeration clean.
+- S30 G7 hand-check override: ASR's lone "Goodbye." on a wordless slot is a hallucination (closed door in frame, no person); take shipped, logged in GATE_LOG.
+- Build interrupted twice by runtime deaths (daemon restart + sqlx timeout) and finished by a recovery coordinator; zero 429s, zero generator refusals, 39 video + 2 image fires total.
