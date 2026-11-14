@@ -199,3 +199,104 @@ Source: MV15_PROGRESS.md SHIPPED EVENTS line (24 scenes; graphics-first build, b
 | S22 | 9.2 Scatter & Reform | Elements scatter and reform |
 | S23 | 2.3 The Wrong-Size Prop | Wrong-size prop gag |
 | S24 | 12.5 The Ident Event | Closing ident event; HUD terminal state "389 MUTED UNREAD" |
+
+## MV-17 — "Fridge Light Mystery" (built 2026-11-13)
+
+One world held throughout (the night kitchen, anime cel-shaded);
+investigation/stakeout family. THE CHECKER sole singer. Events are
+fridge-light behaviours and stakeout rituals — no glowing carry-object
+spine; the light itself is the actor.
+
+| Scene | Event | Note |
+|---|---|---|
+| S01 | 7.2 Blackout Snap | Door cracks by itself, light slit widens (intro) |
+| S02 | 11.5 The Door Reveal | Tiny lit kitchen world inside the fridge |
+| S03 | Inv. The Slow Open | Sung approach, door opens across the whole line |
+| S04 | 3.3 Reverse-Time Rebuild | Slam + light dies back in reverse feel |
+| S05 | 10.3 The Tableau Wakes | Steam wisp unfreezes over the floor-sit stakeout |
+| S06 | Inv. The Witnesses | Chairs arranged as an audience facing the fridge |
+| S07 | 11.3 The Number Made Real | Knocks on the door + post-layer tallies 1+2 |
+| S08 | 12.2 Type Lands | Post-layer fridge-magnet "OFF" letters drop per sung "off" |
+| S09 | Inv. The Dimming | He sings the light down, room darkens on the line |
+| S10 | Inv. The Pulsing Crack | Door-seam ECU montage, seam glow pulses (frag cover) |
+| S11 | 4.5 Dance With Your Double | Double sings in sync, ghost copy vanishes on the phrase cut |
+| S12 | 1.4 The Prop Comes Alive | Sung at the milk carton in profile (rotation subtle) |
+| S13 | 6.6 The World Rotates | Dutch tilt lands, he stays level |
+| S14 | 6.2 The Set Rebuilds | Stakeout kit (tripod/chair/notebook/mug) self-assembles |
+| S15 | Inv. The Trap | Phone on tripod, blank screen, camera address |
+| S16 | Inv. The Playback | Door opens by itself while he sleeps beside it |
+| S17 | 3.5 Gravity Flip | Jar tips mid-air inside the fridge |
+| S18 | Inv. The Spread | Room glows cycle wrong colours (intentional one-scene palette break) |
+| S19 | Inv. The Count Motif | Post-layer tallies 3+4 complete the count (see FAILED: costume snap) |
+| S20 | 1.1 The Morph Chain | Fridge ripples, object morphs across the line |
+| S21 | Inv. The Refusal | Door opens behind him, he won't turn |
+| S22 | Inv. The Evidence Wall | Hands pin blank cards + red pins, string web |
+| S23 | Inv. The Shut Slap | Hand slaps the door shut, room dies to black |
+| S24 | Inv. The Advance | Gaping door, he retreats across the kitchen |
+| S25 | 2.2 Shrink to the Desktop World | Inside-fridge wide, shelves as landscape |
+| S26 | Inv. The Drip | Giant drop forms, falls, splashes on cue |
+| S27 | Inv. The Closing Wall | Light dies around him inside the fridge (s25_t1 head cover) |
+| S28 | Inv. The Reset | Breath, shoulders, shake-out, stare-down (bridge pocket) |
+| S29 | Inv. The Doorway Stand | He stands framed inside the glowing fridge |
+| S30 | Inv. The Light Duet | Fridge brightness swells answering his phrases |
+| S31 | Inv. The Door Drum | Hands drum the door, ECU rhythm scene |
+| S32 | Inv. The Flood of Light | Widest door, arms out, kitchen washed bright (final chorus peak) |
+| S33 | Inv. The Vigil Ends | Dawn vigil, grey light through blinds |
+| S34 | Inv. The Slit Breathes | Closed-door seam glow breathes; rhymes S01 |
+
+FAILED / restaged during this build:
+- 8.2 Beat Costume Snap — FAILED twice: the generator rendered the plain-blue end-state pajama top for the WHOLE take both times (naming the end-state costume makes the model pick it throughout). Shipped S19 as the count motif instead; the plain top is a disclosed flaw in the master.
+- 5.4 The Runaway Object — generation call errored internally, file never landed; restaged as Inv. The Pulsing Crack (S10).
+- 7.2 mirror-reflection staging for S06 was REFUSED by the generator (integrity check) — never retried; restaged as Inv. The Witnesses (chairs as audience).
+- 1.4 The Prop Comes Alive shipped with the carton's rotation subtle (event reads as sung address, not full animation).
+
+## MV-18 — "What's a Sigma? ~Mom" (built 2026-11-13/14)
+
+Family: TWO-HANDER DIALOGUE CASCADE — the question escapes the couch,
+escapes the house, and comes back with family. One house throughout
+(living room / kitchen / hall / front door), photoreal live-action.
+
+| Sc | Event | Note |
+|---|---|---|
+| S01 | 5.6 The Answering World | Lamp brightens in steps on the stressed words as SON turns and offers MOM the phone |
+| S02 | Inv. The Lean-In | Wordless gap: MOM leans closer and closer; SON retreats the phone inch by inch |
+| S03 | Inv. The Glasses Drop | MOM lifts her chained glasses to her eyes and asks over them, peak on "sigma" (flag: bg SON reads younger) |
+| S04 | Inv. The Facepalm | Wordless insert (sung vehicle refused — see below); face drops into both hands, shoulders slump |
+| S05 | 10.4 The Unstoppable Walk | SON walks the hook reprise toward the kitchen, MOM follows phone-first |
+| S06 | Inv. The Screen Turn | SON rotates the phone to face MOM exactly on "screen"; glow lands on her face (1.817× warp) |
+| S07 | 2.3 The Wrong-Size Prop | Giant magnifying glass raised to the phone during the line |
+| S08 | 11.2 Idiom Acted Out | Literal backpedal across the room on "walk it back" (t2; retreat reads, heel-first detail partial) |
+| S09 | Inv. The Hunt-and-Peck | MOM two-finger types on a laptop, keystrokes on the beats; SON sings foreground |
+| S10 | 8.1 Pose-Strike Chain | Stop-hand pose → turn-and-point pose; room light shifts per strike (grade shift stronger than planned) |
+| S11 | Inv. The Diagram | Lecture from a big BLANK notebook page, taps on "meme" / "mom" / "regretting" (t2; t1 rejected — handwritten page, G2) |
+| S12 | Inv. The Pupil | MOM mimics SON's lecture gestures a half-beat late, learning it wrong |
+| S13 | Inv. The Double Ask | MOM asks twice, second louder, leaning in; SON's wince doubles |
+| S14 | 9.1 The Freeze | Wordless insert (sung vehicle refused): SON statue-frozen, MOM circles with phone, flash pops late (statue-study variant) |
+| S15 | Inv. The Tea Peace Offering | Floor-level SON sings up; MOM offers a mug of tea like nothing happened (ships couch-edge seated variant) |
+| S16 | Inv. The Broadcast | MOM asks the question into a phone call, twice; the chain reaction leaves the house |
+| S17 | 10.5 The Micro-Event | ECU "I regret it" ×2; crack = eye-twitch + breaking smile (flag: ASR hears one; repeat rides the grin) |
+| S18 | Inv. The Dog Tilt | MOM's head tilts in stages beside narrating SON, full tilt on "dog" |
+| S19 | 11.4 Weather Pun | Condensation fog blooms across the window exactly on "fog" (t2 — t1 sang phrase 1 only) |
+| S20 | 5.1 The Chain Reaction | MOM's texting thumbs fire light pulses down the hallway to the front door |
+| S21 | Inv. The Kettle Scream | Kitchen exile; kettle builds wisp → plume → screaming jet on "now" |
+| S22 | Inv. The Retreat | RESTAGED as montage cover (sung vehicle refused): door-reveal aftermath + closed-mouth reaction fragments |
+| S23 | 4.2 The Swarm | Printer spits blank pages that multiply into a couch-burying drift |
+| S24 | Inv. The Paper Trail | SON gathers the printout trail page by page, ends holding a fan of pages |
+| S25 | Inv. The Resurface | MOM pops up out of the paper drift, printout in hand, asks again (sync compromise disclosed) |
+| S26 | Inv. The Corpse Pose | Wordless insert (sung line refused): flat on his back in the papers, one arm flops on the beat (t2 — t1's pages were printed, G2 reject) |
+| S27 | Inv. The Photo Shoot | SON sits up in the drift singing; MOM circles snapping phone photos, flashes on accents |
+| S28 | 1.5 Performer Becomes Graphic | Bridge texture break: MOM flattens toward halftone across the two asks (t2 — t1 sang one ask) |
+| S29 | Inv. The Self-Muzzle | His own hand rises and covers his mouth on "talking" and holds (ships with the cover arriving at phrase-2 start) |
+| S30 | 9.4 Join-In Wave | MOM's side-step dance; SON resists, then joins for the final words (t2 — t1 MOTION LAW spare) |
+| S31 | 11.5 The Door Reveal | GATED REUSE (see plan): the dance carries them to the front door; it opens on the AUNT, phone raised |
+| S32 | 4.4 Cast Assembly | AUNT steps inside singing the question twice; the three assembled in the hall (3:2 return, centre-cropped) |
+| S33 | Inv. The Sympathy Sandwich | Wordless insert (sung line refused): SON between MOM and AUNT, eyes to ceiling, shoulder pats in sync (3:2 return, centre-cropped) |
+| S34 | Inv. The Group Hug Collapse | The hug folds SON in mid-hook; squished face, still singing |
+| S35 | Inv. The Confession | Quiet confession by the lamp straight to camera (ships as medium shot + conform push-in, not the planned ECU) |
+| S36 | Inv. The Truce | Couch two-shot rhyming S01: MOM asks gently once more; SON's thumbs-up + soft "yeah"; settled warm final frame |
+
+FAILED / restaged during this build:
+- Sung vehicles for S04, S14, S22, S26's line and S33's line were REFUSED by the generator (all carried the "die"/retreat material) — never retried in altered form; the five spans ship as wordless inserts / a montage cover, disclosed in GATE_LOG.
+- S26i t1 REJECTED at QC: the floor papers carried dense printed text (G2) in a build whose printouts are blank; t2 regenerated with blank pages.
+- S30 t1 SPARE: MOTION LAW fail (51f near-dup halted head at the open) + the dance never stood up; t2 fixed both axes.
+- S19 t1 / S28 t1 SPARE: incomplete performances (phrase 2 / second ask never sung); t2s completed both.
