@@ -412,3 +412,36 @@ FAILED / restaged during this build:
 - S23 t2 SPARE: the motion-axis refire measured worse than t1 (204f vs 83f thumbnail run); t1 shipped with a conform push-in, master enumeration clean.
 - S30 G7 hand-check override: ASR's lone "Goodbye." on a wordless slot is a hallucination (closed door in frame, no person); take shipped, logged in GATE_LOG.
 - Build interrupted twice by runtime deaths (daemon restart + sqlx timeout) and finished by a recovery coordinator; zero 429s, zero generator refusals, 39 video + 2 image fires total.
+
+## MV-21 — "Wowie Pants That Fit" (built 2026-11-15)
+Pure-visuals instrumental; ONE subject (a single pair of navy trousers) in every slot;
+no people, no singing. 97 segments cut from 17 takes; three measured vocalise hits carry
+the peak events (portal crossing f1468, fog-seam reveal f2261, homecoming entry f2912).
+
+| Slot | Event | Staging note |
+|---|---|---|
+| S01 | Inv. The Awakening | Folded trousers breathe mid-unfold on the sunlit floor and rise |
+| S02 | Inv. The First Hover | The risen trousers drift/swim around the sunlit room (resume-chained) |
+| S03 | The Gag-Transformation (study form) | Folded pile -> cuff twitch -> trousers standing at attention + tiny bow |
+| S04 | Inv. The Standing Dance | Empty trousers stand and slow-dance on a cloud floor |
+| S05 | Inv. The Linen Field Stride | Trousers glide/surf rolling linen waves |
+| S06 | Inv. The Golden Hour Hover | Hover-glide over a preppy village + tennis court |
+| S07 | Inv. The Silk River Ride | Surfing a flowing silk river, carving turns |
+| S08 | The Loophole (study form) | Dive through the trousers' own leg-ring portal into the sail world (HIT1) |
+| S09 | Inv. The Sail | Trousers billow as a sail over a pastel sea |
+| S10 | Inv. The Staircase of Light | Glide down glowing light-slab stairs over clouds |
+| S11 | The Fog Seam (study form) | Golden fog swallows the meadow; seam opens the cosmos act (HIT2) |
+| S12 | Inv. The Weave Forest | Camera inside the fabric: trousers walk between giant thread trunks |
+| S13 | Inv. The Button Moon | Fabric plain under a giant button moon with glowing holes |
+| S14 | Inv. The Pocket Cave | Glide through the pocket cave, out into dawn |
+| S15 | Inv. The Zipper Ridge | Crest a mountain ridge of giant zipper teeth at dawn |
+| S16 | Inv. The Homecoming Fold | Fog glide home; trousers fold themselves into the opening composition (HIT3) |
+| S17 | Inv. The Breath | The folded trousers breathe (inflate/settle) on the floor — loop tail, reversed to exhale into frame 0 |
+
+FAILED / restaged during this build:
+- S03 t1 shipped trimmed at 8.2s: a person's torso in a light shirt fades in above the waistband after 8.3s (G1 fail span banned).
+- S08 t1 PARTIAL: bare feet/soles in the portal span (2.3–5.5s banned); restaged as t2 (side-view ring dive + hollow-cuff language) — t2 shipped as the HIT1 peak.
+- S05 t1/t2 both PARTIAL: bare feet whenever legs work against a surface (t1 >=4.5s, t2 2.5–6.0s banned); shipped from hover + wide wave-barrel spans only. Standing lesson: leg-vs-surface contact invites feet; glide/hover/wide stagings are the safe harvest.
+- S07 mid-span (2.8–5.0s) suspect cuff shapes banned; S11 ships only its fog head (lit skip spans grew foot-forms).
+- G7-adapted hand-check overrides logged in GATE_LOG (whisper hallucinations on ambient take audio; all take audio dropped).
+- Zero 429s, zero generator refusals; 19 video + 8 image fires total.

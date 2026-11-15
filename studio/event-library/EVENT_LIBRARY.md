@@ -575,3 +575,73 @@ Payoff: touchdown, laughter, the song continues. *Energy:* High.
 Peak: it is tossed hand-to-hand / partner-to-partner in rhythm, never
 dropped. Payoff: the catch lands on the section's last beat. *Energy:*
 Mid. *Slots:* hooks, playful verses. *Repeat-risk:* Low.
+
+## Build-added events — MV-21 (2026-11-15, shipped)
+
+Invented for MV-21 "Wowie Pants That Fit" — a one-subject film (a single
+pair of trousers, nobody wearing them); proven on screen and annexed per
+WORKFLOW §4. Family affinity in brackets.
+
+**The Awakening** [1]. Start: a folded garment already breathing
+mid-unfold at frame 0. Peak: it rises off the floor like a slow animal
+waking. Payoff: the object is alive for the rest of the film. *Energy:*
+Low-Mid. *Slots:* intros, loop heads. *Repeat-risk:* Low.
+
+**The Standing Dance** [3/10]. Start: an empty garment stands upright on
+its own. Peak: it takes soft floating steps — walking as a slow dance.
+Payoff: the thesis image (comfy even while standing) holds. *Energy:*
+Mid. *Slots:* verses, thesis slots. *Repeat-risk:* Medium (one standing
+subject per video).
+
+**The Linen Field Stride** [5/6]. Start: the subject glides above a
+field of cloth that rolls like a slow sea. Peak: it surfs the biggest
+cloth wave, cuffs trailing. Payoff: the whole field ripples outward from
+its path. *Energy:* Mid-High. *Slots:* builds, pre-choruses.
+*Repeat-risk:* Low.
+
+**The Silk River Ride** [5]. Start: the subject stands balanced on a
+flowing river made of silk. Peak: it carves side to side, spray of light
+at each turn. Payoff: it hangs weightless at a crest, then drops in.
+*Energy:* High. *Slots:* choruses, journeys. *Repeat-risk:* Low.
+
+**The Staircase of Light** [6/7]. Start: a staircase of glowing slabs
+suspended over clouds. Peak: each descending step bursts a fountain of
+light where the subject brushes it. Payoff: it launches off the last
+slab and soars. *Energy:* High. *Slots:* journeys, bridges.
+*Repeat-risk:* Low.
+
+**The Weave Forest** [2]. Start: the camera dives into fabric until
+threads tower like trunks. Peak: the tiny subject walks between them as
+the weave itself breathes. Payoff: the forest opens into a clearing of
+warm light. *Energy:* Mid. *Slots:* cosmos/macro acts, bridges.
+*Repeat-risk:* Low.
+
+**The Button Moon** [2/11]. Start: a fabric plain at dusk under a giant
+button rising like a moon. Peak: light beams through its four holes as
+the subject crosses beneath. Payoff: the subject climbs a fabric slope
+toward the glow. *Energy:* Mid. *Slots:* cosmos acts, codas.
+*Repeat-risk:* Low.
+
+**The Pocket Cave** [6/11]. Start: a pocket interior the size of a
+cave, fibre stalactites, amber light deep inside. Peak: the subject
+glides between the stalactites toward the light. Payoff: it slips out
+into open dawn. *Energy:* Mid. *Slots:* cosmos acts, transitions.
+*Repeat-risk:* Low.
+
+**The Zipper Ridge** [2/6]. Start: a mountain ridge made of giant
+zipper teeth above the clouds. Peak: the subject crests the highest
+tooth as dawn breaks. Payoff: it launches and soars, the golden ridge
+falling away behind. *Energy:* High. *Slots:* act peaks, final
+choruses. *Repeat-risk:* Low.
+
+**The Homecoming Fold** [1/8]. Start: the subject glides home through
+fog toward a remembered window light. Peak: it enters, circles once, and
+folds itself into the exact opening composition. Payoff: the film can
+loop — the last frame rhymes with the first. *Energy:* Low-Mid.
+*Slots:* codas, loop tails. *Repeat-risk:* Low.
+
+**The Breath** [1]. Start: a folded garment at rest in warm light.
+Peak: it swells with a slow deep breath and settles — fabric as a lung.
+Payoff: the resting object is still alive; the loop exhales into its
+first frame. *Energy:* Low. *Slots:* codas, loop tails, quiet hooks.
+*Repeat-risk:* Medium (motif — cap at one per video, escalate by scale).
