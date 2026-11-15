@@ -287,8 +287,13 @@ sections, never stretched to a full scene; long holds get an explicit
 coverage decision. CHORUS-HOOK TEST (cheap proof before full spend):
 the first volley leads with the hook scene; if its QC fails the plan's
 look, fix the plan before firing the rest — never fire a whole song on
-an unproven look. GATE: the user approves the plan by scene number
-before any render spend; proposals are diffs to plan rows, not prose.
+an unproven look. GATE: the plan is written to the project record
+and self-approved under standing authorization (user, 2026-09-29) —
+no per-plan user approval is sought or awaited before render spend;
+volleys proceed autonomously per Stage 4. Only identity,
+irreversible, and rights-and-money decisions surface to the user.
+The user sees the plan in the delivery, not before spend. Proposals
+are diffs to plan rows, not prose.
 EVERY SLOT CARRIES A NAMED EVENT (2026-11-13, user order — "bland
 events and same events makes a bland video"): a scene row that is a
 subject at a place ("at the pier, she sings") is an atmosphere, not
@@ -310,8 +315,20 @@ slot takes a HIGH-energy event, already in motion at frame 0.
 (5) THE VEHICLE LEADS WITH THE EVENT: in every vehicle, the event
 sentence (what happens, peak on its beat/word) is written before
 the LOOK block and all other prompt detail. Full procedure:
-studio/event-library/WORKFLOW.md. A plan with no EVENT column, a
-duplicated event, or an unchecked ledger repeat FAILS Stage 3.
+studio/event-library/WORKFLOW.md. (6) MOTION-MOTIF AXIS
+(2026-11-15, MV-21 verdict — the user docked motif overlap at
+85%): distinct events are not enough. The plan also carries a
+MOTIF column naming each slot's motion motif — the locomotion /
+motion pattern the slot is built on (surfing, falling, passing
+through snow, rising, spinning, pouring, chasing…). No motion
+motif repeats across slots within one video, checked with the
+same rigour as event distinctness: slots that share a motif are
+a repeat even when every named event differs (MV-21's events
+were ledger-distinct; its surfing and snow-passage motifs were
+not). A returning motif is legal only as an explicit escalation
+named in the plan, never as a re-run under a new event name.
+A plan with no EVENT column, a duplicated event, a duplicated
+motion motif, or an unchecked ledger repeat FAILS Stage 3.
 EVENT OPTIONS FROM THE 2026-11-15 STUDIES (named classes the EVENT
 column may draw on; the distinctness and ledger rules above apply
 unchanged): (a) GAG-TRANSFORMATION TIMING — a transformation event
@@ -332,7 +349,28 @@ family, no jump and no morph climax. (d) ONE COHERENT ELSEWHERE —
 the plan names the single elsewhere its portals and transformations
 open onto, and every take in the video is a grab from that same
 place; a shared world-logic is what lets montage cuts jump worlds
-without reading as random. Dose note (attention study): keep the
+without reading as random. (e) THE KEYHOLE (surreailist study) —
+the slot framed as a keyhole glimpse of a larger unseen film: the
+plan names the unseen film the slot belongs to and shows only the
+glimpse; the pull is the implied rest of the room. A framing
+discipline for dread-register slots, not a footage technique (full
+form in visual-mv-forms). (f) THE FOG SEAM (surreailist study) —
+loop or bridge closure by one cyclical ambient mover (fog, rain,
+breathing, candle flicker) inside a held tableau: the scene never
+finishes happening, so the loop closes by construction — the
+closure claim is still subject to the LOOP IDENTITY GATE
+(Stage 6). Bumper and
+instrumental/bridge slots only — sung slots stay under the motion
+law (full form in visual-mv-forms). (g) THE LIQUID WALL (Muroi
+study) — a peak-frame event: a visually complete photoreal scene
+in which exactly ONE load-bearing boundary behaves liquid
+(rippling wall, meniscus floor, sagging door), the failure placed
+on a contact line the eye checks, the subject kept solid as the
+verification anchor, and the liquid state present at frame 0 — no
+glitch vocabulary, no textural brokenness, one wrongness only.
+Its timing companion THE VERIFICATION FREEZE (a 6–12f suspension
+inside motion at the peak frame) is defined in visual-mv-forms.
+Dose note (attention study): keep the
 threat obviously artificial — morbid curiosity is reward-linked,
 but recreational fear has an inverted-U dose curve; threatening
 enough to hold, artificial enough not to repel.
@@ -433,7 +471,14 @@ it. A scene whose honest sentence is "the singer sings at [place]"
 fails like a motion-law fail, and the slot restages with a real
 event from the Event Library. The shipped master's event list is
 appended to studio/event-library/USED_EVENTS.md as part of
-delivery bookkeeping. TRANSFORMATION TIMING READ (2026-11-15,
+delivery bookkeeping. MOTION-MOTIF READ (2026-11-15, MV-21
+verdict): the QC record also names each shipped scene's MOTION
+MOTIF, read off the take itself — what the subject's motion
+actually does (surfs, falls, passes through snow, rises,
+spins…) — not off the plan. Two shipped scenes sharing a motion
+motif fail like a duplicated event, even when their event
+sentences differ; the slot restages on a different motif or
+ships as a disclosed escalation. TRANSFORMATION TIMING READ (2026-11-15,
 Kurupuri study): a shipped transformation slot is also read for
 gag timing — setup readable as normal, the turn, and the cut
 landing on the morph's PEAK, not its settle. A morph left
@@ -452,6 +497,17 @@ ONE 16:9 master only (standing rule 2026-11-05 — no 9:16 reframe, no
 chat copy). ffprobe + md5
 verification, CUTLIST.md + MUSIC_VIDEO_LEDGER.md written. GATE: master
 boundaries equal lyric times; spot-check frames at line starts.
+LOOP IDENTITY GATE (2026-11-15, MV-21 verdict): if the build
+claims a loop (bumper loop, FOG SEAM closure, a LOOPHOLE chain
+returning to its opening), the master's END frame must match
+its BEGINNING frame in subject identity, pose, and state —
+frame-matched, verified by eye side-by-side. A frame-difference
+or MAE number is supporting evidence only and never passes the
+joint by itself: MV-21's joint passed internally at MAE 17.81
+on a composition rhyme and the user judged the end frame a
+different identity — "an esoteric idea instead of actually
+being a loop." A build that cannot frame-match its joint does
+not claim a loop; it ships disclosed as a RHYME, not a loop.
 HEAD/TAIL TRIM LAW (2026-11-13, taste research): no take enters the
 cut with >0.5 s of pre-action settle — scene in-point = the latest
 of (first frame with frame-diff above the scene's live baseline,

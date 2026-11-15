@@ -186,10 +186,11 @@ new families; seam devices that sharpen the families above:
   (verse cool, chorus warm, bridge colour-shift); pairs with any
   family where a set change would spend budget the light can carry.
 
-**Four named forms (2026-11-15, lilypad + deep-research studies)** —
+**Six named forms (2026-11-15, lilypad + deep-research studies)** —
 not new families; named forms that ride the families above. Sources:
 `research_notes/lilypads/kurupuri0-20261115/report.md`,
 `research_notes/lilypads/surreailist-20261115/report.md`,
+`research_notes/lilypads/taketo-muroi-20261115/report.md`,
 `research_notes/esoteric-ai-video-attention-20261115-0838/report.md`.
 
 - **THE LOOPHOLE** (Kurupuri / The LoopHole Project). A
@@ -236,6 +237,48 @@ not new families; named forms that ride the families above. Sources:
   starts already transformed, which is a state rather than a gag.
   Rides F/C1 footage; the Slopcannon Stage 3 event gate and
   Stage 5 timing read carry the working rules.
+- **THE LIQUID WALL** (Taketo Muroi). The glitch peak-frame: a
+  visually complete photoreal scene — a straight photograph of an
+  ordinary place, coherent perspective, light and shadow, and NO
+  glitch vocabulary anywhere in the prompt (no datamosh, pixel
+  noise, RGB split: textural brokenness is filed as a broken image
+  and kills the effect) — in which exactly ONE load-bearing
+  boundary fails with liquid physics: a wall rippling like water,
+  a floor carrying a meniscus, a door sagging like wet cloth, a
+  tabletop whose reflections break like a pond's surface.
+  Everything else obeys reality — hard edges, correct gravity,
+  correct shadows. The failure sits on a contact line: the failing
+  surface touches something solid the eye trusts (it meets the
+  floor, stands behind the subject, crosses the frame's
+  horizon/third), so the disagreement between the two physics
+  happens where the eye checks first. The subject stays solid —
+  rigid form, correct contact, shadow right — as the viewer's
+  verification anchor; if the subject is also wrong, there is
+  nothing to verify against and the freeze never happens. The
+  liquid state is present AT frame 0: the slot opens on the
+  glitch frame, and motion is the boundary continuing its slow
+  liquid behaviour or settling toward solid — never open solid
+  and melt later (that is a transformation reveal, the
+  gag-transformation's shape, a different effect). One boundary
+  per frame: not multi-wrongness surrealism, not glitch styling.
+  Test: a fresh viewer describes a normal photo first, then names
+  the wrongness — the beat between the two is the freeze. Reject
+  stills where the wrongness reads as texture, where more than
+  one thing is wrong, or where the failing boundary touches
+  nothing solid. Rides E plates and F footage wherever a slot
+  needs a peak frame; the Slopcannon Stage 3 event options name
+  it as an event class.
+- **THE VERIFICATION FREEZE** (Taketo Muroi — timing companion to
+  THE LIQUID WALL). When a glitch peak-frame lands, hold it a
+  beat longer than the cut rhythm wants, so the viewer's stalled
+  recognition — "recognition falters and freezes" — completes
+  before the next image arrives. Cutting away too fast wastes the
+  freeze; the stall IS the impact frame. Reconciled with the
+  motion law: the freeze is a deliberate 6–12f suspension INSIDE
+  motion — at the end of a moving take or within a moving span —
+  never a dead-still opening and never a take opener; a
+  halted-photo start remains a QC fail. Flag it in the plan when
+  used.
 
 ## Slot → form decision table
 
