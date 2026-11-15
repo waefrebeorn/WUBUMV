@@ -186,6 +186,57 @@ new families; seam devices that sharpen the families above:
   (verse cool, chorus warm, bridge colour-shift); pairs with any
   family where a set change would spend budget the light can carry.
 
+**Four named forms (2026-11-15, lilypad + deep-research studies)** —
+not new families; named forms that ride the families above. Sources:
+`research_notes/lilypads/kurupuri0-20261115/report.md`,
+`research_notes/lilypads/surreailist-20261115/report.md`,
+`research_notes/esoteric-ai-video-attention-20261115-0838/report.md`.
+
+- **THE LOOPHOLE** (Kurupuri / The LoopHole Project). A
+  portal-chain transition grammar taken from the collaborative
+  film's four-beat rule — Fall, Threat, Run, Jump: a clip opens
+  with an arrival (a character falls or drops in from above into a
+  new world), meets one threat or transformation, runs, and exits
+  by jumping through a clearly visible hole, portal, or passage
+  into the next world. The joint between clips is a designed event
+  rather than a matched frame, so takes built with the standard
+  entry state (arrival-from-above) and exit state
+  (exit-through-portal) become interchangeable links — any take
+  can follow any take. In a 10 s bumper the exit jumps back toward
+  the opening fall, closing the loop. Rides C1/F2; the Slopcannon
+  CONTINUITY METHOD carries the working rule.
+- **THE KEYHOLE** (surreailist). The loop as trailer, not film:
+  each bumper is framed — in the scene plan, in one line — as a
+  keyhole glimpse of a larger unseen film, "fleeting projections
+  onto a wall, glimpses through a keyhole of a much larger, often
+  darker cinematic universe." The slot names the unseen film it
+  belongs to and shows only the projection on the wall; the pull
+  comes from the implied rest of the room. A series of bumpers
+  from the same unseen film accumulates into a mythology without
+  any of them explaining it — and the films behind the keyholes
+  never have to exist. A framing discipline for bumper/atom work,
+  not a footage technique.
+- **THE FOG SEAM** (surreailist). Loop closure by ambient
+  tableau: build the loop around ONE cyclical ambient mover —
+  fog, rain, breathing, candle flicker — and keep everything else
+  still or near-still. The loop closes because the scene never
+  finishes happening, so there is nothing to reset at the seam
+  and no seam engineering is needed. This is the dread register:
+  it suits a bumper or an instrumental/bridge slot, where the
+  tableau IS moving from frame 0 (motion-law compliant) yet
+  loopable by construction. Not for sung slots — WuBu's motion
+  law still governs those.
+- **THE GAG-TRANSFORMATION** (Kurupuri). A transformation slot
+  timed like a manzai joke, from a former comedy writer's
+  practice: a mundane setup held just long enough to read as
+  normal, then the turn, then the morph as the punchline — the
+  cut lands on the transformation's peak, not its settle. It is
+  the timing shape for transformation events specifically
+  (normal → wrong → transformed), distinct from a slot that
+  starts already transformed, which is a state rather than a gag.
+  Rides F/C1 footage; the Slopcannon Stage 3 event gate and
+  Stage 5 timing read carry the working rules.
+
 ## Slot → form decision table
 
 | Slot situation | First choice | Fallback |
@@ -204,6 +255,8 @@ new families; seam devices that sharpen the families above:
 | Lived-in world behind hero shot | H3 crowd layer | F2 journey plate |
 | Whole track, no cast | F2 + A1/A2 (journey + type) | B1 full visualizer cut |
 | Hero type moment (title, peak chorus) | G2 code type (if proof gate passed) | A1 ASS SLAM/CASCADE |
+| Bumper / loop atom, dread or surreal register | THE KEYHOLE framing + THE FOG SEAM loop | THE LOOPHOLE chain |
+| Transformation as the slot's event | THE GAG-TRANSFORMATION timing over F/C1 footage | unresolved morph held to the cut |
 
 ## The 5 kinetic house moves (numbers, not adjectives)
 
