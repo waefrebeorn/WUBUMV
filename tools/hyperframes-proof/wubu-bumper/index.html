@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1280, height=720" />
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      :root {
+        --ground: #0a0a14;
+        --ink: #f2f0e6;
+        --gold: #f5c542;
+        --teal: #2dd4bf;
+        --dim: #8a87a0;
+        --font-display: "DejaVu Sans", sans-serif;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 1280px;
+        height: 720px;
+        overflow: hidden;
+        background: var(--ground);
+      }
+      #root {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        font-family: var(--font-display);
+        background:
+          radial-gradient(ellipse 900px 480px at 50% 118%, rgba(45, 212, 191, 0.13), transparent 65%),
+          linear-gradient(180deg, #0a0a14 0%, #0d0d1c 100%);
+      }
+      .clip {
+        position: absolute;
+      }
+      /* faint ruled grid, like a ledger page */
+      #grid {
+        inset: 0;
+        background-image:
+          linear-gradient(rgba(242, 240, 230, 0.045) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(242, 240, 230, 0.045) 1px, transparent 1px);
+        background-size: 64px 64px;
+      }
+      /* teal orb — the staff-light motif */
+      #orb {
+        left: 596px;
+        top: 64px;
+        width: 88px;
+        height: 88px;
+        border-radius: 50%;
+        background: radial-gradient(circle at 38% 34%, #a7f3ea 0%, var(--teal) 42%, #0f766e 100%);
+        box-shadow:
+          0 0 44px 10px rgba(45, 212, 191, 0.45),
+          0 0 120px 30px rgba(45, 212, 191, 0.16);
+      }
+      /* wordmark */
+      #wordmark {
+        left: 0;
+        top: 196px;
+        width: 1280px;
+        text-align: center;
+        color: var(--gold);
+        font-size: 118px;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+      }
+      #wordmark .ch {
+        display: inline-block;
+      }
+      /* subtitle rule + line */
+      #rule {
+        left: 440px;
+        top: 356px;
+        width: 400px;
+        height: 3px;
+        background: var(--teal);
+        transform-origin: left center;
+      }
+      #subtitle {
+        left: 0;
+        top: 378px;
+        width: 1280px;
+        text-align: center;
+        color: var(--ink);
+        font-size: 34px;
+        font-weight: 700;
+        letter-spacing: 0.34em;
+      }
+      /* count board — the post graphic carries the count, never a generator pile */
+      #board {
+        left: 340px;
+        top: 452px;
+        width: 600px;
+        padding: 20px 30px 24px;
+        border: 2px solid rgba(242, 240, 230, 0.28);
+        border-radius: 10px;
+        background: rgba(13, 13, 28, 0.82);
+      }
+      #board .board-title {
+        color: var(--dim);
+        font-size: 21px;
+        font-weight: 700;
+        letter-spacing: 0.3em;
+        margin-bottom: 10px;
+      }
+      #board .board-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+      }
+      #board .board-label {
+        color: var(--ink);
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+      }
+      #count {
+        color: var(--teal);
+        font-size: 64px;
+        font-weight: 700;
+        font-variant-numeric: tabular-nums;
+      }
+      /* corner bug, held for the whole bumper */
+      #bug {
+        right: 26px;
+        bottom: 20px;
+        color: var(--gold);
+        font-size: 22px;
+        font-weight: 700;
+        opacity: 0.85;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="8"
+      data-width="1280"
+      data-height="720"
+    >
+      <div id="grid" class="clip" data-start="0" data-duration="8" data-track-index="0"></div>
+      <div id="orb" class="clip" data-start="0" data-duration="8" data-track-index="1"></div>
+      <h1 id="wordmark" class="clip" data-start="0.2" data-duration="7.8" data-track-index="2">
+        <span class="ch">~</span><span class="ch">&nbsp;</span><span class="ch">W</span><span class="ch">u</span><span class="ch">B</span><span class="ch">u</span><span class="ch">&nbsp;</span><span class="ch">~</span>
+      </h1>
+      <div id="rule" class="clip" data-start="1.6" data-duration="6.4" data-track-index="3"></div>
+      <div id="subtitle" class="clip" data-start="1.8" data-duration="6.2" data-track-index="4">WUBUTV&nbsp;&nbsp;STATION</div>
+      <div id="board" class="clip" data-start="2.8" data-duration="5.2" data-track-index="5">
+        <div class="board-title">TONIGHT&rsquo;S COUNT</div>
+        <div class="board-row">
+          <div class="board-label">UMBRELLAS IN</div>
+          <div id="count">1006</div>
+        </div>
+      </div>
+      <div id="bug" class="clip" data-start="0" data-duration="8" data-track-index="6">~ WuBu ~</div>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+
+      // Orb breathes for the whole bumper (seek-safe: a pure function of time).
+      tl.fromTo("#orb", { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.7, ease: "back.out(2)" }, 0);
+      tl.to("#orb", { scale: 1.09, duration: 1.6, ease: "sine.inOut", yoyo: true, repeat: 4 }, 0.7);
+
+      // Wordmark: letters punch in one by one.
+      tl.fromTo(
+        "#wordmark .ch",
+        { opacity: 0, scale: 2.1, filter: "blur(10px)" },
+        { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.32, ease: "power4.out", stagger: 0.075 },
+        0.25
+      );
+
+      // Rule draws, subtitle tracks in.
+      tl.fromTo("#rule", { scaleX: 0 }, { scaleX: 1, duration: 0.45, ease: "power3.out" }, 1.6);
+      tl.fromTo(
+        "#subtitle",
+        { opacity: 0, y: 16, scale: 0.94 },
+        { opacity: 1, y: 0, scale: 1, duration: 0.6, ease: "power3.out" },
+        1.85
+      );
+
+      // Board rises; the count ticks 1006 -> 1012 in six clean steps.
+      tl.fromTo("#board", { opacity: 0, y: 34 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 2.8);
+      const counter = { v: 1006 };
+      const countEl = document.getElementById("count");
+      tl.to(
+        counter,
+        {
+          v: 1012,
+          duration: 2.4,
+          ease: "steps(6)",
+          onUpdate: function () {
+            countEl.textContent = String(Math.round(counter.v));
+          }
+        },
+        3.4
+      );
+
+      // Settle: everything holds to the end of the bumper.
+      tl.to({}, { duration: 0.1 }, 7.9);
+
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>
